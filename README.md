@@ -6,9 +6,12 @@ There are multiple APIs that are being looked at for potential consumption by th
 ### API field documentation
 This spreadsheet has all the APIs that have been discovered and documents the relevant endpoints and fields possible for use with the voicebot. This is not an exhaustive list and there are still some caveats to their use/integration. 
 
-***This is a working document***
-
 https://dvagov.sharepoint.com/:x:/s/VoiceBot/ERt9wFuq7U1KiWdXCiy2XH4BKjRaw0iZw-dHdvi3qrnbSQ?e=iLsGuz
+
+### Data Access and Location
+This spreadsheet contains links to API documentation and environments and how to access links/accounts. 
+
+https://dvagov.sharepoint.com/:x:/r/sites/VoiceBot/Shared%20Documents/General/Data%20and%20Access/Data%20Status.xlsx?d=w96bb66c677de4a628e1bea78b50b3ace&csf=1&web=1&e=f93eu0
 
 
 
