@@ -1,5 +1,9 @@
 # voicebot
 
+## Ticketing System
+Jira: https://jira.boozallencsn.com/projects/VOICEBOT/summary
+Confluence: https://confluence.boozallencsn.com/display/VOICEBOT/VOICEBOT+Home
+
 ## Data Sources
 There are multiple APIs that are being looked at for potential consumption by the voicebot that contain information on the veterans claim status, personal information, and content from the va.gov website. We have spreadsheets which detail what APIs we have access to, how to get access and where to find documentation as well as what fields can be found in these APIs that could be relevant to the use cases outlined in our flows.
 
