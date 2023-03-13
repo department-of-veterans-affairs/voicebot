@@ -1,5 +1,5 @@
 # Conversation Guide
-
+This convesation guide is to be used with the Zoom platform with the added Audio Conferencing (telephone call) capability.
 
 ## Day of the Session
 1. Use #feedback-backchannel in Slack for real-time feedback from observers.
