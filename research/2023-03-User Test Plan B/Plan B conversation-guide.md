@@ -1,26 +1,20 @@
-Conversation Guide
-Moderator logistics
-2-3 days before the session
-Review VA Platform's Research Checklist.
+# Conversation Guide
 
-Complete any project-specific setup tasks for this study (List them below)
 
- Step 1
+## Day of the Session
+1. Use #feedback-backchannel in Slack for real-time feedback from observers.
+2. Mute your Slack notifications.
+3. Send out the observer instructions to your observers (Slackbot will do this for you if you type "observer instructions" into #feedback-backchannel).
 
- Step 2
 
- Step 3
+## Starting the Session
+1. In the Attendees section, make sure everyone except the participant is on mute.
+2. In the Participant "more" menu, make sure "Play Join and Leave Sound" is unchecked
+3. Check your [screensharing setup] and share permissions for participants.
+4. When the participant is ready, begin the session with the following intro*
 
-Day of the session
-Use #feedback-backchannel in Slack for real-time feedback from observers.
-Mute your Slack notifications.
-Send out the observer instructions to your observers (Slackbot will do this for you if you type "observer instructions" into #feedback-backchannel).
-Starting the session
-In the Attendees section, make sure everyone except the participant is on mute.
-In the Participant "more" menu, make sure "Play Join and Leave Sound" is unchecked
-Check your [screensharing setup] and share permissions for participants.
-When the participant is ready, begin the session with the following intro*
-Intro - 5 minutes
+
+## Intro - 5 minutes
 Thanks for joining us today! My name is [NAME] and [NOTETAKER NAME] is taking notes. I also have a couple other colleagues in the Zoom waiting room who would like to observe and take notes. But before we get to them...
 
 Today we're going to talk about [description of your project].
@@ -46,7 +40,7 @@ Before we look at the website, let’s start with a few warm-up questions.
 
 Background info about the participant should have been provided by Coordinator already, so use this time to ask any other questions that you feel will help with the session. This warm-up is not required
 
-First Task: [TASK NAME] - X minutes
+## First Task: [TASK NAME] - X minutes
 Step 1
 Step 2
 Things to watch for:
@@ -54,21 +48,27 @@ Things to watch for:
 [Does the participant notice xyz?]
 [Is the participant aware that they may be sharing personal information on their screen, and are they okay with that? - per question as needed]
 [Etc]
-Second Task: [TASK NAME] - X minutes
+
+
+## Second Task: [TASK NAME] - X minutes
 Step 1
 Step 2
 Things to watch for:
 [Does the participant understand meaning of xyz?]
 [Does the participant notice xyz?]
 [Etc]
-Third Task: [TASK NAME] - X minutes
+
+
+## Third Task: [TASK NAME] - X minutes
 Step 1
 Step 2
 Things to watch for:
 [Does the participant understand meaning of xyz?]
 [Does the participant notice xyz?]
 [Etc]
-Post-Task Interview - X minutes
+
+
+## Post-Task Interview - X minutes
 Question 1
 Question 2
 Any questions for me?
@@ -79,7 +79,7 @@ Thanks! Lastly, Perigean will be sending you a thank you note with a little blur
 
 Thank you so much again, and enjoy the rest of your day!
 
-Emergency Exit
+## Emergency Exit
 [In the rare case of an emergency during a session, be prepared with an emergency exit strategy. Plan to include here at least one option, so its easy to find during a session. Take some time to practice so it feels more comfortable.]
 
 Sample Conversation Guide (note: this link points to resources in the va.gov-team GitHub repo)
