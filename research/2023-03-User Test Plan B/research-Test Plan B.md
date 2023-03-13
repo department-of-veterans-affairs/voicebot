@@ -1,10 +1,16 @@
 # Research Plan for Voicebot VBA IVR 03-2023
-[Test Plan B Mural](https://app.mural.co/t/bahdigitalexperience6902/m/bahdigitalexperience6902/1669754649778/0f3c9f6f970ca3aafaac2c8460da31edade57db5?sender=u19a3b3baa664c41e047b6456)
-
-
 
 ## Background
-Briefly describe the background of your product. Consider:
+
+The VBA Voicebot team seeks to use human-centered design (HCD) research methods to evaluate Veteran expectations and desired experiences for a VBA voicebot for telephony, specifically its disability compensation claims status related content and information, as well as PACT Act claim general information.
+
+This project will focus on the desired experience for Veterans calling the VA National Call Center and selecting to use the Voicebot telephony option. User research will focus on the desirability and perceived usefulness of claims status and PACT Act related content and information via a notional Voicebot which will inform future product roadmaps and content.
+
+Briefly summarize the high level questions your research was trying to answer.
+
+This study will seek to find insight into how best to provide veterans' answers to general claims status and previously filled compensation claims.
+How best to provide personalized claim status and answer questions that veteran may have.
+How best to provide information and answer Veterans’ question regarding the PACT Act.
 
 What problem is your product trying to solve?
 Where is your product situated on VA.gov? (ex: auth vs. unauth)
@@ -12,15 +18,22 @@ What is Veterans’ familiarity with this tool? Is this a new product or an iter
 [Link to product brief](url goes here).
 
 ## OCTO Objectives
-Which OCTO objectives does this research support? Work with your VA lead and product manager as needed.
+Omnichannel Initiative
+1.	Increase the usage and throughput of VA services.
+2.	Decrease the time Veterans spend waiting for an outcome.
+3.	Increase the quality and reliability of VA services.
 
 ## Veteran Journey
-Where does your product fit into the Veteran journey? Are there moments that matter?
+- Starting Up
+- Taking Care of Myself
+- Putting Down Roots
+- Retiring
+- Aging
+- Dyeing
 
 ## Research Goals
-What are you trying to learn from this research?
 
-Pro tip: Limit 3 goals per study. If you have more than 3 goals, consider how to break up your research into iterative studies.
+This user research is seeking to understand Veteran's expectations and desires around the information and interactions a telephony Voicebot assistant can provide about Veterans Benefits Administration (VBA) claims status and PACT Act related topics.
 
 ## Outcome
 How will this research advance your product to the next phase in the design process? What will you do with your learnings?
@@ -38,7 +51,8 @@ What do you already know about this problem space?
 What do you think users will do or think about this product? (Identifying our assumptions helps us be aware of biases we may unintentionally bring into the study, so don’t skip this step!)
 Write a generalized statement that combines what you know + what you think will happen during the study.
 Remember to constrain the hypothesis to the goals of your study!
-Methodology
+
+## Methodology
 Describe the method you’re planning. You should be able to explain why this method is appropriate for the goals of the research and maturity of the design.
 
 Examples of common research methods include:
@@ -57,78 +71,53 @@ If conducting testing on mobile, refer to the mobile research guidelines.
 If conducting unmoderated usability research, refer to the guidance here.
 If conducting research with disabled Veterans, refer to this checklist and follow disability etiquette guidelines.
 In the rare event of an emergency during research, be prepared by reviewing guidelines for research safety and emergency exit strategies.
-Location
-Where will you be holding the research sessions? Be sure to include whether this is remote or in-person research. Learn more about setting up in-person research.
 
-If remote, include your preferred video conferencing software. Choice of: Zoom, GoTo Meeting; WebEx.
+## Location
+The user research sessions will be moderated and will be held remotely via the Zoom platform.
 
-If in person, include:
-
-Location
-Point of contact
-Equipment used for research
-Research materials
-Note: your OCTO/VA lead must review and approve all research materials – including this plan – prior to submitting a recruitment request.
-
-Provide a link to any materials you need to run your study, including any materials needed for set up and recruitment.
-
-For moderated interviews:
 
 [Link to conversation guide](url goes here)
 For moderated usability tests:
 
 [Link to conversation guide](url goes here)
 [Link to prototype](url goes here)
-For unmoderated testing:
 
-[Link to email with instructions](url goes here)
-[Link to prototype or OptimalSort session for group A](url goes here)
-[Link to prototype or OptimalSort session for group B](url goes here)
-If recruiting outside of Perigean’s participant database:
+[Test Plan B Mural](https://app.mural.co/t/bahdigitalexperience6902/m/bahdigitalexperience6902/1669754649778/0f3c9f6f970ca3aafaac2c8460da31edade57db5?sender=u19a3b3baa664c41e047b6456)
 
-[Link to recruitment flyer](url goes here)
-Recruitment
-OCTO works with Perigean, a small business, to handle the recruitment, scheduling, and compensation of Veterans and caregivers.
+## Recruitment
+This study requires will recruit seven Vetarans using OCTO's Perigean recruiting contracter. 
 
-Before writing your recruitment criteria, be sure to review the following resources.
+## Recruitment criteria
+- maximum variation strategy 
 
-Refer to the Perigean Recruitment Guidance to learn how Perigean recruits, screens, and prepares participants for research.
-Refer to the inclusive recruitment strategies to learn how to be inclusive of underserved Veteran communities.
-Recruitment approach
-Who is your intended audience for this research (e.g. Veterans, caregivers, VSOs, SMEs), and how will you recruit them?
+### Primary criteria (must-haves) What demographics, experience, and scenarios do you need participants to meet to effectively run your study?
+The following recruitment criteria must be met in order for a Veteran to participate in this study:
+- Veterans who had prior experience with filing a VA disability compensation claim.
+- Veterans who are currently in the process of filing a VA disability compensation claim.
+- Veterans who have submitted a PACT Act disability compensation claim.
+- Veterans who are preparing to submit a PACT Act disability compensation claim. 
 
-Pro tip:
+#### Screener Questions
+1. See Recruitment Intake form submitted on March 12, 2023.
 
-For remote moderated studies with Veterans and caregivers, we recommend using Perigean to recruit participants.
-Perigean cannot recruit VA employees or VSOs. Work with your VA lead to recruit these groups.
-Perigean can also support remote, unmoderated studies, however, these studies require strict recruitment requirements. (Additional guidance forthcoming; reach out to #research-ops in the interim.)
-Which inclusive research strategies are you leveraging for this study? OCTO recommends using a lean maximum variation strategy for most studies. Refer to the resources above to learn more. Read this introduction to inclusive research and use the recruitment checker (google sheets) to understand OCTO's targets for inclusivity.
+## Timeline
+Participant recruitment by Perigean will begin on March 20, 2023
+Actual user test sessions are projected to commence on March 27, 2023 and end on March 30, 2023.
 
-Recruitment criteria
-List the total number and type (Veterans, caregivers, etc.) of participants for this study.
-
-Primary criteria (must-haves) What demographics, experience, and scenarios do you need participants to meet to effectively run your study?
-
-Write any recruitment criteria for experience or scenarios as screener questions with qualifying responses. Perigean will use these verbatim to recruit participants. Consider providing links to products and/or clear descriptions to ensure participants understand the question. Example: Have you been to a VA urgent care facility in the last 6 months? [answer should be yes to qualify.]
-
-Tip: The more recruitment criteria you have, the less likely that a small sample of participants will be able to meet all criteria. Consider how you could leverage the lean maximum variation sampling (MVS) approach by breaking up criteria for your study into multiple cohorts that each isolate one primary criteria. Perigean will consider each cohort as a separate recruitment effort, increasing the chances of meeting all criteria for your study. Go to an example of the multiple cohort approach.
-
-Secondary criteria (nice-to-haves) What criteria would strengthen your results?
-
-Timeline
-Please submit artifacts for Research Review 8-9 days prior to the first planned research day for remote studies so Perigean can begin recruiting one week prior. Perigean requires 2+ weeks for in-person.
-
-Prepare
+## Prepare
 When will the thing you are testing be finalized? Ideally it's ready a week before testing begins and has also been through a Midpoint review.
 
-A pilot session is required. Please indicate the date and name of a mock participant for a pilot session.
+A pilot session was conducted on March 9, 2023  at 12:00-1:30 p.m. eastern standard time. The mock participant was a Booz Allen Hamilton employee XXXXX.
 
-Pilot participant email:
-Date and time of pilot session:
-Research sessions
+
+## Research Sessions
 Planned dates of research:
-Length of sessions
-Session length: (e.g. 30 minutes, < 1 hour, up to 2 hours, up to 4 hours)
+March 27, 2023-March 30, 2023
+
+### Length of sessions
+Session length: 
+The length of user sessions will be 1 hour in length. 
+
 Buffer time between sessions: (30 minutes recommended to reset between sessions, debrief with team, if a participant arrives late, or a session goes slightly over time)
 Maximum Sessions per day: (We all have limits - how many sessions can you and your team conduct in one day considering the session length, the mental strain of conducting sessions, other work you still need to complete in a day, etc?)
 Availability
@@ -136,14 +125,38 @@ When would you like sessions scheduled? Please list exact dates and times in EAS
 
 Please request enough dates and at least double the amount of time slots for the number of requested participants. (e.g. Monday 9-1, 3-6; Tuesday 9-6, etc.; 12 time slots for 6 participants). This helps Perigean book participants when there are more time slots available, and when sessions need to be rescheduled or filled in with further recruitment.
 
-Team Roles
-Please list the people who will be serving in each role. Include the primary phone number for moderator and the emails for moderator, notetaker, accessibility specialist, and observers. If you need Perigean to take notes for you, indicate that next to Notetaker
+## Team Roles
+#### Moderator: Julie Naga
+- primary phone number: TBD 
+- email: naga_julie@bah.com
 
-Moderator:
-Research guide writing and task development (usually but not always same as moderator):
-Participant recruiting & screening:
-Project point of contact:
-Participant(s) for pilot test:
-Accessibility specialist (for sessions where support for assistive technology may be needed):
-Note-takers:
-Observers: List email addresses for those who should attend and observe the sessions: VA Stakeholders, engineering team members, design team members, any other people who might find this research relevant to their work. Spread observers across sessions so that there are no more than 5-6 total attendees (moderator, notetaker(s), observer(s)) per session on the VA side
+#### Alternate Moderator: Nina Anusavice
+- primary phone number: 508-353-5641
+- email: nina.anusavice@va.gov
+
+#### Prototype Technician: Ty Allen 
+- email: Allen_Ty@bah.com
+
+#### Notetaker: Alexandra Byrnes
+- email: byrnes_alexandra@bah.com
+
+#### Observers:
+- Luciana Alexander Morais
+- Shane Strassberg
+- Danielle Thierry
+- Regina Yount
+
+## Research guide writing and task development:
+### Research Guide
+- Nina Anusavice
+- Ty Allen
+
+### Task Development:
+- Julie Naga and Booz Allen HamiltonTeam
+- Nina Anusavice
+
+## Project point of contact:
+Julie Naga
+- primary phone number: TBD 
+- email: naga_julie@bah.com
+
