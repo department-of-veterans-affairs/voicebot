@@ -1,8 +1,9 @@
+# Research Plan for Voicebot VBA IVR 03-2023
 [Test Plan B Mural](https://app.mural.co/t/bahdigitalexperience6902/m/bahdigitalexperience6902/1669754649778/0f3c9f6f970ca3aafaac2c8460da31edade57db5?sender=u19a3b3baa664c41e047b6456)
-Research Plan for [Team, Product, Date]
-Questions about how to set up your research study? Reach out in the #research-ops Slack channel.
 
-Background
+
+
+## Background
 Briefly describe the background of your product. Consider:
 
 What problem is your product trying to solve?
@@ -10,21 +11,21 @@ Where is your product situated on VA.gov? (ex: auth vs. unauth)
 What is Veterans’ familiarity with this tool? Is this a new product or an iteration on an existing one?
 [Link to product brief](url goes here).
 
-OCTO Objectives
+## OCTO Objectives
 Which OCTO objectives does this research support? Work with your VA lead and product manager as needed.
 
-Veteran Journey
+## Veteran Journey
 Where does your product fit into the Veteran journey? Are there moments that matter?
 
-Research Goals
+## Research Goals
 What are you trying to learn from this research?
 
 Pro tip: Limit 3 goals per study. If you have more than 3 goals, consider how to break up your research into iterative studies.
 
-Outcome
+## Outcome
 How will this research advance your product to the next phase in the design process? What will you do with your learnings?
 
-Research questions
+## Research questions
 Consider bucketing research questions under research goals. For each question, think about:
 
 What will I do with what I learn from this question?
