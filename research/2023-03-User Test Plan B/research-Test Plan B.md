@@ -1,4 +1,4 @@
-# Research Plan for Voicebot VBA IVR 03-2023
+# Research Plan for Voicebot User Test Plan B: Dialogflow Protoype 03-2023
 
 ## Background
 
