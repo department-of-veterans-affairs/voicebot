@@ -1,4 +1,4 @@
-# Research Plan for Voicebot User Test Plan B: Dialogflow Prototype, March/April 2023
+# Research Plan for Voicebot User TestP lan  B: Dialogflow Prototype, March/April 2023
 
 ## Background
 The VBA Voicebot team seeks to use human-centered design (HCD) research methods to evaluate Veteran expectations and desired experiences for a VBA Voicebot for telephony, specifically its disability compensation claims status related content and information, as well as PACT Act claim general information.
@@ -122,17 +122,25 @@ There will be a total of 4 maximum sessions per day.
 |March 31, 2023 |  10:00 a.m., 12:00 p.m., 2:00 p.m., 4:00 p.m.   |
 
 
-Please request enough dates and at least double the amount of time slots for the number of requested participants. (e.g. Monday 9-1, 3-6; Tuesday 9-6, etc.; 12 time slots for 6 participants). This helps Perigean book participants when there are more time slots available, and when sessions need to be rescheduled or filled in with further recruitment.
+
 
 ## Team Roles
 Please list the people who will be serving in each role.
 #### Moderator: Julie Naga
-- primary phone number: TBD 
+- primary phone number: (443) 803-9566
 - email: naga_julie@bah.com
 
 #### Alternate Moderator: Nina Anusavice
-- primary phone number: 508-353-5641
+- primary phone number: (508) 353-5641
 - email: nina.anusavice@va.gov
+
+#### Alternate Moderator: Ty Allen 
+- primary phone number: (928) 587-3134
+- email: Allen_Ty@bah.com
+
+#### Alternate Moderator: Alexandra Byrnes
+- primary phone number: (281) 2107201
+- email:  byrnes_alexandra@bah.com
 
 #### Prototype Technician: Ty Allen 
 - email: Allen_Ty@bah.com
@@ -140,26 +148,31 @@ Please list the people who will be serving in each role.
 #### Notetaker: Alexandra Byrnes
 - email: byrnes_alexandra@bah.com
 
-
 #### Observers:
+The following observers are to be invited to all usability sessions.
 - Luciana Alexander Morais
 - Shane Strassberg
 - Danielle Thierry
 - Regina Yount
 
-## Research guide writing and task development:
-### Research Guide
+### Research guide writing and task development:
+
+#### Research Guide
 - Nina Anusavice
-- Ty Allen
 
 ### Task Development:
-- Julie Naga and Booz Allen Hamilton Team
 - Nina Anusavice
+- Ty Allen
+- Grace Goodenough
+- Sunayna Geol
+- Nicole Bush
 
-## Project point of contact:
+### Project Point of Contact:
 Julie Naga
-- primary phone number: TBD 
+- primary phone number: (443) 803-9566
 - email: naga_julie@bah.com
 
-
+Nina Anusavice
+- primary phone number: (508) 353-5641
+- email: nina.anusavice@va.gov
 
