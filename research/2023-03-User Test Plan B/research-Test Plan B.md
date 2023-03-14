@@ -81,36 +81,38 @@ The research team is requesting a Perigean Recruitment Kick-off meeting on:
 
 
 #### Screener Questions
-In order for a Veteran to be recruited for this study, they must answer **“Yes” to at least one**, of the two questions:
+In order for a Veteran to be recruited for this study, they must answer “Yes” to **at least one**, of the two questions:
 1.	Have you ever filed, or are currently in the process of filing, a disability compensation claim with the VA?
-o	Yes (Recruit)
-o	No (Disqualify)
+- 	Yes (Recruit)
+- 	No (Disqualify)
 
 2.	Have you ever submitted, are in the process of submitting, or are preparing to submit a PACT Act disability compensation claim?
-o	Yes (Recruit)
-o	No (Disqualify)
+- 	Yes (Recruit)
+-   No (Disqualify)
 
 
 
 ## Timeline
-Participant recruitment by Perigean will begin on March 20, 2023
-Actual user test sessions are projected to commence on March 27, 2023 and end on March 30, 2023.
+Perigean will begin Veteran recruitment on March 20, 2023
+Actual user test sessions are projected to commence on March 27, 2023 and end on March 31, 2023.
 
-## Prepare
-When will the thing you are testing be finalized? Ideally it's ready a week before testing begins and has also been through a Midpoint review.
+## Prepar
 
-A pilot session was conducted on March 9, 2023 at 12:00-1:30 p.m. eastern standard time. The mock participant was a Booz Allen Hamilton employee XXXXX.
+A pilot session was conducted on March 9, 2023 at 12:00-1:30 p.m. eastern standard time. The mock participant was a Booz Allen Hamilton employee.
 
 ## Research Sessions
 Planned dates of research:
-March 27, 2023-March 30, 2023
+March 27, 2023-March 31, 2023
 
 ### Length of sessions
 Session length: 
-The length of user sessions will be 1 hour in length. 
+The length of user sessions will be one hour total in length. 
 
-Buffer time between sessions: (30 minutes recommended to reset between sessions, debrief with team, if a participant arrives late, or a session goes slightly over time)
-Maximum Sessions per day: (We all have limits - how many sessions can you and your team conduct in one day considering the session length, the mental strain of conducting sessions, other work you still need to complete in a day, etc?)
+### Buffer time between sessions: 
+There will be at least one hour buffer time between each participant testing session. 
+
+### Maximum Sessions per day: 
+There will be a total of 4 maximum sessions per day.
 
 #### Availability
 | Team Availability |  Time Slots (ET) |
