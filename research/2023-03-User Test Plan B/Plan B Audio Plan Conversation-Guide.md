@@ -1,7 +1,8 @@
 # Conversation Guide
 This convesation guide is to be used with the Zoom platform with the added Audio Conferencing (telephone call) capability.
 
-[User Session B Visuals](TBD)
+- [User Session B Visuals](TBD)
+- Voicebot Prototype Phone Number: (203) 680-8708
 
 ## Day of the Session
 1. Use #feedback-backchannel in Slack for real-time feedback from observers.
@@ -15,32 +16,59 @@ This convesation guide is to be used with the Zoom platform with the added Audio
 3. Check your [screensharing setup] and share permissions for participants.
 4. When the participant is ready, begin the session with the following intro*
 
+## Observer instructions:
+ Before the session starts, here are some guidelines:
+1. You may change your video conference display name to be just your first or preferred name. We encourage you **not** to change your name to “observer.”
+2. Sign into the session with your microphone muted.
+3. If you aren’t admitted directly:  Wait in the MS Teams waiting room while the moderator begins the session - If the participant approves your presence, as in the majority of cases, the moderator will soon admit observers into the session - If there are issues, the moderator should be in contact via Slack.
+4. At the moderator’s prompt, unmute your camera and microphone and briefly introduce yourself with:  Your first or preferred name - Your role with VA.gov.
+5. When that’s done: - Mute your microphone - Turn off your camera.
+6. Confine all messaging to the Slack Voicebot_test1_feedbackchannel thread for the session: - Don’t message within the video conference app - Don’t expect the moderator to interact with you.
+7. Notetaker: friendly reminder to take notes that are as close to verbatim as possible. 
+Octo Introduction. [TIME]
+
+
 
 ## Intro - 5 minutes
-Thanks for joining us today! My name is [NAME] and [NOTETAKER NAME] is taking notes. I also have a couple other colleagues in the Zoom waiting room who would like to observe and take notes. But before we get to them...
 
-Today we're going to talk about [description of your project].
+Intro- 5 Min [0:00]
+
+TECH REP: SHARE PPT IN presentation mode – welcome slide
+•	Thanks for joining us today! My name is [NAME] and I have two other colleagues on the call, (NAME) will be our tech support today and [NOTETAKER NAME] is taking notes. I also have a couple other colleagues in the MS Teams waiting room who would like to observe and take notes.  
+•	Perigean did ask for your consent to allow observers, but I want to be sure that this is alright before we get going. Are you okay with a couple of additional observers during this session?                   
+o	If no: Use Slack to kindly ask the observers to leave the MS Teams call.
+o	If yes: Admit observers.
+o	Thank you for that. I’m now going to ask each person on the line to introduce themselves and their position on the VA Voicebot project. 
+o	Facilitator asks each observer/notetaker to give a brief, camera-on, introduction, like their first name and position with the VA Voicebot project. (This is meant to humanize the interaction of observation for the participant)]
+o	Once complete ask notetaker and observers to turn off their cameras for remainder of the session to save bandwidth
+
+[TECH REP: Change to slide 3 Voicebot simple description]
+
+Our goal for today is to gather feedback on a prototype Voicebot for telephone interaction with the VA. This Voicebot uses natural language understanding & voice interaction technology. This is similar to what you might find from smart speakers - like Amazon Alexa, Apple’s Siri and Google’s Hey Google – which analyze someone’s speech and what they are asking when it interacts with them. We are working on this technology to improve the experience of contacting the VA about topics related to veteran disability, compensation claim status, and understanding the PACT Act.
 
 Before we start, a few things I want to mention:
+•	This entire session should take about 1 hour. I want to be sure not to keep you much longer, so I may occasionally prompt you with the next question or topic. The agenda begins with some warm-up questions. Next, we will engage with the Voicebot during three different tasks. And finally, I will close with a few follow up questions, and allow some additional time for you to ask us any questions that you may have.
+•	[IF APPROPRIATE:] You'll be interacting with a prototype. This is a demo tool that may not function exactly the way you expect. Since it's a demo, none of your actions will affect your actual VA information or benefits. 
+•	In this session, we want to hear your honest opinions. We are not testing your ability. We just want to improve this prototype to better meet Veteran's needs. I will not be offended by any opinions you express, and I welcome your feedback. It is important to remember that there are no right or wrong answers. We are here to learn from you and really try to understand your experience and what you would like from a Voicebot in the future. So please do not feel that you need to hold anything back. We want to hear everything! 
+•	If for any reason and at any time you want to stop the session, please let me know.
+•	Are you comfortable if I record my screen and audio as we talk today? We use the recordings to confirm that we have captured your opinions accurately. The recordings are destroyed after we complete analysis, and none of your comments will be attributed to you directly they will be kept anonymous.          
+o	If yes: Once I start recording, I am going to confirm that you are ok with me recording this session once more.
+[TECH REP: Start recording. 
+•	I have started recording. I'd like to confirm: Are you comfortable if I record my screen and the audio as we talk today? Your heading...
 
-This entire session should take about [time]. I want to be sure not to keep you much longer, so I may occasionally prompt you with the next question or topic.
-In this session, we want to hear your honest opinions. We are not testing your ability. We just want to improve these tools to better meet Veteran's needs. I will not be offended by any opinions you express, and I welcome your feedback.
-[IF APPROPRIATE:] You'll be interacting with a prototypes and a demo tool. This is a demo tool that may not function exactly the way you expect. Some areas of the prototype will be clickable, and some will not. Since it's a demo, none of your actions will affect your actual VA information or benefits.
-If for any reason and at any time you want to stop the session, please let me know.
-Perigean did ask for your consent to allow observers, but I want to be sure before we get going. Are you okay with a couple of additional observers during this session?
-If no: Use Slack to kindly ask the observers to leave the Zoom.
-If yes: Admit observers.
-Then, ask the notetaker and observers to give a brief, camera-on, introduction, like their first name and position with VA.gov. (This is meant to humanize the interaction of observation for the participant)
-Once complete ask notetaker and observers to turn off their cameras for remainder of the session to save bandwidth
-Are you comfortable if I record my screen and audio as we talk today? We use the recordings to confirm that we have captured your opinions accurately. The recordings are destroyed after we complete analysis, and none of your comments will be attributed to you directly.
-If yes: Once I start recording, I am going to confirm that you are ok with me recording this session once more.
-Start recording.
+Do you have any questions at this point? 
 
-I have started recording. I'd like to confirm: Are you comfortable if I record my screen and the audio as we talk today?
-Warm-up Questions (Optional) - X minutes
-Before we look at the website, let’s start with a few warm-up questions.
+Warm-Up Questions [Time]: 
 
-Background info about the participant should have been provided by Coordinator already, so use this time to ask any other questions that you feel will help with the session. This warm-up is not required
+"Let’s start with a few warm-up questions."
+
+1.	What is your understanding of a Voice assistant?
+2.	Do you feel as though voice assistants are effective at helping answer your questions? 
+3.	When you were given a choice to interact with a voice assistant during a call, have you accepted or declined the interaction?
+4.	How would you rate your feelings of voice assistants? Strongly dislike, dislike, neither dislike or like, like, strongly like voice assistants (1=strongly dislike, 5= strongly like)
+5.	Have you ever encountered issues with a voice assistant misunderstanding you? Have your ever encountered issues with a voice assistant on the phone?
+6.	if you were initially calling to speak to a live agent, what if anything, would prompt you to choose to talk to a Voicebot?
+
 
 ## First Task: [TASK NAME] - X minutes
 Step 1
