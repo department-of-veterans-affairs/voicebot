@@ -49,7 +49,7 @@ This research will provide insights into Veterans' pain points and the limitatio
 ### Moderated Usability Test
 The research will consist of seven moderated remote usability test sessions using the Zoom platform. The test will include a moderator, a notetaker, a visual/dial-out technician, and observers. The visual/call technician will display information that the Veterans will need to perform each task; this  technician will also dial a telephone number to the Dialoflow Voicebot protoype via the Zoom platform so that the Vetaran can interact with the Voicebot.
 
-## Location
+### Location
 The user research sessions will be will be held remotely via the Zoom platform.
 [Link to conversation guide](url goes here)
 
@@ -62,9 +62,9 @@ For moderated usability tests:
 ## Recruitment
 The research team is requesting a Perigean Recruitment Kick-off meeting on:
 -  Friday, March 17: Anytime between 1:30 pm and 3:00 pm eastern standard time.
--  
+
 ### Recruitment criteria
-This research will be using OCTO's Perigean recruiting contractor to recruit seven Veterans using a maximum variation sample strategy. A diverse sample of participants will be recruited across all of the following criteria:
+This research will be using OCTO's Perigean recruiting contractor to enroll seven Veterans by using a maximum variation sample strategy. A diverse sample of participants will be recruited across all of the following criteria:
 -	Various mix of ages
 -	Various mix of sexes
 -	Various mix of races
@@ -96,14 +96,12 @@ Perigean will begin Veteran recruitment on March 20, 2023
 Actual user test sessions are projected to commence on March 27, 2023 and end on March 31, 2023.
 
 ### Prepare
-A pilot session was conducted on March 9, 2023 at 12:00-1:30 p.m. eastern standard time. The mock participant was a Booz Allen Hamilton employee.
+A pilot session was conducted and recorded on March 9, 2023 at 12:00-1:30 p.m. eastern standard time using the MS Teams platform. The participant was a Booz Allen Hamilton employee, Alexandra Byrnes.
 
 ### Research Sessions
-Planned dates of research:
 March 27, 2023-March 31, 2023
 
 ### Length of sessions
-Session length: 
 The length of user sessions will be one hour total in length. 
 
 ### Buffer time between sessions: 
@@ -121,35 +119,42 @@ There will be a total of 4 maximum sessions per day.
 |March 30, 2023 |   10:00 a.m., 12:00 p.m., 2:00 p.m., 4:00 p.m.  |
 |March 31, 2023 |  10:00 a.m., 12:00 p.m., 2:00 p.m., 4:00 p.m.   |
 
-
+- The research team will also availabe for **three** after-hour sessions from March 27th - March 30th, if the times listed in the above table are not convenient for a participant.
+Perigean will call the POCs, listed below, to discuss suitable after hours. 
 
 
 ## Team Roles
-Please list the people who will be serving in each role.
-#### Moderator: Julie Naga
+
+#### Moderator: 
+- Julie Naga
 - primary phone number: (443) 803-9566
 - email: naga_julie@bah.com
 
-#### Alternate Moderator: Nina Anusavice
+#### Alternate Moderator: 
+- Nina Anusavice
 - primary phone number: (508) 353-5641
 - email: nina.anusavice@va.gov
 
-#### Alternate Moderator: Ty Allen 
+#### Alternate Moderator: 
+- Ty Allen 
 - primary phone number: (928) 587-3134
 - email: Allen_Ty@bah.com
 
-#### Alternate Moderator: Alexandra Byrnes
+#### Alternate Moderator: 
+- Alexandra Byrnes
 - primary phone number: (281) 2107201
 - email:  byrnes_alexandra@bah.com
 
-#### Prototype Technician: Ty Allen 
+#### Prototype Technician: 
+- Ty Allen 
 - email: Allen_Ty@bah.com
 
-#### Notetaker: Alexandra Byrnes
+#### Notetaker:
+- Alexandra Byrnes
 - email: byrnes_alexandra@bah.com
 
 #### Observers:
-The following observers are to be invited to all usability sessions.
+The following observers are to be invited to all usability test sessions.
 - Luciana Alexander Morais
 - Shane Strassberg
 - Danielle Thierry
@@ -168,11 +173,20 @@ The following observers are to be invited to all usability sessions.
 - Nicole Bush
 
 ### Project Point of Contact:
-Julie Naga
+#### Primary
+- Julie Naga
 - primary phone number: (443) 803-9566
 - email: naga_julie@bah.com
 
-Nina Anusavice
+#### Secondary
+- Nina Anusavice
 - primary phone number: (508) 353-5641
 - email: nina.anusavice@va.gov
+
+#### Tertiary
+ Ty Allen 
+- primary phone number: (928) 587-3134
+- email: Allen_Ty@bah.com
+
+
 
