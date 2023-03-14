@@ -169,7 +169,7 @@ The following observers are to be invited to all usability test sessions.
 - Nina Anusavice
 - Ty Allen
 - Grace Goodenough
-- Sunayna Geol
+- Sunayna Goel
 - Nicole Bush
 
 ### Project Point of Contact:
