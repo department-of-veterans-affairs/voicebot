@@ -120,7 +120,7 @@ There will be a total of 4 maximum sessions per day.
 |March 31, 2023 |  10:00 a.m., 12:00 p.m., 2:00 p.m., 4:00 p.m.   |
 
 - The research team will also availabe for **three** after-hour sessions from March 27th - March 30th, if the times listed in the above table are not convenient for a participant.
-Perigean will call the POCs, listed below, to discuss suitable after hours. 
+Perigean will call the POCs, listed below, to discuss after-hour participant scheduling.
 
 
 ## Team Roles
@@ -160,10 +160,16 @@ The following observers are to be invited to all usability test sessions.
 - Danielle Thierry
 - Regina Yount
 
-### Research guide writing and task development:
-
-#### Research Guide
+### Research Guide
 - Nina Anusavice
+
+### Conversation Guide
+-Ty Allen
+-Julie Naga
+-Nina Anusavice
+
+### Task Visuals
+-Ty Allen
 
 ### Task Development:
 - Nina Anusavice
