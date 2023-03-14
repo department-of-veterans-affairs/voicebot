@@ -50,7 +50,7 @@ This research will provide insights into Veterans' pain points and the limitatio
 The research will consist of seven moderated remote usability test sessions using the Zoom platform. The test will include a moderator, a notetaker, a visual/dial-out technician, and observers. The visual/call technician will display information that the Veterans will need to perform each task; this  technician will also dial a telephone number to the Dialoflow Voicebot protoype via the Zoom platform so that the Vetaran can interact with the Voicebot.
 
 ## Location
-The user research sessions will be moderated and will be held remotely via the Zoom platform.
+The user research sessions will be will be held remotely via the Zoom platform.
 [Link to conversation guide](url goes here)
 
 For moderated usability tests:
@@ -61,23 +61,27 @@ For moderated usability tests:
 
 ## Recruitment
 ### Recruitment criteria
-This research will be using OCTO's Perigean recruiting contractor to recruit seven Veterans using a maximum variation strategy. A diverse sample of participants will be recruited across all of the following criteria:
+This research will be using OCTO's Perigean recruiting contractor to recruit seven Veterans using a maximum variation sample strategy. A diverse sample of participants will be recruited across all of the following criteria:
 -	Various mix of ages
 -	Various mix of sexes
 -	Various mix of races
 -	Various mix of education levels
 -	Various mix of branches of service
--	Various mix of residence areas
-We request a Perigean recruitment Kick-off meeting on the following day:
+-	Various mix of rural and urban geographical  areas
+
+The research team is requesting a Perigean Recruitment Kick-off meeting on:
 -  Friday, March 17: Anytime between 1:30 pm and 3:00 pm eastern standard time.
+
 ### Primary Criteria 
-At least one of the following recruitment criteria must be met in order for a Veteran to be considered for this study:
+**At least one** of the following recruitment criteria must be met in order for a Veteran to be considered for this study:
 - Veterans who have prior experience with filing a VA disability compensation claim.
 - Veterans who are currently in the process of filing a VA disability compensation claim.
 - Veterans who have submitted a PACT Act disability compensation claim.
 - Veterans who are preparing to submit a PACT Act disability compensation claim. 
+
+
 #### Screener Questions
-In order for a Veteran to be recruited for this study, they must answer “Yes” **to at least one**, of the two questions:
+In order for a Veteran to be recruited for this study, they must answer **“Yes” to at least one**, of the two questions:
 1.	Have you ever filed, or are currently in the process of filing, a disability compensation claim with the VA?
 o	Yes (Recruit)
 o	No (Disqualify)
