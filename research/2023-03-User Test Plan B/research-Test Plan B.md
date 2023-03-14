@@ -62,7 +62,7 @@ Voicebot Prototype Phone Number: (203) 680-8708
 
 ## Recruitment
 The research team is requesting a Perigean Recruitment Kick-off meeting on:
--  Friday, March 17: Anytime between 1:30 pm and 3:00 pm eastern standard time.
+- Friday, March 17: Anytime between 1:30 pm and 3:00 pm eastern standard time.
 
 ### Recruitment criteria
 This research will be using OCTO's Perigean recruiting contractor to enroll seven Veterans by using a maximum variation sample strategy. A diverse sample of participants will be recruited across all of the following criteria:
@@ -89,7 +89,7 @@ In order for a Veteran to be recruited for this study, they must answer â€œYesâ€
 
 2.	Have you ever submitted, are in the process of submitting, or are preparing to submit a PACT Act disability compensation claim?
 - 	Yes (Recruit)
--   No (Disqualify)
+-  No (Disqualify)
 
 
 ### Timeline
@@ -165,12 +165,12 @@ The following observers are to be invited to all usability test sessions.
 - Nina Anusavice
 
 ### Conversation Guide
--Ty Allen
--Julie Naga
--Nina Anusavice
+- Ty Allen
+- Nina Anusavice
+- Julie Naga
 
 ### Task Visuals
--Ty Allen
+- Ty Allen
 
 ### Task Development:
 - Nina Anusavice
@@ -191,7 +191,7 @@ The following observers are to be invited to all usability test sessions.
 - email: nina.anusavice@va.gov
 
 #### Tertiary
- Ty Allen 
+- Ty Allen 
 - primary phone number: (928) 587-3134
 - email: Allen_Ty@bah.com
 
