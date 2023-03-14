@@ -3,8 +3,9 @@
 ## Background
 The VBA Voicebot team seeks to use human-centered design (HCD) research methods to evaluate Veteran expectations and desired experiences for a VBA Voicebot for telephony, specifically its disability compensation claims status related content and information, as well as PACT Act claim general information.
 
-This project will focus on the desired experience for Veterans calling the VA National Call Center and selecting to use the Voicebot telephony option. User research will focus on the desirability and perceived usefulness of claims status and PACT Act related content and information via a notional Voicebot which will inform future product roadmaps and content. The Dialogflow Virtual Agent IVR prototype will be used during usability test with Veterans.   
-[Link to product brief](url goes here).
+This project will focus on the desired experience for Veterans calling the VA National Call Center and selecting to use the Voicebot telephony option. User research will focus on the desirability and perceived usefulness of claims status and PACT Act related content and information via a notional Voicebot which will inform future product roadmaps and content. The Dialogflow Virtual Agent IVR prototype will be used during usability test with Veterans.  
+
+[NCC's Voicebot Proof of Concept](https://dvagov-my.sharepoint.com/:p:/g/personal/nina_anusavice_va_gov/ET1p2ergdltMtbdvchuRr30BqfAubDIOfgUtnxvSeRL-fQ?e=znOnrF)
 
 ### OCTO Objectives
 This research supports the following OCTO objectives:
@@ -23,10 +24,10 @@ This research fits into these points of a Veteran's Journey:
 - Dyeing
 
 ## Research Goals
-The purpose of this research is to understand Veteran's expectations and desires when interacting with a telephony Voicebot virtual assistant. The insights gained from this research will be used to deliver a Voicebot that Veterans will find useful and easy to interact with.
+The purpose of this research is to understand Veteran's expectations and desires when interacting with a telephony Voicebot virtual assistant. The insights gained from this research will be used to deliver a Voicebot that Veterans will find useful in answering their questions and easy to interact with.
 
 ### Outcome
-This research will provide insight into Veterans' pain points and the limitations that they may encounter by interacting with a telephony based virtual agent. This project will also uncover training data, such as words and phrases, that Veterans may use to inquire about their disability claim status and PACT Act related information. The training data will be used to program the Voicebot and ensure that it can provide answers to some of Veterans most asked questions.  
+This research will provide insights into Veterans' pain points and the limitations that they may encounter by interacting with a telephony based virtual agent. This project will also uncover training data, such as words and phrases, that Veterans may use to inquire about their disability claim status and PACT Act related information. The training data will be used to program the Voicebot and ensure that it can provide answers to Veterans' frequently asked questions.  
 
 ### Research questions
 
@@ -46,7 +47,7 @@ This research will provide insight into Veterans' pain points and the limitation
 
 ## Methodology
 ### Moderated Usability Test
-The research will consist of seven moderated remote usability testing sessions using the Zoom platform. The test will include a moderator, a notetaker, a visual/dial-out technician, and observers. The call technician will dial a telephone number to the Dialoflow Voicebot protoype via the Zoom platform so that the Vetaran can interact with the Voicebot.
+The research will consist of seven moderated remote usability test sessions using the Zoom platform. The test will include a moderator, a notetaker, a visual/dial-out technician, and observers. The visual/call technician will display information that the Veterans will need to perform each task; this  technician will also dial a telephone number to the Dialoflow Voicebot protoype via the Zoom platform so that the Vetaran can interact with the Voicebot.
 
 ## Location
 The user research sessions will be moderated and will be held remotely via the Zoom platform.
