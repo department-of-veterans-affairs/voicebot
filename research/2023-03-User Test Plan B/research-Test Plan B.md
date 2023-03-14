@@ -55,7 +55,8 @@ The user research sessions will be will be held remotely via the Zoom platform.
 
 For moderated usability tests:
 [Link to conversation guide](url goes here)
-[Link to prototype](url goes here)
+[User Session B Visuals](https://dvagov-my.sharepoint.com/:p:/g/personal/nina_anusavice_va_gov/EYIvPA2m1QROgtKkMkJpCtgBir4KcJALB57zHLAMl0u1ew?e=f31icU)
+Voicebot Prototype Phone Number: (203) 680-8708
 
 [Test Plan B Mural](https://app.mural.co/t/bahdigitalexperience6902/m/bahdigitalexperience6902/1669754649778/0f3c9f6f970ca3aafaac2c8460da31edade57db5?sender=u19a3b3baa664c41e047b6456)
 
