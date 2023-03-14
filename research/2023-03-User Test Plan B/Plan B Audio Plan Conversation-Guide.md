@@ -152,8 +152,7 @@ Called NCC line - selected the new Voicebot option [Team Member Calls on MS Team
 [END STATE]-Move to Moderator Questions. 
 
 
-
-## Questions to follow task 1A: 
+## Questions to follow Task 1A: 
 
 **Moderator:** Alright, thank you for that first call. I want to get some feedback from you on that experience.
 - When you first heard the Voicebot, it said " I can help you with that? How did you feel about the Voicebot referring to itself as "I"? 
@@ -165,58 +164,247 @@ Called NCC line - selected the new Voicebot option [Team Member Calls on MS Team
 - How did you know you were done with the VB? 
 
 
+## Second Task: [TASK 1B] - X minutes
+
+**Moderator:** Okay, let's try this again. 
+- **TECH REP: switch to call 2 slide**
+The goal of this 2nd call is the same as the first except when you called the first time, we gave you the wrong SSN number so that the bot would err. This time, the SSN number is correct, and all the information you need for the 2nd call is on this slide.
+
+- **Information Displayed on Visual:** 
+- Josh
+- SSN: 123-45-6789 
+- DOB: 08/03/1983
+- Branch of Service: navy
+- Claims: 1
+- ClaimID: 600207214
+- Benefit Claim Type: Pre-Discharge-Resumption of Compensation
+- Status: Claim Received
+- Received Date: 03/22/2022
+- Status last updated: 05/25/2022
+
+
+**Moderator:** Here’s the **scenario** again: It's been 10 weeks since you have submitted a disability claim with the VA and you would like to get more details on what is going on with it. You would like information about your claim. If no information is provided, ask the Voicebot why. You want to understand why it is taking such a long time. Provide the following information on the screen when asked.
+
+We are about to call the Voicebot again. Just like before, after you hear the Voicebot welcome, Please remember to speak naturally and clearly, in your own words.
+
+**TECH REP: Dials Voicebot Prototype: (203) 680-8708**
+
+**Task 1B START** Voicebot Prototype: (203) 680-8708
+
+Called NCC line - selected the new Voicebot option
+              
+1.Caller: Listens to the Bot's welcome message: [VB Welcome Message] 
+"Thanks for trying out this new way to get help. You can still reach an agent at any time. To get started, ask me a question like “What’s my claim status?” or “What does the PACT Act do for Veterans like me?" 
+
+2. Caller: [Caller utters claims inquiry]
+
+3. Bot: [VB Response]  
+
+4. Bot: [VB responds goes into auth flow] "First, let me confirm your information for security purposes. Are you the Veteran?"
+
+5. Caller: "Yes"
+
+6. VB: "What is your 9-digit social security number?" 
+
+7. Caller: "XXX"
+
+8. Bot: "Thanks. What is your date of birth? You can say something like June 18, 1975."
+
+9. Caller: "XXX"
+                                                                                
+10. Bot: "Got it. What is your branch of service?" [backend webhook data matching]
+
+11.  Bot: [Verifies information is correct] "Thanks for that information. Please hold for a moment while I look up your VA account."
+
+12. Bot: "Oh I see you have one open claim, Is the claim about {benefit, Claim, Type} filed on {date opened} the one you are calling about?" [data point API]
+
+13. Caller:  "Yes, that's it."
+
+14. Bot: “Ok, this claim was opened on 2022-03-22 and has a status of Claim Received. Would you like to know what this status means?”
+
+15. Caller: "Yes."
+      
+16. Bot: [Provides definition of current status] "We received your claim on [MM/DD/YYYY]. We haven't assigned the claim to a reviewer yet. If we need more information, we'll let you know."
+
+17. Bot: " What other questions about your claim can I help you with?”
+      
+18. Caller: "Why is my claim taking so long?"        
+
+19. Bot: "I'm sorry about the length of time it's taking to decide your claim. The amount of time it takes to review your claim depends on the type of claim you filed, how many disabilities you've claimed and how complex they are, and how long it takes us to collect the evidence needed to decide your claim. We are working to decide every claim as quickly as possible."
+
+20. Bot: "Do you have any other questions about your claim?"
+
+21 . Caller: "No"
+
+22. Bot: "What other questions can I help you with? If you don't have any other questions, you can either hang up or say, "I don't have any other questions."
+              
+23. Caller: "No"
+
+24. Bot: "The VA thanks you for your service, Goodbye.”
+
+[END STATE]- Move to Moderator Questions.
 
 
 
+## Questions to follow Task 1B: 
+
+**Moderator:** Alright thank you for that first call. I want to get some feedback from you on that experience.
+- The Voicebot provided you information about your claim, how clear was the information it gave you?
+- Regarding the terminologies the Voicebot used, which terms seemed unfamiliar to you or were a bit confusing? 
+- When you are calling the VA about claim status, what pieces of information would you want to know about your claim status?
+- You were trying to understand what was going on with your claim and why it’s taking so long. Would being provided an estimated timeline make you feel better/worse/indifferent?
 
 
 
+## Third Task: [TASK 2A] - X minutes
+**Task 2A START** Voicebot Prototype: (203) 680-8708
+
+
+**Moderator:** “We are going to do one more call to the Voicebot. This time the scenario is slightly different. You have already submitted a disability claim with the VA. But after putting it in you heard about the new PACT Act being passed. You also received a letter from the VA about the PACT Act. 
+
+- **TECH REP Go to slide Call 3 of 3 letter show sample letter piece**
+
+“On the screen is a sample from an actual letter that the VA send out regarding PACT Act information. I’ll give you a few seconds to read over this letter.What is your understanding of that document?”   
+
+- ** TECH REP change slide to call 3 of 4 info slide**
+
+**Moderator:** We would like you to call again and to use your own words to:
+1. Inquire about the PACT Act, if you want to know more about it?
+2. Understand more about Toxic Exposure screening
+3. Understand where you can find a Toxic Exposure screening facility
+4. Check on your claims currently being processed in the system.
+
+- John
+- SSN: 745-44-9788
+- DOB: 02/14/1976
+- Branch of Service: Airforce
+- Claims: 1
+- ClaimID: 500207214
+- Benefit Claim Type: Enhanced Disability Severance Pay
+- Status: Pending Decision Approval
+- Received Date: 03/08/2022.
+- Status last updated: 02/25/2023.
+
+
+**Moderator:** Please use your own words when talking to the Voicebot. The items we would like you to ask about and the information you need to prove who you are on screen during the call. Now we will call the Voicebot again.
+ 
+- **TECH REP dials voicebot**          
+   
+1.Caller: Listens to the Bot's welcome message:
+
+[VB Welcome Message] "Thanks for trying out this new way to get help. You can still reach an agent at any time. To get started, ask me a question like “What’s my claim status?” or “What does the PACT Act do for Veterans like me?"  
+
+2. Caller: "PACT Question"
+
+3. Bot: "The PACT Act is a new law that expands VA health care and benefits for Veterans exposed to burn pits and other toxic substances. This law helps us provide Veterans and their survivors with the care and benefits they’ve earned and deserve."
+
+4. Bot: "What other questions about the PACT Act can I help you with?"
+
+5. Caller: "What is toxic exposure screening?" 
+          
+6. Bot: "A toxic exposure screening is for Veterans who are enrolled in VA healthcare. The screening will ask if you think you were exposed to hazards while serving, like burn pits or Agent Orange. These questions will help improve the health outcomes and the patient experience within VA health care.”
+
+7.Bot: “What other questions can I help you with? If you don't have any other questions, you can either hang-up or say "I don't have any other questions."
+
+8. Caller: "Where can I get a screening" 
+
+9. Bot: "Toxic exposure screenings are available at VA health facilities across the country. Ask about the screening at your next VA health care appointment. If you don’t have an upcoming appointment, or if you want to get the screening sooner, contact your local VA health facility. Ask to get screened by the toxic exposure screening navigator."
+
+10. Bot: "Is there anything else I can help you with?"
+
+[Transition to Authentication Flow]  
+                
+11. Caller: "Yes, can you tell me about my claim status that I recently filed?"
+      
+12. Bot: "I can help you get more information about your claim."  
+
+13. Bot "First, let me confirm your information for security purposes. Are you the Veteran?"
+
+14. Caller: "Yes"
+
+15. VB: "What is your 9-digit social security number?" 
+
+16. Caller: "XXX"
+
+17. Bot: "Thanks. What is your date of birth? You can say something like June 18, 1975."
+
+18. Caller: "XXX"
+                                                                                
+19. Bot: "Got it. What is your branch of service?" [backend webhook data matching]
+
+[VB Authentication Flow] 
+
+20. Bot: Verifies information is correct: 
+"Thanks for that information. Please hold for a moment while I look up your VA account."
+
+21. Bot: “Oh, I see you have one open claim, Is the claim about {benefitClaimType} filed on {date opened} the one you are calling about?"
+
+22. Caller: "Yes."
+
+23. Bot: “Ok, this claim was opened on 2022-03-22 and has a status of Claim Received. Would you like to know what this status means?”
+
+24. Caller: "Yes."    
+
+25. Bot: "We received your claim on [MM/DD/YYYY]. We haven't assigned the claim to a reviewer yet. If we need more information, we'll let you know."          
+
+26. Bot: "Do you have any other questions about your claim?"
+
+27. Caller: "No"
+
+28. Bot: "What other questions can I help you with? If you don't have any other questions, you can either hang up or say "I don't have any other questions."
+
+29. Caller: "That's all."
+
+30. Bot: "The VA thanks you for your service. Goodbye."
+
+[END STATE]-Move to Moderator Questions. 
 
 
 
+## Questions to follow Task 2A: 
+- What was your overall impression of getting PACT Act info from the Voicebot?
+- Did you find the Voicebot provided sufficient information on toxic exposure?
+- On a scale from very easy (1), to neutral (3), to very difficult (5), how hard was it to understand the information the bot provided?
+- Did any of the terminology seem unfamiliar or confusing?
+- What other questions would you have liked ask the voicebot that it could not answer? 
+- What other topics would you like to know about that Voicebot did not provide? 
+- Did receiving information from the Voicebot make you think of additional questions?
+- Is it useful for you to hear this information or would you prefer to get the information in a text, email, or link from the Voicebot?
+- Thinking back on your call with the Voicebot, can you think of other ways you may have stated your questions to the Voicebot…. specifically…
+- What other words of phrases would you use to ask about the PACT Act?
+- What other ways would you ask about your claim status
+- What other words of phrases would you use to ask about the Toxic Exposure?
+- How do you think is might compare to other ways of getting that information from the VA? (VA.gov, etc)
 
 
+**Moderator:** “Thank you so much for your help with the PACT Act information.” 
+“We can offer a short break and then ask some finishing questions to complete our session.”
+**break** 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Second Task: [TASK NAME] - X minutes
-Step 1
-Step 2
-Things to watch for:
-[Does the participant understand meaning of xyz?]
-[Does the participant notice xyz?]
-[Etc]
-
-
-## Third Task: [TASK NAME] - X minutes
-Step 1
-Step 2
-Things to watch for:
-[Does the participant understand meaning of xyz?]
-[Does the participant notice xyz?]
-[Etc]
 
 
 ## Post-Task Interview - X minutes
-Question 1
-Question 2
-Any questions for me?
-Thank-You and Closing - X minutes
+
+- What did you think of the Voicebot's personality and tone of voice?
+- How do you feel about the Voicebot saying "The VA thanks you for your service" at the end of the call? Would you prefer it said something else such as have a nice day? Both? Neither?  
+- Was the rate of speech, ok? 
+- Did you feel as though you could have asked about anything or exited the conversation at any time?
+- Was this frustrating that in order to use the system you had to be authenticated?
+- Do names such as "VA Voice Assistant" or " VA Virtual Assistant" make it clear the service is a bot? 
+- Overall, what were your thoughts on the call experience?
+- What would you like to see eliminated in the call experience?
+- What additional questions (excluding claims and PACT) do you wish it could answer? 
+
+**Moderator:** The Voicebot is one way to get information from the VA, we were wondering about other sources of information that you may have used:
+- Have you called and spoken with a VA agent before? If yes, how does this experience compare with calling into a NCC call agent? Would you prefer using a VB? If not, what would VB need for you to want to select it over an agent?
+
+## Closeout 
+
+**Moderator:** “Great, thank you for your feedback today. **Optional: I’m going to take a moment now to open it up to my teammates on the line to see if they have any questions that they might like to ask.**
+
+**Moderator:** Any questions for me?
+
+## Thank-You and Closing - X minutes
 Well we really appreciate you taking the time to share your thoughts with us today. Your feedback is so helpful to us as we continue to work on the site and make sure it really works for Veterans.
 
 Thanks! Lastly, Perigean will be sending you a thank you note with a little blurb that you can pass along to other Veterans you may know to provide them the chance to participate in future research studies.
