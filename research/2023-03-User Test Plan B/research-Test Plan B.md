@@ -60,6 +60,9 @@ For moderated usability tests:
 [Test Plan B Mural](https://app.mural.co/t/bahdigitalexperience6902/m/bahdigitalexperience6902/1669754649778/0f3c9f6f970ca3aafaac2c8460da31edade57db5?sender=u19a3b3baa664c41e047b6456)
 
 ## Recruitment
+The research team is requesting a Perigean Recruitment Kick-off meeting on:
+-  Friday, March 17: Anytime between 1:30 pm and 3:00 pm eastern standard time.
+-  
 ### Recruitment criteria
 This research will be using OCTO's Perigean recruiting contractor to recruit seven Veterans using a maximum variation sample strategy. A diverse sample of participants will be recruited across all of the following criteria:
 -	Various mix of ages
@@ -67,10 +70,7 @@ This research will be using OCTO's Perigean recruiting contractor to recruit sev
 -	Various mix of races
 -	Various mix of education levels
 -	Various mix of branches of service
--	Various mix of rural and urban geographical  areas
-
-The research team is requesting a Perigean Recruitment Kick-off meeting on:
--  Friday, March 17: Anytime between 1:30 pm and 3:00 pm eastern standard time.
+-	Various mix of rural and urban geographical areas
 
 ### Primary Criteria 
 **At least one** of the following recruitment criteria must be met in order for a Veteran to be considered for this study:
@@ -80,7 +80,7 @@ The research team is requesting a Perigean Recruitment Kick-off meeting on:
 - Veterans who are preparing to submit a PACT Act disability compensation claim. 
 
 
-#### Screener Questions
+### Screener Questions
 In order for a Veteran to be recruited for this study, they must answer “Yes” to **at least one**, of the two questions:
 1.	Have you ever filed, or are currently in the process of filing, a disability compensation claim with the VA?
 - 	Yes (Recruit)
@@ -91,16 +91,14 @@ In order for a Veteran to be recruited for this study, they must answer “Yes�
 -   No (Disqualify)
 
 
-
-## Timeline
+### Timeline
 Perigean will begin Veteran recruitment on March 20, 2023
 Actual user test sessions are projected to commence on March 27, 2023 and end on March 31, 2023.
 
-## Prepar
-
+### Prepare
 A pilot session was conducted on March 9, 2023 at 12:00-1:30 p.m. eastern standard time. The mock participant was a Booz Allen Hamilton employee.
 
-## Research Sessions
+### Research Sessions
 Planned dates of research:
 March 27, 2023-March 31, 2023
 
@@ -114,19 +112,14 @@ There will be at least one hour buffer time between each participant testing ses
 ### Maximum Sessions per day: 
 There will be a total of 4 maximum sessions per day.
 
-#### Availability
+### Availability
 | Team Availability |  Time Slots (ET) |
 | ----------- | ----------- |
-|March 27, 2023  |     |
-|March 27, 2023 |     |
-|March 27, 2023  |     |
-|March 28, 2023 |     |
-|March 28, 2023  |     |
-|March 28, 2023 |     |
-|March 29, 2023  |     |
-|March 29, 2023 |     |
-|March 29, 2023  |     |
-|March 29, 2023 |     |
+|March 27, 2023  | 10:00 a.m., 12:00 p.m., 2:00 p.m., 4:00 p.m.|
+|March 28, 2023 |10:00 a.m., 12:00 p.m., 2:00 p.m., 4:00 p.m.     |
+|March 29, 2023  |  10:00 a.m., 12:00 p.m., 2:00 p.m., 4:00 p.m.   |
+|March 30, 2023 |   10:00 a.m., 12:00 p.m., 2:00 p.m., 4:00 p.m.  |
+|March 31, 2023 |  10:00 a.m., 12:00 p.m., 2:00 p.m., 4:00 p.m.   |
 
 
 Please request enough dates and at least double the amount of time slots for the number of requested participants. (e.g. Monday 9-1, 3-6; Tuesday 9-6, etc.; 12 time slots for 6 participants). This helps Perigean book participants when there are more time slots available, and when sessions need to be rescheduled or filled in with further recruitment.
