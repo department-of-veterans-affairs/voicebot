@@ -31,22 +31,26 @@ Octo Introduction. [TIME]
 ## Intro - 5 minutes
 
 
-- **TECH REP: SHARE PPT IN presentation mode – welcome slide**
-- **Moderator:** •	Thanks for joining us today! My name is [NAME] and I have two other colleagues on the call, (NAME) will be our tech support today and [NOTETAKER NAME] is taking notes. I also have a couple other colleagues in the MS Teams waiting room who would like to observe and take notes.  
-•	Perigean did ask for your consent to allow observers, but I want to be sure that this is alright before we get going. Are you okay with a couple of additional observers during this session?                   
-o	If no: Use Slack to kindly ask the observers to leave the MS Teams call.
-o	If yes: Admit observers.
-o	Thank you for that. I’m now going to ask each person on the line to introduce themselves and their position on the VA Voicebot project. 
-o	Facilitator asks each observer/notetaker to give a brief, camera-on, introduction, like their first name and position with the VA Voicebot project. (This is meant to humanize the interaction of observation for the participant)]
-o	Once complete ask notetaker and observers to turn off their cameras for remainder of the session to save bandwidth
+- **TECH REP: SHARE PPT IN presentation mode – Welcome slide.**
+- 
+**Moderator:** 
+Thanks for joining us today! My name is [NAME] and I have two other colleagues on the call, (NAME) will be our tech support today and (NOTETAKER NAME) is taking notes. I also have a couple other colleagues in the MS Teams waiting room who would like to observe and take notes.  
+-Perigean did ask for your consent to allow observers, but I want to be sure that this is alright before we get going. Are you okay with a couple of additional observers during this session?                   
+- If no: Use Slack to kindly ask the observers to leave the MS Teams call.
+- If yes: Admit observers.
+- Thank you for that. I’m now going to ask each person on the line to introduce themselves and their position on the VA Voicebot project. 
+- Facilitator asks each observer/notetaker to give a brief, camera-on, introduction, like their first name and position with the VA Voicebot project. (This is meant to humanize the interaction of observation for the participant)]
+- Once complete ask notetaker and observers to turn off their cameras for remainder of the session to save bandwidth
 
 - **TECH REP: Change to slide 3 Voicebot simple description**
 
- **Moderator:** Our goal for today is to gather feedback on a prototype Voicebot for telephone interaction with the VA. This Voicebot uses natural language understanding & voice interaction technology. This is similar to what you might find from smart speakers - like Amazon Alexa, Apple’s Siri and Google’s Hey Google – which analyze someone’s speech and what they are asking when it interacts with them. We are working on this technology to improve the experience of contacting the VA about topics related to veteran disability, compensation claim status, and understanding the PACT Act.
+**Moderator:** 
+Our goal for today is to gather feedback on a prototype Voicebot for telephone interaction with the VA. This Voicebot uses natural language understanding & voice interaction technology. This is similar to what you might find from smart speakers - like Amazon Alexa, Apple’s Siri and Google’s Hey Google – which analyze someone’s speech and what they are asking when it interacts with them. We are working on this technology to improve the experience of contacting the VA about topics related to veteran disability, compensation claim status, and understanding the PACT Act.
 
- **Moderator:** Before we start, a few things I want to mention:
+**Moderator:** 
+Before we start, a few things I want to mention:
 - This entire session should take about 1 hour. I want to be sure not to keep you much longer, so I may occasionally prompt you with the next question or topic. The agenda begins with some warm-up questions. Next, we will engage with the Voicebot during three different tasks. And finally, I will close with a few follow up questions, and allow some additional time for you to ask us any questions that you may have.
-- [IF APPROPRIATE:] You'll be interacting with a prototype. This is a demo tool that may not function exactly the way you expect. Since it's a demo, none of your actions will affect your actual VA information or benefits. 
+- (IF APPROPRIATE:) You'll be interacting with a prototype. This is a demo tool that may not function exactly the way you expect. Since it's a demo, none of your actions will affect your actual VA information or benefits. 
 - In this session, we want to hear your honest opinions. We are not testing your ability. We just want to improve this prototype to better meet Veteran's needs. I will not be offended by any opinions you express, and I welcome your feedback. It is important to remember that there are no right or wrong answers. We are here to learn from you and really try to understand your experience and what you would like from a Voicebot in the future. So please do not feel that you need to hold anything back. We want to hear everything! 
 - If for any reason and at any time you want to stop the session, please let me know.
 - Are you comfortable if I record my screen and audio as we talk today? We use the recordings to confirm that we have captured your opinions accurately. The recordings are destroyed after we complete analysis, and none of your comments will be attributed to you directly they will be kept anonymous.  
@@ -55,11 +59,12 @@ o	Once complete ask notetaker and observers to turn off their cameras for remain
 
 - **TECH REP: Start recording.** 
 
- **Moderator:** I have started recording. I'd like to confirm: Are you comfortable if I record my screen and the audio as we talk today? Your heading...Do you have any questions at this point? 
+**Moderator:** 
+I have started recording. I'd like to confirm: Are you comfortable if I record my screen and the audio as we talk today? Your heading...Do you have any questions at this point? 
 
 ## Warm-Up Questions [Time]: 
 
- **Moderator:** "Let’s start with a few warm-up questions."
+**Moderator:** "Let’s start with a few warm-up questions."
 
 1.	What is your understanding of a Voice assistant?
 2.	Do you feel as though voice assistants are effective at helping answer your questions? 
@@ -71,20 +76,22 @@ o	Once complete ask notetaker and observers to turn off their cameras for remain
 
 ## First Task: [TASK 1A] - X minutes
 
-**Moderator:** Thank you for answering those questions. We are now going to start interacting with the prototype Voicebot. 
+**Moderator:** 
+Thank you for answering those questions. We are now going to start interacting with the prototype Voicebot. 
 Let me explain how that will work:
 Our tech rep will dial into the Voicebot from the MS Teams software we are using, and you will speak to Voicebot just like you are talking to us now. This simulates a real phone call. 
 All the information you need to complete the call will be on the screen for you to look at. 
-
 Now, I’m going to explain a scenario for you to discuss with the bot, and go over the information you will use. When I’m done explaining – I’ll ask you to repeat it to me to make sure we are on the same page: 
 
 **Scenario: It's been 10 weeks since you have submitted a disability claim with the VA, and you would like to get more details on what is going on with your claim. You feel like it has been long time so far.**
 
-**Moderator:** You decide to call the Voicebot to get some information.
+**Moderator:** 
+You decide to call the Voicebot to get some information.
 
 - **TECH REP: change slide to call 1**
  
-**Moderator:** When the Voicebot answers your call, please ask the Voicebot about your claim in your own words. If no information is provided, you can ask the Voicebot "why". You want to understand why it is taking such a long time. Use the provided information on the screen during the call.
+**Moderator:** 
+When the Voicebot answers your call, please ask the Voicebot about your claim in your own words. If no information is provided, you can ask the Voicebot "why". You want to understand why it is taking such a long time. Use the provided information on the screen during the call.
 
 - **Task 1A Information Displayed on Visual:** 
 - Josh
@@ -101,7 +108,8 @@ Voicebot Information
 - Status last updated: 05/25/2022
 
 
-**Moderator:** Okay, will you repeat back to me what you are calling about? (User tells facilitator about what they think the task is) We are to call the Voicebot. Our Tech Rep will dial the number and you will hear the Voicebot welcome. Please remember to speak to the Voicebot clearly and naturally. Any other questions? (no) okay – here we go.
+**Moderator:** 
+Okay, will you repeat back to me what you are calling about? (User tells facilitator about what they think the task is) We are to call the Voicebot. Our Tech Rep will dial the number and you will hear the Voicebot welcome. Please remember to speak to the Voicebot clearly and naturally. Any other questions? (no) okay – here we go.
 
 **[Task 1A START]** Voicebot Prototype: (203) 680-8708
 Called NCC line - selected the new Voicebot option 
@@ -155,7 +163,8 @@ Called NCC line - selected the new Voicebot option
 
 ## Questions to follow Task 1A: 
 
-**Moderator:** Alright, thank you for that first call. I want to get some feedback from you on that experience.
+**Moderator:** 
+Alright, thank you for that first call. I want to get some feedback from you on that experience.
 - When you first heard the Voicebot, it said " I can help you with that? How did you feel about the Voicebot referring to itself as "I"? 
 - How did you feel when the Voicebot was not able to verify who you were?
 - After the Voicebot tells you it cannot verify your information, how did it handle repairing the situation? 
@@ -167,9 +176,11 @@ Called NCC line - selected the new Voicebot option
 
 ## Second Task: [TASK 1B] - X minutes
 
-**Moderator:** Okay, let's try this again. 
+**Moderator:** 
+Okay, let's try this again. 
 - **TECH REP: switch to call 2 slide**
-**Moderator:** The goal of this 2nd call is the same as the first except when you called the first time, we gave you the wrong SSN number so that the bot would err. This time, the SSN number is correct, and all the information you need for the 2nd call is on this slide.
+**Moderator:**
+The goal of this 2nd call is the same as the first except when you called the first time, we gave you the wrong SSN number so that the bot would err. This time, the SSN number is correct, and all the information you need for the 2nd call is on this slide.
 
 - **Task 1B Information Displayed on Visual:** 
 - Josh
@@ -186,9 +197,11 @@ Voicebot Information
 - Status last updated: 05/25/2022
 
 
-**Moderator:** Here’s the **scenario** again: It's been 10 weeks since you have submitted a disability claim with the VA and you would like to get more details on what is going on with it. You would like information about your claim. If no information is provided, ask the Voicebot why. You want to understand why it is taking such a long time. Provide the following information on the screen when asked.
+**Moderator:** 
+Here’s the **scenario** again: It's been 10 weeks since you have submitted a disability claim with the VA and you would like to get more details on what is going on with it. You would like information about your claim. If no information is provided, ask the Voicebot why. You want to understand why it is taking such a long time. Provide the following information on the screen when asked.
 
-**Moderator:**We are about to call the Voicebot again. Just like before, after you hear the Voicebot welcome, Please remember to speak naturally and clearly, in your own words.
+**Moderator:**
+We are about to call the Voicebot again. Just like before, after you hear the Voicebot welcome, Please remember to speak naturally and clearly, in your own words.
 
 **TECH REP: Dials Voicebot Prototype: (203) 680-8708**
 
@@ -250,7 +263,8 @@ Called NCC line - selected the new Voicebot option
 
 ## Questions to follow Task 1B: 
 
-**Moderator:** Alright thank you for that first call. I want to get some feedback from you on that experience.
+**Moderator:** 
+Alright thank you for that first call. I want to get some feedback from you on that experience.
 - The Voicebot provided you information about your claim, how clear was the information it gave you?
 - Regarding the terminologies the Voicebot used, which terms seemed unfamiliar to you or were a bit confusing? 
 - When you are calling the VA about claim status, what pieces of information would you want to know about your claim status?
@@ -262,15 +276,18 @@ Called NCC line - selected the new Voicebot option
 
 **Task 2A START** Voicebot Prototype: (203) 680-8708
 
-**Moderator:** “We are going to do one more call to the Voicebot. This time the scenario is slightly different. You have already submitted a disability claim with the VA. But after putting it in you heard about the new PACT Act being passed. You also received a letter from the VA about the PACT Act. 
+**Moderator:**
+“We are going to do one more call to the Voicebot. This time the scenario is slightly different. You have already submitted a disability claim with the VA. But after putting it in you heard about the new PACT Act being passed. You also received a letter from the VA about the PACT Act. 
 
 - **TECH REP Go to slide Call 3 of 3 letter show sample letter piece**
 
-**Moderator:** “On the screen is a sample from an actual letter that the VA send out regarding PACT Act information. I’ll give you a few seconds to read over this letter.What is your understanding of that document?”   
+**Moderator:** 
+“On the screen is a sample from an actual letter that the VA send out regarding PACT Act information. I’ll give you a few seconds to read over this letter.What is your understanding of that document?”   
 
 - **TECH REP change slide to call 3 of 4 info slide**
 
-**Moderator:** We would like you to call again and to use your own words to:
+**Moderator:** 
+We would like you to call again and to use your own words to:
 1. Inquire about the PACT Act, if you want to know more about it?
 2. Understand more about Toxic Exposure screening
 3. Understand where you can find a Toxic Exposure screening facility
@@ -291,7 +308,8 @@ Voicebot Information
 - Status last updated: 02/25/2023.
 
 
-**Moderator:** Please use your own words when talking to the Voicebot. The items we would like you to ask about and the information you need to prove who you are on screen during the call. Now we will call the Voicebot again.
+**Moderator:** 
+Please use your own words when talking to the Voicebot. The items we would like you to ask about and the information you need to prove who you are on screen during the call. Now we will call the Voicebot again.
  
 - **TECH REP dials voicebot**          
    
@@ -316,7 +334,7 @@ Voicebot Information
 
 10. Bot: "Is there anything else I can help you with?"
 
--**Transition to Authentication Flow** 
+**Transition to Authentication Flow** 
                 
 11. Caller: "Yes, can you tell me about my claim status that I recently filed?"
       
@@ -336,7 +354,7 @@ Voicebot Information
                                                                                 
 19. Bot: "Got it. What is your branch of service?" [backend webhook data matching]
 
-- **VB Authentication Flow** 
+**VB Authentication Flow** 
 
 20. Bot: Verifies information is correct: 
 "Thanks for that information. Please hold for a moment while I look up your VA account."
@@ -380,7 +398,8 @@ Voicebot Information
 - How do you think is might compare to other ways of getting that information from the VA? (VA.gov, etc)
 
 
-**Moderator:** “Thank you so much for your help with the PACT Act information.” 
+**Moderator:** 
+“Thank you so much for your help with the PACT Act information.” 
 “We can offer a short break and then ask some finishing questions to complete our session.”
 **break** 
 
@@ -398,14 +417,17 @@ Voicebot Information
 - What would you like to see eliminated in the call experience?
 - What additional questions (excluding claims and PACT) do you wish it could answer? 
 
-**Moderator:** The Voicebot is one way to get information from the VA, we were wondering about other sources of information that you may have used:
+**Moderator:** 
+The Voicebot is one way to get information from the VA, we were wondering about other sources of information that you may have used:
 - Have you called and spoken with a VA agent before? If yes, how does this experience compare with calling into a NCC call agent? Would you prefer using a VB? If not, what would VB need for you to want to select it over an agent?
 
 ## Closeout 
 
-**Moderator:** “Great, thank you for your feedback today. **Optional: I’m going to take a moment now to open it up to my teammates on the line to see if they have any questions that they might like to ask.**
+**Moderator:** 
+“Great, thank you for your feedback today. **Optional: I’m going to take a moment now to open it up to my teammates on the line to see if they have any questions that they might like to ask.**
 
-**Moderator:** Any questions for me?
+**Moderator:**
+Any questions for me?
 
 ## Thank-You and Closing - X minutes
 Well we really appreciate you taking the time to share your thoughts with us today. Your feedback is so helpful to us as we continue to work on the site and make sure it really works for Veterans.
