@@ -31,8 +31,8 @@ Octo Introduction. [TIME]
 ## Intro - 5 minutes
 
 
-- **TECH REP: SHARE PPT IN presentation mode – Welcome slide.**
-- 
+- **TECH REP: Shares powerpoint visual in presentation mode – Welcome slide.**
+
 **Moderator:** 
 Thanks for joining us today! My name is [NAME] and I have two other colleagues on the call, (NAME) will be our tech support today and (NOTETAKER NAME) is taking notes. I also have a couple other colleagues in the MS Teams waiting room who would like to observe and take notes.  
 -Perigean did ask for your consent to allow observers, but I want to be sure that this is alright before we get going. Are you okay with a couple of additional observers during this session?                   
