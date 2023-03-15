@@ -293,7 +293,7 @@ We would like you to call again and to use your own words to:
 3. Understand where you can find a Toxic Exposure screening facility
 4. Check on your claims currently being processed in the system.
 
-- **Task 1B Information Displayed on Visual:** 
+- **Task 2A Information Displayed on Visual:** 
 - John
 - SSN: 745-44-9788
 - DOB: 02/14/1976
@@ -381,7 +381,7 @@ Please use your own words when talking to the Voicebot. The items we would like 
 
 **END STATE-** Move to Moderator Questions. 
 
-## Questions to follow Task 2A: 
+## Questions to follow Task 2A: 6 minutes
 **Moderator:** 
 - What was your overall impression of getting PACT Act info from the Voicebot?
 - Did you find the Voicebot provided sufficient information on toxic exposure?
@@ -405,7 +405,7 @@ Please use your own words when talking to the Voicebot. The items we would like 
 
 
 
-## Post-Task Interview - 6 minutes
+## Post-Task Interview - 5 minutes
 **Moderator:** 
 - What did you think of the Voicebot's personality and tone of voice?
 - How do you feel about the Voicebot saying "The VA thanks you for your service" at the end of the call? Would you prefer it said something else such as have a nice day? Both? Neither?  
