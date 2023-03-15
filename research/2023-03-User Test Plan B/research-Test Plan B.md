@@ -5,7 +5,7 @@ The VBA Voicebot team seeks to use human-centered design (HCD) research methods 
 
 This project will focus on the desired experience for Veterans calling the VA National Call Center and selecting to use the Voicebot telephony option. User research will focus on the desirability and perceived usefulness of claims status and PACT Act related content and information via a notional Voicebot which will inform future product roadmaps and content. The Dialogflow Virtual Agent IVR prototype will be used during usability test with Veterans.  
 
-[NCC's Voicebot Proof of Concept](https://dvagov-my.sharepoint.com/:p:/g/personal/nina_anusavice_va_gov/ET1p2ergdltMtbdvchuRr30BqfAubDIOfgUtnxvSeRL-fQ?e=znOnrF)
+[NCC's Voicebot Proof of Concept](https://dvagovmy.sharepoint.com/:p:/g/personal/nina_anusavice_va_gov/ET1p2ergdltMtbdvchuRr30BqfAubDIOfgUtnxvSeRL-fQ?e=znOnrF)
 
 ### OCTO Objectives
 This research supports the following OCTO objectives:
@@ -51,14 +51,13 @@ The research will consist of seven moderated remote usability test sessions usin
 
 ### Location
 The user research sessions will be will be held remotely via the Zoom platform.
-[Link to conversation guide](url goes here)
 
-For moderated usability tests:
-[Link to conversation guide](url goes here)
+[Voicebot User Test Plan B Conversation-Guide](https://github.com/department-of-veterans-affairs/voicebot/blob/master/research/2023-03-User%20Test%20Plan%20B/Plan%20B%20Audio%20Plan%20Conversation-Guide.md)
+
 [User Session B Visuals](https://dvagov-my.sharepoint.com/:p:/g/personal/nina_anusavice_va_gov/EYIvPA2m1QROgtKkMkJpCtgBir4KcJALB57zHLAMl0u1ew?e=f31icU)
+
 Voicebot Prototype Phone Number: (203) 680-8708
 
-[Test Plan B Mural](https://app.mural.co/t/bahdigitalexperience6902/m/bahdigitalexperience6902/1669754649778/0f3c9f6f970ca3aafaac2c8460da31edade57db5?sender=u19a3b3baa664c41e047b6456)
 
 ## Recruitment
 The research team is requesting a Perigean Recruitment Kick-off meeting on:
