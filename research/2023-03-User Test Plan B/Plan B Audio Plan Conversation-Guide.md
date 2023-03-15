@@ -25,8 +25,8 @@ This convesation guide is to be used with the Zoom platform with the added Audio
 5. When that’s done: - Mute your microphone - Turn off your camera.
 6. Confine all messaging to the Slack Voicebot_test1_feedbackchannel thread for the session: - Don’t message within the video conference app - Don’t expect the moderator to interact with you.
 7. Notetaker: friendly reminder to take notes that are as close to verbatim as possible. 
-Octo Introduction. [TIME]
 
+Octo Introduction
 
 ## Intro - 5 minutes
 
@@ -62,7 +62,7 @@ Before we start, a few things I want to mention:
 **Moderator:** 
 I have started recording. I'd like to confirm: Are you comfortable if I record my screen and the audio as we talk today? Your heading...Do you have any questions at this point? 
 
-## Warm-Up Questions [Time]: 
+## Warm-Up Questions 5 minutes, 20 seconds  
 
 **Moderator:** "Let’s start with a few warm-up questions."
 
@@ -74,7 +74,7 @@ I have started recording. I'd like to confirm: Are you comfortable if I record m
 6.	if you were initially calling to speak to a live agent, what if anything, would prompt you to choose to talk to a Voicebot?
 
 
-## First Task: [TASK 1A] - X minutes
+## First Task: [TASK 1A] - 5 minutes
 
 **Moderator:** 
 Thank you for answering those questions. We are now going to start interacting with the prototype Voicebot. 
@@ -161,7 +161,7 @@ Called NCC line - selected the new Voicebot option
 **END STATE-** Move to Moderator Questions. 
 
 
-## Questions to follow Task 1A: 
+## Questions to follow Task 1A: 8 minutes
 
 **Moderator:** 
 Alright, thank you for that first call. I want to get some feedback from you on that experience.
@@ -174,7 +174,7 @@ Alright, thank you for that first call. I want to get some feedback from you on 
 - How did you know you were done with the VB? 
 
 
-## Second Task: [TASK 1B] - X minutes
+## Second Task: [TASK 1B] - 4 minutes
 
 **Moderator:** 
 Okay, let's try this again. 
@@ -261,7 +261,7 @@ Called NCC line - selected the new Voicebot option
 **END STATE-** Move to Moderator Questions.
 
 
-## Questions to follow Task 1B: 
+## Questions to follow Task 1B: 5 minutes
 
 **Moderator:** 
 Alright thank you for that first call. I want to get some feedback from you on that experience.
@@ -272,7 +272,7 @@ Alright thank you for that first call. I want to get some feedback from you on t
 
 
 
-## Third Task: [TASK 2A] - X minutes
+## Third Task: [TASK 2A] - 7 minutes
 
 **Task 2A START** Voicebot Prototype: (203) 680-8708
 
@@ -405,7 +405,7 @@ Please use your own words when talking to the Voicebot. The items we would like 
 
 
 
-## Post-Task Interview - X minutes
+## Post-Task Interview - 6 minutes
 **Moderator:** 
 - What did you think of the Voicebot's personality and tone of voice?
 - How do you feel about the Voicebot saying "The VA thanks you for your service" at the end of the call? Would you prefer it said something else such as have a nice day? Both? Neither?  
@@ -429,7 +429,7 @@ The Voicebot is one way to get information from the VA, we were wondering about 
 **Moderator:**
 Any questions for me?
 
-## Thank-You and Closing - X minutes
+## Thank-You and Closing - 2 minutes
 Well we really appreciate you taking the time to share your thoughts with us today. Your feedback is so helpful to us as we continue to work on the site and make sure it really works for Veterans.
 
 Thanks! Lastly, Perigean will be sending you a thank you note with a little blurb that you can pass along to other Veterans you may know to provide them the chance to participate in future research studies.
