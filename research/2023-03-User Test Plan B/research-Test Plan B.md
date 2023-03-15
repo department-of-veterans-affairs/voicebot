@@ -114,14 +114,11 @@ There will be a maxium of four sessions per day.
 ### Availability
 | Team Availability |  Time Slots (ET) |
 | ----------- | ----------- |
-|March 27, 2023  | 10:00 a.m., 12:00 p.m., 2:00 p.m., 4:00 p.m.|
+|March 27, 2023  | 10:00 a.m., 12:00 p.m., 2:00 p.m., 4:00 p.m., 6:00 p.m., 8:00 p.m.|
 |March 28, 2023 |10:00 a.m., 12:00 p.m., 2:00 p.m., 4:00 p.m.     |
-|March 29, 2023  |  10:00 a.m., 12:00 p.m., 2:00 p.m., 4:00 p.m.   |
-|March 30, 2023 |   10:00 a.m., 12:00 p.m., 2:00 p.m., 4:00 p.m.  |
+|March 29, 2023  |  10:00 a.m., 12:00 p.m., 2:00 p.m., 4:00 p.m., 7:30, p.m.   |
+|March 30, 2023 |   10:00 a.m., 12:00 p.m., 2:00 p.m., 4:00 p.m., 7:30, p.m.  |
 |March 31, 2023 |  10:00 a.m., 12:00 p.m., 2:00 p.m., 4:00 p.m.   |
-
-- The research team will also availabe for **three** after-hour sessions from March 27th - March 30th, if the times listed in the above table are not convenient for a participant.
-Perigean will call or email the POCs, listed below, to discuss after-hour participant scheduling.
 
 
 ## Team Roles
