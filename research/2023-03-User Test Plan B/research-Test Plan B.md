@@ -52,6 +52,7 @@ The research will consist of seven moderated remote usability test sessions usin
 ### Location
 The user research sessions will be will be held remotely via the Zoom platform.
 
+### Artifacts
 [Voicebot User Test Plan B Conversation-Guide](https://github.com/department-of-veterans-affairs/voicebot/blob/master/research/2023-03-User%20Test%20Plan%20B/Plan%20B%20Audio%20Plan%20Conversation-Guide.md)
 
 [User Session B Visuals](https://dvagov-my.sharepoint.com/:p:/g/personal/nina_anusavice_va_gov/EYIvPA2m1QROgtKkMkJpCtgBir4KcJALB57zHLAMl0u1ew?e=f31icU)
