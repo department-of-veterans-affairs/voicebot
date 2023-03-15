@@ -62,7 +62,7 @@ Before we start, a few things I want to mention:
 **Moderator:** 
 I have started recording. I'd like to confirm: Are you comfortable if I record my screen and the audio as we talk today? Your heading...Do you have any questions at this point? 
 
-## Warm-Up Questions 5 minutes, 20 seconds  
+## Warm-Up Questions 6 minutes  
 
 **Moderator:** "Let’s start with a few warm-up questions."
 
