@@ -53,7 +53,7 @@ The research will consist of seven moderated remote usability test sessions usin
 The user research sessions will be will be held remotely via the Zoom platform.
 
 ### Artifacts
-[Voicebot User Test Plan B Conversation-Guide](https://github.com/department-of-veterans-affairs/voicebot/blob/master/research/2023-03-User%20Test%20Plan%20B/Plan%20B%20Audio%20Plan%20Conversation-Guide.md)
+[Voicebot User Test Plan B Conversation Guide](https://github.com/department-of-veterans-affairs/voicebot/blob/master/research/2023-03-User%20Test%20Plan%20B/Plan%20B%20Audio%20Plan%20Conversation-Guide.md)
 
 [User Session B Visuals](https://dvagov-my.sharepoint.com/:p:/g/personal/nina_anusavice_va_gov/EYIvPA2m1QROgtKkMkJpCtgBir4KcJALB57zHLAMl0u1ew?e=f31icU)
 
@@ -85,11 +85,11 @@ This research will be using OCTO's Perigean recruiting contractor to enroll seve
 In order for a Veteran to be recruited for this study, they must answer “Yes” to **at least one**, of the two questions:
 1.	Have you ever filed, or are currently in the process of filing, a disability compensation claim with the VA?
 - 	Yes (Recruit)
-- 	No (Disqualify)
+- 	No (Move to Question 2)
 
 2.	Have you ever submitted, are in the process of submitting, or are preparing to submit a PACT Act disability compensation claim?
 - 	Yes (Recruit)
--  No (Disqualify)
+-   No (Disqualify)
 
 
 ### Timeline
@@ -109,7 +109,7 @@ The length of user sessions will be one hour total in length.
 There will be at least one hour buffer time between each participant testing session. 
 
 ### Maximum Sessions per day: 
-There will be a total of 4 maximum sessions per day.
+There will be a maxium of four sessions per day.
 
 ### Availability
 | Team Availability |  Time Slots (ET) |
@@ -121,7 +121,7 @@ There will be a total of 4 maximum sessions per day.
 |March 31, 2023 |  10:00 a.m., 12:00 p.m., 2:00 p.m., 4:00 p.m.   |
 
 - The research team will also availabe for **three** after-hour sessions from March 27th - March 30th, if the times listed in the above table are not convenient for a participant.
-Perigean will call the POCs, listed below, to discuss after-hour participant scheduling.
+Perigean will call or email the POCs, listed below, to discuss after-hour participant scheduling.
 
 
 ## Team Roles
@@ -155,7 +155,7 @@ Perigean will call the POCs, listed below, to discuss after-hour participant sch
 - email: byrnes_alexandra@bah.com
 
 #### Observers:
-The following observers are to be invited to all usability test sessions.
+The following observers are to be sent an invatation link for all usability test sessions.
 - Luciana Alexander Morais
 - Shane Strassberg
 - Danielle Thierry
