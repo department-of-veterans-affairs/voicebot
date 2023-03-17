@@ -151,12 +151,14 @@ There will be a maxium of four sessions per day.
 - Alexandra Byrnes
 - email: byrnes_alexandra@bah.com
 
-#### Observers:
+### Observers:
 The following observers are to be sent an invatation link for all usability test sessions.
-- Luciana Alexander Morais
-- Shane Strassberg
-- Danielle Thierry
-- Regina Yount
+|Observers |  Email |
+| ----------- | ----------- |
+|Luciana Alexander Morais | Luciana.Morais@va.gov|
+|Shane Strassberg |  shane.strassberg@va.gov  |
+|Danielle Thierry|  danielle.thierry@va.gov  |
+|Regina Yount| regina.yount@va.gov |
 
 ### Research Guide
 - Nina Anusavice
