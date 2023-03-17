@@ -155,7 +155,7 @@ There will be a maxium of four sessions per day.
 The following observers are to be sent an invatation link for all usability test sessions.
 |Observers |  Email |
 | ----------- | ----------- |
-|Luciana Alexander Morais | Luciana.Morais@va.gov|
+|Luciana Alexander Morais | luciana.morais@va.gov|
 |Shane Strassberg |  shane.strassberg@va.gov  |
 |Danielle Thierry|  danielle.thierry@va.gov  |
 |Regina Yount| regina.yount@va.gov |
