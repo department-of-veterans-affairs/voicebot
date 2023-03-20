@@ -1,7 +1,8 @@
 # Conversation Guide
 This convesation guide is to be used with the Zoom platform with the added Audio Conferencing (telephone call) capability.
+- [User Test Plan B](https://github.com/department-of-veterans-affairs/voicebot/blob/master/research/2023-03-User%20Test%20Plan%20B/research-Test%20Plan%20B.md)
 
-- [User Session B Visuals](TBD)
+- [User Session B Visuals](https://github.com/department-of-veterans-affairs/voicebot/blob/master/research/2023-03-User%20Test%20Plan%20B/User%20Session%20B%20Visuals.md)
 - Voicebot Prototype Phone Number: (203) 680-8708
 
 ## Day of the Session
