@@ -65,7 +65,7 @@ The research team is requesting a Perigean Recruitment Kick-off meeting on:
 - Friday, March 17: Anytime between 1:30 pm and 3:00 pm eastern standard time.
 
 ### Recruitment criteria
-This research will be using OCTO's Perigean recruiting contractor to enroll 7 Veterans by using a maximum variation sample strategy. The research team requests 10 participants to be recruited as backups but the recruitment will cease once 7 usabilty test session have been completed. A diverse sample of participants will be recruited across all of the following criteria:
+This research will be using OCTO's Perigean recruiting contractor to enroll 7 Veterans by using a maximum variation sample strategy. The research team requests 10 participants to be recruited as backups; however, recruitment efforts will cease once 7 usabilty test session have been completed. A diverse sample of participants will be recruited across all of the following criteria:
 -	Various mix of ages
 -	Various mix of sexes
 -	Various mix of races
