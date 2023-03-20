@@ -10,7 +10,6 @@ This questionnaire **will take between 10-20 minutes** to complete. When you are
  <br>
 1.	Have you ever tried the Chatbot on the VA.gov website (Please see Image 1, below)?<br>
 *Please choose one:* <br>
-
 - Yes
 - No
 - I don’t remember.
@@ -19,14 +18,13 @@ This questionnaire **will take between 10-20 minutes** to complete. When you are
 <br>
  <br>
 
-2.	If you have used the Chatbot (Image 1, above) on the VA.gov website, was it able to answer your question(s), and what could it have done better? *Please choose one:*
-
+2.	If you have used the Chatbot (Image 1, above) on the VA.gov website, was it able to answer your question(s), and what could it have done better? *Please choose one:* <br>
 - Yes
 - No
 - I don’t remember.
 <br>
  <br>
-3.	Do you like using an automated assistant? *Please choose one:*
+3.	Do you like using an automated assistant? *Please choose one:* <br>
 -	Yes
 -	No
 -	I neither like, or dislike using an automated assistant.
@@ -35,16 +33,13 @@ This questionnaire **will take between 10-20 minutes** to complete. When you are
  <br>
 4.	If you don’t like using an automated assistant, what would an automated assistant need for you to want to select it over an live agent?
 
-
-| ----------- | ----------- |
 <br>
  <br>
 5.	Think about a time when you called a customer-support telephone line and an automated assistant answered the phone, how was that experience? Was it able to answer your question(s) and what could it have done better?"
 
 <br>
  <br>
-6.	Have you ever used the Claim Status Tool on VA.gov. (Please see Image 2, below)? *Please choose one:*
-
+6.	Have you ever used the Claim Status Tool on VA.gov. (Please see Image 2, below)? *Please choose one:* <br>
 - Yes
 - No
 - I don’t remember.
@@ -53,27 +48,22 @@ This questionnaire **will take between 10-20 minutes** to complete. When you are
 
 <br>
  <br>
-7.	 If you have used the Claim Status Tool in the past, what information did you want to know that you did not get from it?
-
+7.	 If you have used the Claim Status Tool in the past, what information did you want to know that you did not get from it? <br>
 <br>
  <br>
-8.	Have you called and spoken with a VA agent about a claims issue? *Please choose one:*
-
+8.	Have you called and spoken with a VA agent about a claims issue? *Please choose one:* <br>
 - Yes
 - No
 - I don’t remember.
 <br>
  <br>
-9.	If you have spoken with a VA agent about a claims issue in the past, what did you like or dislike about the call experience?
-
+9.	If you have spoken with a VA agent about a claims issue in the past, what did you like or dislike about the call experience? <br>
 <br>
  <br>
-10.	If you have spoken with a VA agent about a claims issue in the past, how did your experience of interacting with the Voicebot during your research session, compare with talking to a VA agent?
-
+10.	If you have spoken with a VA agent about a claims issue in the past, how did your experience of interacting with the Voicebot during your research session, compare with talking to a VA agent? <br>
 <br>
  <br>
-11.	How was your experience in participating in our research session? Is there anything that you would like changed, eliminated, or added?
-
+11.	How was your experience in participating in our research session? Is there anything that you would like changed, eliminated, or added? <br>
 <br>
  <br>
 Thank you very much for taking the time to answer this questionnaire. We thank you for
