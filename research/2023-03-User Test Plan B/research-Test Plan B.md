@@ -5,7 +5,7 @@ The VBA Voicebot team seeks to use human-centered design (HCD) research methods 
 
 This project will focus on the desired experience for Veterans calling the VA National Call Center and selecting to use the Voicebot telephony option. User research will focus on the desirability and perceived usefulness of claims status and PACT Act related content and information via a notional Voicebot which will inform future product roadmaps and content. The Dialogflow Virtual Agent IVR prototype will be used during usability test with Veterans.  
 
-[NCC's Voicebot Proof of Concept](https://dvagovmy.sharepoint.com/:p:/g/personal/nina_anusavice_va_gov/ET1p2ergdltMtbdvchuRr30BqfAubDIOfgUtnxvSeRL-fQ?e=znOnrF)
+[NCC's Voicebot Proof of Concept](https://github.com/department-of-veterans-affairs/voicebot/blob/master/research/2023-03-User%20Test%20Plan%20B/NCC%20Voicebot%20Proof%20Of%20Concept.md)
 
 ### OCTO Objectives
 This research supports the following OCTO objectives:
@@ -65,7 +65,7 @@ The research team is requesting a Perigean Recruitment Kick-off meeting on:
 - Friday, March 17: Anytime between 1:30 pm and 3:00 pm eastern standard time.
 
 ### Recruitment criteria
-This research will be using OCTO's Perigean recruiting contractor to enroll seven Veterans by using a maximum variation sample strategy. A diverse sample of participants will be recruited across all of the following criteria:
+This research will be using OCTO's Perigean recruiting contractor to enroll 7 Veterans by using a maximum variation sample strategy. The research team requests 10 participants to be recruited as backups but the recruitment will cease once 7 usabilty test session have been completed. A diverse sample of participants will be recruited across all of the following criteria:
 -	Various mix of ages
 -	Various mix of sexes
 -	Various mix of races
