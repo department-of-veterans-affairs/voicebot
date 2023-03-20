@@ -1,1 +1,1 @@
-[User Session B Visuals Powerpoint] (https://dvagov-my.sharepoint.com/:p:/r/personal/nina_anusavice_va_gov/Documents/Desktop/User_Session_B_Visuals%20(1).pptx?d=w5d742757c7c643849d86d83d90916e8e&csf=1&web=1&e=EwPm1S
+[User_Session_B_Visuals (3).pdf](https://github.com/department-of-veterans-affairs/voicebot/files/11019595/User_Session_B_Visuals.3.pdf)
