@@ -34,7 +34,9 @@ This questionnaire **will take between 10-20 minutes** to complete. When you are
 <br>
  <br>
 4.	If you don’t like using an automated assistant, what would an automated assistant need for you to want to select it over an live agent?
-|---|
+
+
+| ----------- | ----------- |
 <br>
  <br>
 5.	Think about a time when you called a customer-support telephone line and an automated assistant answered the phone, how was that experience? Was it able to answer your question(s) and what could it have done better?"
