@@ -15,7 +15,7 @@ This questionnaire **will take between 10-20 minutes** to complete. When you are
 - No
 - I don’t remember.
 
-![Alt text](https://assets.digitalocean.com/articles/alligator/boo.svg "Image 1 Chatbot on VA.gov")
+![Alt text] (https://github.com/department-of-veterans-affairs/voicebot/blob/master/research/2023-03-User%20Test%20Plan%20B/Chatbot.png"Image 1 Chatbot on VA.gov")
 
 <br>
  <br>
