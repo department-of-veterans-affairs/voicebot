@@ -1,26 +1,50 @@
-# voicebot
+# Product Documentation Template
 
-## Ticketing System
-Jira: https://jira.boozallencsn.com/projects/VOICEBOT/summary
+This repository is a template for Product-focused documentation and compliance info for VA.
 
-Confluence: https://confluence.boozallencsn.com/display/VOICEBOT/VOICEBOT+Home
+There's no code here. See the individual project components for code, unit test results, and instructions for how to set up local development.
+ 
+After you create your product's documentation repository from this template, please update the **Team** and **Code** sections below to link to the appropriate people and code.
 
-## Data Sources
-There are multiple APIs that are being looked at for potential consumption by the voicebot that contain information on the veterans claim status, personal information, and content from the va.gov website. We have spreadsheets which detail what APIs we have access to, how to get access and where to find documentation as well as what fields can be found in these APIs that could be relevant to the use cases outlined in our flows.
+Replace these introductory paragraphs with a description of your product.
 
-### API field documentation
-This spreadsheet has all the APIs that have been discovered and documents the relevant endpoints and fields possible for use with the voicebot. This is not an exhaustive list and there are still some caveats to their use/integration. 
+## Product
 
-https://dvagov.sharepoint.com/:x:/s/VoiceBot/ERt9wFuq7U1KiWdXCiy2XH4BKjRaw0iZw-dHdvi3qrnbSQ?e=iLsGuz
+- Product Name:
+- Product Line Portfolio:
+- Product VDD Maintained here: [department-of-veterans-affairs/configuration-management](https://github.com/department-of-veterans-affairs/configuration-management)
 
-### Data Access and Location
-This spreadsheet contains links to API documentation and environments and how to access links/accounts. 
+## Team Contacts
 
-https://dvagov.sharepoint.com/:x:/r/sites/VoiceBot/Shared%20Documents/General/Data%20and%20Access/Data%20Status.xlsx?d=w96bb66c677de4a628e1bea78b50b3ace&csf=1&web=1&e=f93eu0
-
-
-
-
+- Project Manager:
+- Technical Team Lead:
+- Configuration Manager:
 
 
+## Code
 
+This Product has the following code components:
+
+- Reading Time web application. Java, built with Maven and Jenkins CI https://github.com/department-of-veterans-affairs/reading-time-demo
+
+
+
+
+## Documentation
+
+You'll find documention here in the standard VA product documentation folder structure:
+
+```
+CM			Configuration and Change Management
+Design			Analysis, Design and  Business Modeling
+Env_Depl_Impl		Environment Docs and Deployment Docs and Implementation Docs
+FOIA			Freedom of Information Act
+Other			Miscellaneous 
+PM			Project Management
+Reference		Reference
+Released_PDFs		PDFs
+Requirement		Requirements
+Test			Test
+Third_Party		Manuals, Guides or other assistive documentation
+```
+**Note:** GitHub.com repositories should **NOT** contain sensitive information of any kind
