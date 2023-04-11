@@ -214,11 +214,11 @@ Here’s the **scenario** again: It's been 10 weeks since you have submitted a d
 **Moderator:**
 We are about to call the Voicebot again. Just like before, after you hear the Voicebot welcome, Please remember to speak naturally and clearly, in your own words.
 
-**TECH REP: Dials Voicebot Prototype: (913) 246-3194**
+**TECH REP: Dials Voicebot Prototype: (203) 680-8708**
 
 **Task 1B Start**
 
-START Voicebot Prototype: (913) 246-3194
+START Voicebot Prototype
 
 Called NCC line - selected the new Voicebot option
               
@@ -394,7 +394,7 @@ Please use your own words when talking to the Voicebot. The items we would like 
 
 **END STATE-** Move to Moderator Questions. 
 
-## Questions to follow Task 2A-6 minutes
+## Questions to follow Task 2A - 6 minutes
 
 **Moderator:** 
 - What was your overall impression of getting PACT Act info from the Voicebot?
@@ -419,7 +419,7 @@ Please use your own words when talking to the Voicebot. The items we would like 
 
 
 
-## Post-Task Interview-5 minutes
+## Post-Task Interview - 5 minutes
 **Moderator:** 
 - What did you think of the Voicebot's personality and tone of voice?
 - How do you feel about the Voicebot saying "The VA thanks you for your service" at the end of the call? Would you prefer it said something else such as have a nice day? Both? Neither?  
