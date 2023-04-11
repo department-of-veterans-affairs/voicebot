@@ -72,7 +72,7 @@ I have started recording. I'd like to confirm: Are you comfortable if I record m
 Do you have any questions at this point? 
 
 
-## Warm-Up Questions: 6 minutes  
+## Warm-Up Questions-6 minutes  
 
 **Moderator:** "Let’s start with a few warm-up questions."
 
@@ -84,7 +84,7 @@ Do you have any questions at this point?
 6.	if you were initially calling to speak to a live agent, what if anything, would prompt you to choose to talk to a Voicebot?
 
 
-## First Task: [TASK 1A]: 5 minutes
+## First Task: TASK 1A-5 minutes
 
 **Moderator:** 
 Thank you for answering those questions. We are now going to start interacting with the prototype Voicebot. 
@@ -121,8 +121,9 @@ Voicebot Information
 **Moderator:** 
 Okay, will you repeat back to me what you are calling about? (User tells facilitator about what they think the task is) We are to call the Voicebot. Our Tech Rep will dial the number and you will hear the Voicebot welcome. Please remember to speak to the Voicebot clearly and naturally. Any other questions? (no) okay – here we go.
 
-**[Task 1A START]** Voicebot Prototype: (203) 680-8708
+**Task 1A START** Voicebot Prototype: (203) 680-8708
 Called NCC line - selected the new Voicebot option 
+
 -**Team Member Calls the Voicebot on the Zoom Platform**
               
 1.Caller: Listens to the **Voicebot;s Welcome message:**
@@ -171,7 +172,7 @@ Called NCC line - selected the new Voicebot option
 **END STATE-** Move to Moderator Questions. 
 
 
-## Questions to follow Task 1A: 8 minutes
+## Questions to follow Task 1A-8 minutes
 
 **Moderator:** 
 Alright, thank you for that first call. I want to get some feedback from you on that experience.
@@ -184,7 +185,7 @@ Alright, thank you for that first call. I want to get some feedback from you on 
 - How did you know you were done with the VB? 
 
 
-## Second Task: [TASK 1B]: 4 minutes
+## Second Task: TASK 1B-4 minutes
 
 **Moderator:** 
 Okay, let's try this again. 
@@ -215,13 +216,13 @@ We are about to call the Voicebot again. Just like before, after you hear the Vo
 
 **TECH REP: Dials Voicebot Prototype: (913) 246-3194**
 
-## Third Task: Task 1B:
+**Task 1B Start**
 
 START Voicebot Prototype: (913) 246-3194
 
 Called NCC line - selected the new Voicebot option
               
-1.Caller: Listens to the **Voicebot;s Welcome message:**
+1.Caller: Listens to the **Voicebot's Welcome message:**
 "Thanks for trying out this new way to get help. You can still reach an agent at any time. To get started, ask me a question like “What’s my claim status?” or “What does the PACT Act do for Veterans like me?" 
 
 2. Caller: [Caller utters claims inquiry]
@@ -273,7 +274,7 @@ Called NCC line - selected the new Voicebot option
 **END STATE-** Move to Moderator Questions.
 
 
-## Questions to follow Task 1B: 5 minutes
+## Questions to follow Task 1B-5 minutes
 
 **Moderator:** 
 Alright thank you for that first call. I want to get some feedback from you on that experience.
@@ -284,7 +285,7 @@ Alright thank you for that first call. I want to get some feedback from you on t
 
 
 
-## Third Task: [TASK 2A] - 7 minutes
+## Third Task: TASK 2A-7 minutes
 
 **Task 2A START** Voicebot Prototype: (203) 680-8708
 
@@ -323,9 +324,9 @@ Voicebot Information
 **Moderator:** 
 Please use your own words when talking to the Voicebot. The items we would like you to ask about and the information you need to prove who you are on screen during the call. Now we will call the Voicebot again.
  
-- **TECH REP dials voicebot**          
+- **TECH REP: Dials voicebot**          
    
-1.Caller: Listens to the **Voicebot;s Welcome message**:
+1.Caller: Listens to the **Voicebot's Welcome message**:
 "Thanks for trying out this new way to get help. You can still reach an agent at any time. To get started, ask me a question like “What’s my claim status?” or “What does the PACT Act do for Veterans like me?"  
 
 2. Caller: "PACT Question"
@@ -379,7 +380,7 @@ Please use your own words when talking to the Voicebot. The items we would like 
 
 24. Caller: "Yes."    
 
-25. Bot: "We received your claim on [MM/DD/YYYY]. We haven't assigned the claim to a reviewer yet. If we need more information, we'll let you know."          
+25. Bot: "We received your claim on MM/DD/YYYY. We haven't assigned the claim to a reviewer yet. If we need more information, we'll let you know."          
 
 26. Bot: "Do you have any other questions about your claim?"
 
@@ -393,7 +394,8 @@ Please use your own words when talking to the Voicebot. The items we would like 
 
 **END STATE-** Move to Moderator Questions. 
 
-## Questions to follow Task 2A: 6 minutes
+## Questions to follow Task 2A-6 minutes
+
 **Moderator:** 
 - What was your overall impression of getting PACT Act info from the Voicebot?
 - Did you find the Voicebot provided sufficient information on toxic exposure?
@@ -417,7 +419,7 @@ Please use your own words when talking to the Voicebot. The items we would like 
 
 
 
-## Post-Task Interview - 5 minutes
+## Post-Task Interview-5 minutes
 **Moderator:** 
 - What did you think of the Voicebot's personality and tone of voice?
 - How do you feel about the Voicebot saying "The VA thanks you for your service" at the end of the call? Would you prefer it said something else such as have a nice day? Both? Neither?  
@@ -441,7 +443,7 @@ The Voicebot is one way to get information from the VA, we were wondering about 
 **Moderator:**
 Any questions for me?
 
-## Thank-You and Closing - 2 minutes
+## Thank-You and Closing-2 minutes
 Well we really appreciate you taking the time to share your thoughts with us today. Your feedback is so helpful to us as we continue to work on the site and make sure it really works for Veterans.
 
 Thanks! Lastly, Perigean will be sending you a thank you note with a little blurb that you can pass along to other Veterans you may know to provide them the chance to participate in future research studies.
