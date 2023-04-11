@@ -55,7 +55,7 @@ The user research sessions will be will be held remotely via the Zoom platform.
 ### Artifacts
 [Voicebot User Test Plan B Conversation Guide](https://github.com/department-of-veterans-affairs/voicebot/blob/master/research/2023-03-User%20Test%20Plan%20B/Voicebot%20User%20Test%20Plan%20B%20Conversation%20Guide.md)
 
-[User Session B Visuals](https://github.com/department-of-veterans-affairs/voicebot/blob/master/research/2023-03-User%20Test%20Plan%20B/User%20Session%20B%20Visuals.md)
+[User Session B Visuals-Updated](https://github.com/department-of-veterans-affairs/voicebot/blob/master/research/2023-03-User%20Test%20Plan%20B/User_Session_B_Visuals_Plan%20B%20(1)%20Updated.pdf)
 
 Voicebot Prototype Phone Number: (203) 680-8708
 
