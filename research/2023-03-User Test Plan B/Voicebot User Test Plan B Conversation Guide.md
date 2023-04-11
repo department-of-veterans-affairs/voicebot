@@ -17,7 +17,7 @@ This convesation guide is to be used with the Zoom platform with the added Audio
 3. Check your [screensharing setup] and share permissions for participants.
 4. When the participant is ready, begin the session with the following intro*
 
-## Observer instructions:
+## Observer Instructions
  Before the session starts, here are some guidelines:
 1. You may change your video conference display name to be just your first or preferred name. We encourage you **not** to change your name to “observer.”
 2. Sign into the session with your microphone muted.
@@ -29,7 +29,7 @@ This convesation guide is to be used with the Zoom platform with the added Audio
 
 Octo Introduction
 
-## Intro - 5 minutes
+## Introduction - 5 minutes
 
 
 - **TECH REP: Shares powerpoint visual in presentation mode – Welcome slide.**
@@ -72,7 +72,7 @@ I have started recording. I'd like to confirm: Are you comfortable if I record m
 Do you have any questions at this point? 
 
 
-## Warm-Up Questions-6 minutes  
+## Warm-Up Questions - 6 minutes  
 
 **Moderator:** "Let’s start with a few warm-up questions."
 
@@ -84,7 +84,7 @@ Do you have any questions at this point?
 6.	if you were initially calling to speak to a live agent, what if anything, would prompt you to choose to talk to a Voicebot?
 
 
-## First Task: TASK 1A-5 minutes
+## First Task: TASK 1A - 5 minutes
 
 **Moderator:** 
 Thank you for answering those questions. We are now going to start interacting with the prototype Voicebot. 
@@ -172,7 +172,7 @@ Called NCC line - selected the new Voicebot option
 **END STATE-** Move to Moderator Questions. 
 
 
-## Questions to follow Task 1A-8 minutes
+## Questions to follow Task 1A - 8 minutes
 
 **Moderator:** 
 Alright, thank you for that first call. I want to get some feedback from you on that experience.
@@ -185,7 +185,7 @@ Alright, thank you for that first call. I want to get some feedback from you on 
 - How did you know you were done with the VB? 
 
 
-## Second Task: TASK 1B-4 minutes
+## Second Task: TASK 1B - 4 minutes
 
 **Moderator:** 
 Okay, let's try this again. 
@@ -274,7 +274,7 @@ Called NCC line - selected the new Voicebot option
 **END STATE-** Move to Moderator Questions.
 
 
-## Questions to follow Task 1B-5 minutes
+## Questions to follow Task 1B - 5 minutes
 
 **Moderator:** 
 Alright thank you for that first call. I want to get some feedback from you on that experience.
@@ -285,7 +285,7 @@ Alright thank you for that first call. I want to get some feedback from you on t
 
 
 
-## Third Task: TASK 2A-7 minutes
+## Third Task: TASK 2A - 7 minutes
 
 **Task 2A START** Voicebot Prototype: (203) 680-8708
 
@@ -435,7 +435,7 @@ Please use your own words when talking to the Voicebot. The items we would like 
 The Voicebot is one way to get information from the VA, we were wondering about other sources of information that you may have used:
 - Have you called and spoken with a VA agent before? If yes, how does this experience compare with calling into a NCC call agent? Would you prefer using a VB? If not, what would VB need for you to want to select it over an agent?
 
-## Closeout 
+**Closeout** 
 
 **Moderator:** 
 “Great, thank you for your feedback today. **Optional: I’m going to take a moment now to open it up to my teammates on the line to see if they have any questions that they might like to ask.**
@@ -443,7 +443,7 @@ The Voicebot is one way to get information from the VA, we were wondering about 
 **Moderator:**
 Any questions for me?
 
-## Thank-You and Closing-2 minutes
+## Thank-You and Closing - 2 minutes
 Well we really appreciate you taking the time to share your thoughts with us today. Your feedback is so helpful to us as we continue to work on the site and make sure it really works for Veterans.
 
 Thanks! Lastly, Perigean will be sending you a thank you note with a little blurb that you can pass along to other Veterans you may know to provide them the chance to participate in future research studies.
