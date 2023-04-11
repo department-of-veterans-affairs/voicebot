@@ -3,6 +3,7 @@ This convesation guide is to be used with the Zoom platform with the added Audio
 - [User Test Plan B](https://github.com/department-of-veterans-affairs/voicebot/blob/master/research/2023-03-User%20Test%20Plan%20B/research-Test%20Plan%20B.md)
 
 - [User Session B Visuals](https://github.com/department-of-veterans-affairs/voicebot/blob/master/research/2023-03-User%20Test%20Plan%20B/User_Session_B_Visuals_Plan%20B%20(1)%20Updated.pdf)
+- [Voicebot Post-Session Questionnaire Updated](https://github.com/department-of-veterans-affairs/voicebot/blob/master/research/2023-03-User%20Test%20Plan%20B/Voicebot%20Post-Session%20Questionnaire%C2%A0Updated.md)
 - Voicebot Prototype Phone Number: (203) 680-8708
 
 ## Day of the Session
