@@ -47,7 +47,7 @@ This research will provide insights into Veterans' pain points and the limitatio
 
 ## Methodology
 ### Moderated Usability Test
-The research will consist of seven moderated remote usability test sessions using the Zoom platform. The test will include a moderator, a notetaker, a visual/dial-out technician, and observers. The visual/call technician will display information that the Veterans will need to perform each task; this  technician will also dial a telephone number to the Dialoflow Voicebot protoype via the Zoom platform so that the Vetaran can interact with the Voicebot.
+The research will consist of 7 moderated remote usability test sessions using the Zoom platform. The test will include a moderator, a notetaker, a visual technician, and observers. The visual technician will display information that the Veterans will need to perform each task; this  technician will also dial a telephone number to the Dialoflow Voicebot protoype via the Zoom platform so that the Vetaran can interact with the Voicebot.
 
 ### Location
 The user research sessions will be will be held remotely via the Zoom platform.
@@ -76,7 +76,7 @@ This research will be using OCTO's Perigean recruiting contractor to enroll 7 Ve
 -	Various mix of rural and urban geographical areas
 
 ### Primary Criteria 
-**At least one** of the following recruitment criteria must be met in order for a Veteran to be considered for this study:
+**At least 1** of the following recruitment criteria must be met in order for a Veteran to be considered for this study:
 - Veterans who have prior experience with filing a VA disability compensation claim.
 - Veterans who are currently in the process of filing a VA disability compensation claim.
 - Veterans who have submitted a PACT Act disability compensation claim.
@@ -84,7 +84,7 @@ This research will be using OCTO's Perigean recruiting contractor to enroll 7 Ve
 
 
 ### Screener Questions
-In order for a Veteran to be recruited for this study, they must answer “Yes” to **at least one**, of the two questions:
+In order for a Veteran to be recruited for this study, they must answer “Yes” to **at least 1**, of the two questions:
 1.	Have you ever filed, or are currently in the process of filing, a disability compensation claim with the VA?
 - 	Yes (Recruit)
 - 	No (Move to Question 2)
@@ -105,13 +105,13 @@ A pilot session was conducted and recorded on March 9, 2023 at 12:00-1:30 p.m. e
 March 27, 2023-March 31, 2023
 
 ### Length of sessions
-The length of user sessions will be one hour total in length. 
+The length of user sessions will be 1 hour total in length. 
 
 ### Buffer time between sessions: 
-There will be at least one hour buffer time between each participant testing session. 
+There will be at least 1 hour buffer time between each participant testing session. 
 
 ### Maximum Sessions per day: 
-There will be a maxium of four sessions per day.
+There will be a maxium of 4 sessions per day.
 
 ### Availability
 | Team Availability |  Time Slots (ET) |
