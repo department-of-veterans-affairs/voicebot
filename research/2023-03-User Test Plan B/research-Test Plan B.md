@@ -53,13 +53,13 @@ The research will consist of seven moderated remote usability test sessions usin
 The user research sessions will be will be held remotely via the Zoom platform.
 
 ### Artifacts
-[Voicebot User Test Plan B Conversation Guide](https://github.com/department-of-veterans-affairs/voicebot/blob/master/research/2023-03-User%20Test%20Plan%20B/Voicebot%20User%20Test%20Plan%20B%20Conversation%20Guide.md)
+Voicebot Prototype Phone Number: (203) 680-8708
+
+[Voicebot User Test Plan B Conversation Guide Updated](https://github.com/department-of-veterans-affairs/voicebot/blob/master/research/2023-03-User%20Test%20Plan%20B/Voicebot%20User%20Test%20Plan%20B%20Conversation%20Guide%20Udated.md)
 
 [User Session B Visuals-Updated](https://github.com/department-of-veterans-affairs/voicebot/blob/master/research/2023-03-User%20Test%20Plan%20B/User_Session_B_Visuals_Plan%20B%20(1)%20Updated.pdf)
 
-Voicebot Prototype Phone Number: (203) 680-8708
-
-[MS Form User Test Plan B Post-Test Survey](https://github.com/department-of-veterans-affairs/voicebot/blob/master/research/2023-03-User%20Test%20Plan%20B/MS%20Form%20User%20Test%20Plan%20B%20Post-Test%20Survey.md)
+[Voicebot Post-Session Questionnaire Updated](https://github.com/department-of-veterans-affairs/voicebot/blob/master/research/2023-03-User%20Test%20Plan%20B/Voicebot%20Post-Session%20Questionnaire%C2%A0Updated.md)
 
 
 ## Recruitment
