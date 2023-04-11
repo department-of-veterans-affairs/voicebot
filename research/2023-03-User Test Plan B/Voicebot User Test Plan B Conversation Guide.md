@@ -39,9 +39,14 @@ Thanks for joining us today! My name is [NAME] and I have two other colleagues o
 -Perigean did ask for your consent to allow observers, but I want to be sure that this is alright before we get going. Are you okay with a couple of additional observers during this session?                   
 - If no: Use Slack to kindly ask the observers to leave the MS Teams call.
 - If yes: Admit observers.
+
+- **TECH REP:change slide to ‘team members’
 - Thank you for that. I’m now going to ask each person on the line to introduce themselves and their position on the VA Voicebot project. 
 - Facilitator asks each observer/notetaker to give a brief, camera-on, introduction, like their first name and position with the VA Voicebot project. (This is meant to humanize the interaction of observation for the participant)]
 - Once complete ask notetaker and observers to turn off their cameras for remainder of the session to save bandwidth
+
+
+
 
 - **TECH REP: Change to slide 3 Voicebot simple description**
 
@@ -61,9 +66,13 @@ Before we start, a few things I want to mention:
 - **TECH REP: Start recording.** 
 
 **Moderator:** 
-I have started recording. I'd like to confirm: Are you comfortable if I record my screen and the audio as we talk today? Your heading...Do you have any questions at this point? 
+I have started recording. I'd like to confirm: Are you comfortable if I record my screen and the audio as we talk today? Your heading.  
 
-## Warm-Up Questions 6 minutes  
+**TECH REP: Start the transcript under closed captioning**
+Do you have any questions at this point? 
+
+
+## Warm-Up Questions: 6 minutes  
 
 **Moderator:** "Let’s start with a few warm-up questions."
 
@@ -75,7 +84,7 @@ I have started recording. I'd like to confirm: Are you comfortable if I record m
 6.	if you were initially calling to speak to a live agent, what if anything, would prompt you to choose to talk to a Voicebot?
 
 
-## First Task: [TASK 1A] - 5 minutes
+## First Task: [TASK 1A]: 5 minutes
 
 **Moderator:** 
 Thank you for answering those questions. We are now going to start interacting with the prototype Voicebot. 
@@ -175,7 +184,7 @@ Alright, thank you for that first call. I want to get some feedback from you on 
 - How did you know you were done with the VB? 
 
 
-## Second Task: [TASK 1B] - 4 minutes
+## Second Task: [TASK 1B]: 4 minutes
 
 **Moderator:** 
 Okay, let's try this again. 
@@ -204,9 +213,11 @@ Here’s the **scenario** again: It's been 10 weeks since you have submitted a d
 **Moderator:**
 We are about to call the Voicebot again. Just like before, after you hear the Voicebot welcome, Please remember to speak naturally and clearly, in your own words.
 
-**TECH REP: Dials Voicebot Prototype: (203) 680-8708**
+**TECH REP: Dials Voicebot Prototype: (913) 246-3194**
 
-**Task 1B START** Voicebot Prototype: (203) 680-8708
+## Third Task: Task 1B:
+
+START Voicebot Prototype: (913) 246-3194
 
 Called NCC line - selected the new Voicebot option
               
