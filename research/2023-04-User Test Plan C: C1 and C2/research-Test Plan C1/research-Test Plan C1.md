@@ -33,11 +33,6 @@ This research will provide insights into Veterans' pain points and the limitatio
 
 ### Research questions
 
-1.	What are the words and phrases that Veterans use to ask questions about their disability claims status, or when they inquire about the PACT Act information?
-2.	Will the Voicebot provide a pleasant user experience, or will Veterans find it frustrating to use?
-3.	Will the Voicebot be able to understand different accents, rates of speech, regional dialects, or speech impediments?
-4.	Will the Voicebot provide a consistent and smooth interaction throughout the call?
-5.	Will the Voicebot be able to hand-off the call to a NCC Agent when it encounters an error without causing too must frustration for the Veteran?
 
 
 
@@ -49,13 +44,13 @@ This research will provide insights into Veterans' pain points and the limitatio
 
 ## Methodology
 ### Moderated Usability Test
-The research will consist of 7 moderated remote usability test sessions using the Zoom platform. The test will include a moderator, a notetaker, a visual technician, and observers. The visual technician will display information that the Veterans will need to perform each task; this  technician will also dial a telephone number to the Dialoflow Voicebot protoype via the Zoom platform so that the Vetaran can interact with the Voicebot.
+The research will consist of 7 moderated remote usability test sessions using the Zoom platform. The test will include a moderator, a notetaker, a visual technician, and observers. 
 
 ### Location
 The user research sessions will be will be held remotely via the Zoom platform.
 
 ### Artifacts
-Voicebot Prototype Phone Number: (203) 680-8708
+Voicebot Prototype Phone Number: TBD
 
 [Voicebot User Test Plan C1 Conversation Guide](https://github.com/department-of-veterans-affairs/voicebot/blob/master/research/2023-04-User%20Test%20Plan%20C:%20C1%20and%20C2/research-Test%20Plan%20C1/Test%20Plan%20C1%20Conversation%20Guide.md)
 
