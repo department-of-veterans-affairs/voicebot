@@ -33,12 +33,6 @@ This research will provide insights into Veterans' pain points and the limitatio
 
 ### Research questions
 
-1.	What are the words and phrases that Veterans use to ask questions about their disability claims status, or when they inquire about the PACT Act information?
-2.	Will the Voicebot provide a pleasant user experience, or will Veterans find it frustrating to use?
-3.	Will the Voicebot be able to understand different accents, rates of speech, regional dialects, or speech impediments?
-4.	Will the Voicebot provide a consistent and smooth interaction throughout the call?
-5.	Will the Voicebot be able to hand-off the call to a NCC Agent when it encounters an error without causing too must frustration for the Veteran?
-
 
 
 ### Hypothesis
