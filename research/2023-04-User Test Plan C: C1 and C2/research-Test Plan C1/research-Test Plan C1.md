@@ -1,6 +1,5 @@
 # Research Plan for Voicebot User Test Plan C1: Dialogflow Prototype, April 2023
 
-# TBD
 
 ### Background
 The VBA Voicebot team seeks to use human-centered design (HCD) research methods to evaluate Veteran expectations and desired experiences for a VBA Voicebot for telephony, specifically its disability compensation claims status related content and information, as well as PACT Act claim general information.
@@ -26,31 +25,39 @@ This research fits into these points of a Veteran's Journey:
 - Dyeing
 
 ## Research Goals
-The purpose of this research is to understand Veteran's expectations and desires when interacting with a telephony Voicebot virtual assistant. The insights gained from this research will be used to deliver a Voicebot that Veterans will find useful in answering their questions and easy to interact with.
+ - To learn about Veterans’ experiences when they filed VA disability claim(s).
+ - To understand Veteran claim status questions based on detailed persona information.
+ - Explore general topics about VA disability claim status.  
+ - Gather feedback on the Veteran's experience with Voicebot.  
+ - Gather feedback on two different versions, A/B testing, of the Voicebot explaining a timeline regarding information on a disability claim status.
+ - The insights gained from this research will be used to deliver a Voicebot that Veterans will find useful in answering their questions and easy to interact with.
+
 
 ### Outcome
 This research will provide insights into Veterans' pain points and the limitations that they may encounter by interacting with a telephony based virtual agent. This project will also uncover training data, such as words and phrases, that Veterans may use to inquire about their disability claim status and PACT Act related information. The training data will be used to program the Voicebot and ensure that it can provide answers to Veterans' frequently asked questions.  
 
 ### Research questions
 
+1.	What are the terminology and phrases that Veterans use to ask questions about their disability claims status?
+2.	What were some of Veteran’s pain points when filing a VA disability claim.
+3.	What were the positive aspects of filing a VA disability claim?
+4.	What version of the Voicebot’s claim status timeline will the A Veteran feel most satisfied with?
 
 
 
 ### Hypothesis
-*Hypothesis 1:  
-
-*Hypothesis 2: 
+*H<sub>1</sub>: If the Voicebot provides a Veteran with a reasonable claim status timeline, then a Veteran will be satisfied with the information, and will have no need to further escalate the call to a NCC agent.*
 
 
 ## Methodology
 ### Moderated Usability Test
-The research will consist of 7 moderated remote usability test sessions using the Zoom platform. The test will include a moderator, a notetaker, a visual technician, and observers. 
+The research will consist of 7 moderated remote usability test sessions using the Zoom platform. The test will include a moderator, a notetaker, a visual technician, and observers. The visual technician will display information that the Veterans will need to perform each task; this technician will also dial a telephone number to the Dialogflow’s Voicebot prototype via the Zoom platform so that the Veteran can interact with the Voicebot.
 
 ### Location
 The user research sessions will be will be held remotely via the Zoom platform.
 
 ### Artifacts
-Voicebot Prototype Phone Number: TBD
+Voicebot Prototype Phone Number: (203) 680-8708
 
 [Voicebot User Test Plan C1 Conversation Guide](https://github.com/department-of-veterans-affairs/voicebot/blob/master/research/2023-04-User%20Test%20Plan%20C:%20C1%20and%20C2/research-Test%20Plan%20C1/Test%20Plan%20C1%20Conversation%20Guide.md)
 
@@ -59,7 +66,7 @@ Voicebot Prototype Phone Number: TBD
 
 ## Recruitment
 The research team is requesting a Perigean Recruitment Kick-off meeting on:
-- Friday, April 21: Anytime between XXX pm and XXX eastern standard time.
+- Friday, April 21:Anytime between 10:00-10:30 am and 12:30-1:00 pm eastern standard time. 
 
 ### Recruitment criteria
 This research will be using OCTO's Perigean recruiting contractor to enroll 7 Veterans by using a maximum variation sample strategy. The research team requests 10 participants to be recruited as backups; however, recruitment efforts will cease once 7 usabilty test session have been completed. A diverse sample of participants will be recruited across all of the following criteria:
@@ -78,18 +85,22 @@ This research will be using OCTO's Perigean recruiting contractor to enroll 7 Ve
 
 
 ### Screener Questions
-In order for a Veteran to be recruited for this study, they must answer “Yes” to of the question:
+For a Veteran to be recruited for this study, they must answer “Yes” to both of the questions:
 1.	Have you ever filed, or are currently in the process of filing, a disability compensation claim with the VA?
 - 	Yes (Recruit)
 - 	No (Disqualify)
 
+
+2.	Will you have writing supplies (paper, pencil, or pen) handy during testing to write down notes/ideas if the moderator asks you to jot down things?
+- 	Yes (Recruit)
+- 	No (Disqualify)
 
 ### Timeline
 Perigean will begin Veteran recruitment on April 24, 2023
 Actual user test sessions are projected to commence on May 1, 2023 and end on May 5, 2023.
 
 ### Prepare
-A pilot session was conducted and recorded on XXX 2023 at XXX eastern standard time using the Zoom. The participant was a Booz Allen Hamilton employee, XXX.
+A pilot session was conducted and recorded on April XXX 2023 at XXX eastern standard time using the Zoom. The participant was a Booz Allen Hamilton employee, XXX.
 
 ### Research Sessions
 April 10, 2023-May XXX, 2023
