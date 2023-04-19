@@ -25,8 +25,8 @@ This research fits into these points of a Veteran's Journey:
 - Dyeing
 
 ## Research Goals
- - To learn about Veterans’ experiences when they filed VA disability claim(s).
- - To understand Veteran claim status questions based on detailed persona information.
+ - Learn about Veterans’ experiences when they filed VA disability claim(s).
+ - Understand Veteran claim status questions based on detailed persona information.
  - Explore general topics about VA disability claim status.  
  - Gather feedback on the Veteran's experience with Voicebot.  
  - Gather feedback on two different versions, A/B testing, of the Voicebot explaining a timeline regarding information on a disability claim status.
@@ -66,7 +66,7 @@ Voicebot Prototype Phone Number: (203) 680-8708
 
 ## Recruitment
 The research team is requesting a Perigean Recruitment Kick-off meeting on:
-- Friday, April 21:Anytime between 10:00-10:30 am and 12:30-1:00 pm eastern standard time. 
+- Friday, April 21, 2023, either between 10:00-10:30 am and 12:30-1:00 pm eastern standard time. 
 
 ### Recruitment criteria
 This research will be using OCTO's Perigean recruiting contractor to enroll 7 Veterans by using a maximum variation sample strategy. The research team requests 10 participants to be recruited as backups; however, recruitment efforts will cease once 7 usabilty test session have been completed. A diverse sample of participants will be recruited across all of the following criteria:
@@ -91,7 +91,7 @@ For a Veteran to be recruited for this study, they must answer “Yes” to both
 - 	No (Disqualify)
 
 
-2.	Will you have writing supplies (paper, pencil, or pen) handy during testing to write down notes/ideas if the moderator asks you to jot down things?
+2.	Will you have writing supplies (paper, pencil, pen, ect...) handy during testing to write down notes/ideas if the moderator asks you to jot down things?
 - 	Yes (Recruit)
 - 	No (Disqualify)
 
@@ -100,10 +100,10 @@ Perigean will begin Veteran recruitment on April 24, 2023
 Actual user test sessions are projected to commence on May 1, 2023 and end on May 5, 2023.
 
 ### Prepare
-A pilot session was conducted and recorded on April XXX 2023 at XXX eastern standard time using the Zoom. The participant was a Booz Allen Hamilton employee, XXX.
+A pilot session was conducted and recorded on April XXX 2023 at XXX eastern standard time using the Zoom. The participant is a Booz Allen Hamilton employee, XXX.
 
 ### Research Sessions
-April 10, 2023-May XXX, 2023
+April 10, 2023-May 15, 2023
 
 ### Length of sessions
 The length of user sessions will be 1 hour total in length. 
@@ -117,34 +117,29 @@ There will be a maxium of 4 sessions per day.
 ### Availability
 | Team Availability |  Time Slots (ET) |
 | ----------- | ----------- |
-|May 1, 2023  | 10:00 a.m., 12:00 p.m., 2:00 p.m., 4:00 p.m.,.|
+|May 1, 2023  | 10:00 a.m., 12:00 p.m., 2:00 p.m., 4:00 p.m.|
 |May 2, 2023 |10:00 a.m., 12:00 p.m., 2:00 p.m., 4:00 p.m.     |
-|May 3, 2023  |  10:00 a.m., 12:00 p.m., 2:00 p.m., 4:00 p.m.,    |
-|May 4, 2023 |   10:00 a.m., 12:00 p.m., 2:00 p.m., 4:00 p.m.,   |
+|May 3, 2023  |  10:00 a.m., 12:00 p.m., 2:00 p.m., 4:00 p.m., 6:00 p.m.    |
+|May 4, 2023 |   10:00 a.m., 12:00 p.m., 2:00 p.m., 4:00 p.m., 6:00 p.m.   |
 |May 5, 2023 |  10:00 a.m., 12:00 p.m., 2:00 p.m., 4:00 p.m.   |
 
 
 ## Team Roles
 
 #### Moderator: 
-- Julie Naga
-- primary phone number: (443) 803-9566
-- email: naga_julie@bah.com
-
-#### Alternate Moderator: 
-- Nina Anusavice
-- primary phone number: (508) 353-5641
-- email: nina.anusavice@va.gov
-
-#### Alternate Moderator: 
-- Ty Allen 
+- Ty Allen
 - primary phone number: (928) 587-3134
 - email: Allen_Ty@bah.com
 
 #### Alternate Moderator: 
 - Alexandra Byrnes
-- primary phone number: (281) 2107201
-- email:  byrnes_alexandra@bah.com
+- primary phone number: (281) 210-7201
+- email: byrnes_alexandra@bah.com 
+
+#### Alternate Moderator: 
+- Arsalan Jafree
+- primary phone number: (703) 377-3609
+- email: Jafree_Arsalan@bah.com
 
 #### Prototype Technician: 
 - Ty Allen 
@@ -165,21 +160,32 @@ The following observers are to be sent an invatation link for all usability test
 
 ### Research Guide
 - Nina Anusavice
+- Julie Naga
 
 ### Conversation Guide
-- Ty Allen
-- Nina Anusavice
-- Julie Naga
+-	Julie Naga
+-	Ty Allen
+-	Nina Anusavice
+-	Alexandra Byrnes
+
 
 ### Task Visuals
 - Ty Allen
+- Teddy Laguerre
+- Alexandra Byrnes
+
 
 ### Task Development:
-- Nina Anusavice
-- Ty Allen
-- Grace Goodenough
-- Sunayna Goel
-- Nicole Bush
+-Julie Naga
+-	Arsalan Jafree
+-	Ty Allen
+-	Alexandra Byrnes
+-	Grace Goodenough
+-	Sunayna Goel
+-	Nicole Bush
+-	Nina Anusavice
+- Teddy Laguerre
+
 
 ### Project Point of Contact:
 #### Primary
@@ -188,11 +194,6 @@ The following observers are to be sent an invatation link for all usability test
 - email: naga_julie@bah.com
 
 #### Secondary
-- Nina Anusavice
-- primary phone number: (508) 353-5641
-- email: nina.anusavice@va.gov
-
-#### Tertiary
 - Ty Allen 
 - primary phone number: (928) 587-3134
 - email: Allen_Ty@bah.com
