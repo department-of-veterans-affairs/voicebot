@@ -34,7 +34,7 @@ This research fits into these points of a Veteran's Journey:
 
 
 ### Outcome
-This research will provide insights into Veterans' pain points and the limitations that they may encounter by interacting with a telephony based virtual agent. This project will also uncover training data, such as words and phrases, that Veterans may use to inquire about their disability claim status and PACT Act related information. The training data will be used to program the Voicebot and ensure that it can provide answers to Veterans' frequently asked questions.  
+This research will provide insights into Veterans' pain points and the limitations that they may encounter by interacting with a telephony based virtual agent. This project will also uncover training data, such as words and phrases, that Veterans may use to inquire about their disability claim status. The training data will be used to program the Voicebot and ensure that it can provide answers to Veterans' frequently asked questions.  
 
 ### Research questions
 
