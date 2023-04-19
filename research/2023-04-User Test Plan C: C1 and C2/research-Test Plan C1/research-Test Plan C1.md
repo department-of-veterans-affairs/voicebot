@@ -22,7 +22,7 @@ This research fits into these points of a Veteran's Journey:
 - Putting Down Roots
 - Retiring
 - Aging
-- Dyeing
+- Dying
 
 ## Research Goals
  - Learn about Veterans’ experiences when they filed VA disability claim(s).
