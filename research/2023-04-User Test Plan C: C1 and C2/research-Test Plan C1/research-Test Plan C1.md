@@ -61,7 +61,7 @@ Voicebot Prototype Phone Number: (203) 680-8708
 
 [Voicebot User Test Plan C1 Conversation Guide](https://github.com/department-of-veterans-affairs/voicebot/blob/master/research/2023-04-User%20Test%20Plan%20C:%20C1%20and%20C2/research-Test%20Plan%20C1/Test%20Plan%20C1%20Conversation%20Guide.md)
 
-[User Session C1 Visual](https://github.com/department-of-veterans-affairs/voicebot/blob/master/research/2023-04-User%20Test%20Plan%20C:%20C1%20and%20C2/research-Test%20Plan%20C1/Test%20Plan%20C1%20User%20Session%20Visuals.md)
+[User Session C1 Visuals](https://github.com/department-of-veterans-affairs/voicebot/blob/master/research/2023-04-User%20Test%20Plan%20C:%20C1%20and%20C2/research-Test%20Plan%20C1/Test%20Plan%20C1%20User%20Session%20Visuals.md)
 
 
 ## Recruitment
@@ -176,7 +176,7 @@ The following observers are to be sent an invatation link for all usability test
 
 
 ### Task Development:
--Julie Naga
+- Julie Naga
 -	Arsalan Jafree
 -	Ty Allen
 -	Alexandra Byrnes
