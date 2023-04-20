@@ -1,8 +1,13 @@
 # Conversation Guide for Voicebot User Test Plan C1 
 
 This conversation guide is to be used with the Zoom platform with the added Audio Conferencing (telephone call) capability.
-Voicebot Prototype Phone Number: (203) 680-8708
+- Voicebot Prototype Phone Number: (203) 680-8708 
+- [Research Plan for Voicebot User Test C1: Dialogflow Prototype, April 2023](https://github.com/department-of-veterans-affairs/voicebot/blob/master/research/2023-04-User%20Test%20Plan%20C:%20C1%20and%20C2/research-Test%20Plan%20C1/research-Test%20Plan%20C1.md)
 
+- [Test Plan C1 User Session Visuals](https://github.com/department-of-veterans-affairs/voicebot/blob/master/research/2023-04-User%20Test%20Plan%20C:%20C1%20and%20C2/research-Test%20Plan%20C1/Test%20Plan%20C1%20User%20Session%20Visuals.md) 
+ 
+  <P> <BR>
+  
 ## Moderator Logistics
 ### Day of the Session
 1.	Use #feedback-backchannel in Slack for real-time feedback from observers.
@@ -14,7 +19,8 @@ Voicebot Prototype Phone Number: (203) 680-8708
 2.	In the Participant "more" menu, make sure "Play Join and Leave Sound" is unchecked
 3.	Check your [screensharing setup] and share permissions for participants.
 4.	When the participant is ready, begin the session with the following intro*
-
+ <P> <BR>
+   
 ## Observer Instructions
 ### Before the session starts, here are some guidelines:
 1.	You may change your video conference display name to be just your first or preferred name. We encourage you not to change your name to “observer.”
@@ -23,12 +29,13 @@ Voicebot Prototype Phone Number: (203) 680-8708
 4.	At the moderator’s prompt, unmute your camera and microphone and briefly introduce yourself with: Your first or preferred name - Your role with VA.gov.
 5.	When that’s done: - Mute your microphone - Turn off your camera.
 6.	Confine all messaging to the Slack Voicebot_test1_feedbackchannel thread for the session: - Don’t message within the video conference app - Don’t expect the moderator to interact with you.
-**7.	Notetaker: friendly reminder to take notes that are as close to verbatim as possible.**
-
+7. **Notetaker:** Friendly reminder to take notes that are as close to verbatim as possible.
+   
 ## OCTO Introduction
+   
 ### Introduction - 5 minutes
 
-**TECH REP: Shares MSPowerPoint visual in presentation mode – Welcome slide.** 
+**TECH REP: Shares MS PowerPoint visual in Presentation Mode – Welcome Slide.** 
 
 **Moderator:** Thanks for joining us today! My name is **[moderator]** and I have two other colleagues on the call, **(Tech Support)** will be our tech support today and **(Notetaker)** is taking notes. I also have a couple other colleagues in the MS Teams waiting room who would like to observe and take notes.
 
@@ -41,7 +48,8 @@ Voicebot Prototype Phone Number: (203) 680-8708
   
 **Facilitator asks each observer/notetaker to give a brief, camera-on, introduction, like their first name and position with the VA Voicebot project. (This is meant to humanize the interaction of observation for the participant)**
 
-•	Once complete ask notetaker and observers to turn off their cameras for remainder of the session to save bandwidth
+Once complete ask notetaker and observers to turn off their cameras for remainder of the session to save bandwidth.
+   
 **TECH REP: Change to slide Voicebot simple description.**
 
 **Moderator:** Our goal for today is to gather feedback on a prototype Voicebot for telephone interaction with the VA.
@@ -63,14 +71,19 @@ Voicebot Prototype Phone Number: (203) 680-8708
 - If for any reason and at any time you want to stop the session, please let me know.
 - Are you comfortable if I record my screen and audio as we talk today? We use the recordings to confirm that we have captured your opinions accurately. The recordings are destroyed after we complete analysis, and none of your comments will be attributed to you directly they will be kept anonymous.
 - If yes: Once I start recording, I am going to confirm that you are ok with me recording this session once more.
-- TECH REP: Start recording.
-- 
+   
+**TECH REP: Start Recording.**
+
 **Moderator:** I have started recording. I'd like to confirm: Are you comfortable if I record my screen and the audio as we talk today? Your heading.
-**TECH REP: Start the transcript under closed captioning.** 
+   
+**TECH REP: Start the Transcript Under Closed Captioning.** 
+   
 - Do you have any questions at this point?
 
-
+ <P> <BR>
+   
 ### Warm-Up Questions - 5 minutes
+   
 **Moderator:** "Let’s start with a few warm-up questions."
 
 1.	So we have an understanding that you have filed a disability compensation claim with the VA previously.  Could you tell us a bit about what you recall about the experience of that process?
@@ -87,14 +100,14 @@ Voicebot Prototype Phone Number: (203) 680-8708
 **Possible Follow ups:**
 - What was the most helpful or satisfying aspect of calling?
 - If you had a magic wand, What would it take for an automated phone assistant- to be able to offer you to keep you from needing/wanting to talk to an agent?
+ <P> <BR>
 
-
-### First Task: Open Discussion about Persona - 15 minutes
+### First Task: Open Discussion About Persona - 15 minutes
 
  **Moderator:** Thank you for answering those questions.
 - What we would like you do consider another Veterans story.
 
-**TECH REP: Slide with Storyboard** 
+**TECH REP: Slide with Storyboard.** 
 
 **Moderator:** What we would like you to do now is look at the screen and discuss another notional Veteran’s experience with filing a disability compensation claim.  
 - Let’s get familiar with Tati and their basic story.
@@ -129,8 +142,9 @@ Voicebot Prototype Phone Number: (203) 680-8708
 - Now that we are familiar with [NAME] and what areas of their claim status would.
 - We would like you to take two minutes and jot notes down on what you would want to know as **[NAME]**
 - Lets take a brief moment to have you write down any questions that you may want to ask the Voicebot about your current claims status.
-- Second Task: Veteran call the Voicebot - 25minutes
-- Tech Rep: change slide to phone number to call Voicebot
+- Second Task: Veteran call the Voicebot - 25 minutes.
+   
+**Tech Rep: change slide to phone number to call Voicebot.**
 
 **Moderator:** In this Session, we provided you with a "character" to portray and interact with the Voicebot. 
 - Now that you have some notes about what to ask the Voicebot about your/Tati's claim we will have you dial (203)- 680-8708 and try to get answers to questions about here claim with the VB.
@@ -150,7 +164,7 @@ Voicebot Prototype Phone Number: (203) 680-8708
 - How satisfied were you with the information the VB provided?
 
 ### Third Task: A/B Audio Content – 5 minutes
-**Tech Rep: change slide to version 1 slide**
+**Tech Rep: Change Slide to Version 1 Slide**
 
 **Moderator:** So now, we are going to shift tasks. We are done being Tati but, we want to get your opinions on the way the Voicebot would respond to Veterans about claims timeline information. We are going to have you listen to two different audio recordings to get your preferences between them.
 - Please tell us what is more satisfactory? 1st or 2nd?
