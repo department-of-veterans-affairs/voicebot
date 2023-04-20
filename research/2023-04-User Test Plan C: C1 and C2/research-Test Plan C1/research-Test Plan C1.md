@@ -61,7 +61,7 @@ The user research sessions will be will be held remotely via the Zoom platform.
 
 - [Voicebot User Test Plan C1 Conversation Guide](https://github.com/department-of-veterans-affairs/voicebot/blob/master/research/2023-04-User%20Test%20Plan%20C:%20C1%20and%20C2/research-Test%20Plan%20C1/2023-04%20Voicebot%20User%20Test%20Plan%20C1%20Conversation%20Guide%20.md)
 
-- [User Session C1 Visuals](https://github.com/department-of-veterans-affairs/voicebot/blob/master/research/2023-04-User%20Test%20Plan%20C:%20C1%20and%20C2/research-Test%20Plan%20C1/User_Session_C_Visuals_clean.pdf)
+- [User Session C1 Visuals Clean](https://github.com/department-of-veterans-affairs/voicebot/blob/master/research/2023-04-User%20Test%20Plan%20C:%20C1%20and%20C2/research-Test%20Plan%20C1/User_Session_C_Visuals_clean.pdf)
 
 
 ## Recruitment
