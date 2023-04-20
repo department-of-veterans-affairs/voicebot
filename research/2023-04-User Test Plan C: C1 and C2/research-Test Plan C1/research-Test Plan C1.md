@@ -57,11 +57,11 @@ The research will consist of 7 moderated remote usability test sessions using th
 The user research sessions will be will be held remotely via the Zoom platform.
 
 ### Artifacts
-Voicebot Prototype Phone Number: (203) 680-8708
+- Voicebot Prototype Phone Number: (203) 680-8708
 
-[Voicebot User Test Plan C1 Conversation Guide](https://github.com/department-of-veterans-affairs/voicebot/blob/master/research/2023-04-User%20Test%20Plan%20C:%20C1%20and%20C2/research-Test%20Plan%20C1/Test%20Plan%20C1%20Conversation%20Guide.md)
+- [Voicebot User Test Plan C1 Conversation Guide](https://github.com/department-of-veterans-affairs/voicebot/blob/master/research/2023-04-User%20Test%20Plan%20C:%20C1%20and%20C2/research-Test%20Plan%20C1/Test%20Plan%20C1%20Conversation%20Guide.md)
 
-[User Session C1 Visuals](https://github.com/department-of-veterans-affairs/voicebot/blob/master/research/2023-04-User%20Test%20Plan%20C:%20C1%20and%20C2/research-Test%20Plan%20C1/Test%20Plan%20C1%20User%20Session%20Visuals.md)
+- [User Session C1 Visuals](https://github.com/department-of-veterans-affairs/voicebot/blob/master/research/2023-04-User%20Test%20Plan%20C:%20C1%20and%20C2/research-Test%20Plan%20C1/User_Session_C_Visuals_clean.pdf)
 
 
 ## Recruitment
