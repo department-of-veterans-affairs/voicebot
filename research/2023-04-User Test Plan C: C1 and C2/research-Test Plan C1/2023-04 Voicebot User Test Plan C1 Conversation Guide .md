@@ -4,7 +4,7 @@ This conversation guide is to be used with the Zoom platform with the added Audi
 - Voicebot Prototype Phone Number: (203) 680-8708 
 - [Research Plan for Voicebot User Test C1: Dialogflow Prototype, April 2023](https://github.com/department-of-veterans-affairs/voicebot/blob/master/research/2023-04-User%20Test%20Plan%20C:%20C1%20and%20C2/research-Test%20Plan%20C1/research-Test%20Plan%20C1.md)
 
-- [Test Plan C1 User Session Visuals](https://github.com/department-of-veterans-affairs/voicebot/blob/master/research/2023-04-User%20Test%20Plan%20C:%20C1%20and%20C2/research-Test%20Plan%20C1/Test%20Plan%20C1%20User%20Session%20Visuals.md) 
+- [Test Plan C1 User Session Visuals Clean](https://github.com/department-of-veterans-affairs/voicebot/blob/master/research/2023-04-User%20Test%20Plan%20C:%20C1%20and%20C2/research-Test%20Plan%20C1/User_Session_C_Visuals_clean.pdf) 
  
   <P> <BR>
   
