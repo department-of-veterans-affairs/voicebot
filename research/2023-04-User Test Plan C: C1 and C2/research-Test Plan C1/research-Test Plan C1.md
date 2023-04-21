@@ -65,6 +65,10 @@ The user research sessions will be will be held remotely via the Zoom platform.
 
 - [User Session C1 Visuals Clean](https://github.com/department-of-veterans-affairs/voicebot/blob/master/research/2023-04-User%20Test%20Plan%20C:%20C1%20and%20C2/research-Test%20Plan%20C1/User_Session_C_Visuals_clean.pdf)
 
+- [Audio Clip A for AB Testing Task.wav](https://github.com/department-of-veterans-affairs/voicebot/blob/master/research/2023-04-User%20Test%20Plan%20C:%20C1%20and%20C2/research-Test%20Plan%20C1/Audio%20Clip%20A%20for%20AB%20Testing%20Task.wav)
+
+- [Audio Clip B for AB Testing Task.wav](https://github.com/department-of-veterans-affairs/voicebot/blob/master/research/2023-04-User%20Test%20Plan%20C:%20C1%20and%20C2/research-Test%20Plan%20C1/Audio%20Clip%20B%20for%20AB%20Testing%20Task.wav)
+
 
 ## Recruitment
 The research team is requesting a Perigean Recruitment Kick-off meeting on:
