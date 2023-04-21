@@ -1,7 +1,7 @@
 # voicebot
 
 ## Ticketing System
-Jira: https://jira.boozallencsn.com/projects/VOICEBOT/summary
+Jira: https://vajira.max.gov/secure/RapidBoard.jspa?rapidView=9147&projectKey=VOIC&quickFilter=36252
 
 Confluence: https://confluence.boozallencsn.com/display/VOICEBOT/VOICEBOT+Home
 
