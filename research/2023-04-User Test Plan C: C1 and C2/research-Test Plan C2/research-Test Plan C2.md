@@ -100,7 +100,7 @@ Perigean will begin Veteran recruitment on April 24, 2023
 Actual user test sessions are projected to commence on May 1, 2023 and end on May 5, 2023.
 
 ### Prepare
-A pilot session was conducted and recorded on XXX 2023 at XXX eastern standard time using the Zoom. The participant was a Booz Allen Hamilton employee, XXX.
+A pilot session was conducted and recorded on May 24, 2023 at 1:30 p.m. eastern standard time using the Zoom. The participant was a Booz Allen Hamilton employee, Teddy Laguerre.
 
 ### Research Sessions
 May 1, 2023-May 5, 2023
@@ -136,23 +136,15 @@ There will be a maxium of 4 sessions per day.
 - primary phone number: (508) 353-5641
 - email: nina.anusavice@va.gov
 
-#### Alternate Moderator: 
-- Ty Allen 
-- primary phone number: (928) 587-3134
-- email: Allen_Ty@bah.com
 
-#### Alternate Moderator: 
-- Alexandra Byrnes
-- primary phone number: (281) 2107201
-- email:  byrnes_alexandra@bah.com
 
 #### Prototype Technician: 
-- Ty Allen 
-- email: Allen_Ty@bah.com
+- Teddy Laguerre
+- email: Laguerre_Teddy@bah.com 
 
 #### Notetaker:
-- Alexandra Byrnes
-- email: byrnes_alexandra@bah.com
+- Grace Goodenough
+- email: goodenough_grace@bah.com
 
 ### Observers:
 The following observers are to be sent an invatation link for all usability test sessions.
@@ -168,19 +160,29 @@ The following observers are to be sent an invatation link for all usability test
 - Julie Naga
 
 ### Conversation Guide
+- Julie Naga
 - Ty Allen
 - Nina Anusavice
+- Alexandra Byrnes
 
 
 ### Task Visuals
 - Ty Allen
+- Teddy Laguerre
+- Alexandra Byrnes
+
 
 ### Task Development:
-- Nina Anusavice
+- Julie Naga
+- Arsalan Jafree
 - Ty Allen
+- Alexandra Byrnes
 - Grace Goodenough
 - Sunayna Goel
 - Nicole Bush
+- Nina Anusavice
+- Teddy Laguerre
+
 
 ### Project Point of Contact:
 #### Primary
