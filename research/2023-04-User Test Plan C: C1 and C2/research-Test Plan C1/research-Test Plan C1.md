@@ -6,7 +6,7 @@ The VBA Voicebot team seeks to use human-centered design (HCD) research methods 
 
 This project will focus on the desired experience for Veterans calling the VA National Call Center and selecting to use the Voicebot telephony option. User research will focus on the desirability and perceived usefulness of claims status and PACT Act related content and information via a notional Voicebot which will inform future product roadmaps and content. The Dialogflow Virtual Agent IVR prototype will be used during usability test with Veterans.  
 
-[NCC's Voicebot Proof of Concept](https://github.com/department-of-veterans-affairs/voicebot/blob/master/research/2023-03-User%20Test%20Plan%20B/NCC%20Voicebot%20Proof%20Of%20Concept.md)
+- [NCC's Voicebot Proof of Concept](https://github.com/department-of-veterans-affairs/voicebot/blob/master/research/2023-03-User%20Test%20Plan%20B/NCC%20Voicebot%20Proof%20Of%20Concept.md)
 
 ### OCTO Objectives
 This research supports the following OCTO objectives:
