@@ -1,6 +1,4 @@
-# Research Plan for Voicebot User Test Plan C2: Dialogflow Prototype, April 2023
-
-# TBD
+# Research Plan for Voicebot User Test Plan C2: Dialogflow Prototype, May 2023
 
 ### Background
 The VBA Voicebot team seeks to use human-centered design (HCD) research methods to evaluate Veteran expectations and desired experiences for a VBA Voicebot for telephony, specifically its disability compensation claims status related content and information, as well as PACT Act claim general information.
@@ -26,19 +24,24 @@ This research fits into these points of a Veteran's Journey:
 - Dyeing
 
 ## Research Goals
-The purpose of this research is to understand Veteran's expectations and desires when interacting with a telephony Voicebot virtual assistant. The insights gained from this research will be used to deliver a Voicebot that Veterans will find useful in answering their questions and easy to interact with.
+-
 
 ### Outcome
 This research will provide insights into Veterans' pain points and the limitations that they may encounter by interacting with a telephony based virtual agent. This project will also uncover training data, such as words and phrases, that Veterans may use to inquire about their disability claim status and PACT Act related information. The training data will be used to program the Voicebot and ensure that it can provide answers to Veterans' frequently asked questions.  
 
 ### Research questions
+- Understand Veterans’ PACT Act questions based on detailed persona information.
+- Explore general topics about the PACT Act.
+- Gather feedback on the Veteran's experience with Voicebot on PACT Act information. 
+- Gather feedback on two different versions, A/B testing, of the Voicebot explaining a timeline regarding information on the PACT Act.
+- The insights gained from this research will be used to deliver a Voicebot that Veterans will find useful in answering their questions and easy to interact with.
 
 
 
 ### Hypothesis
-*Hypothesis 1:  
+*Hypothesis 1: If Veterans have basic information about a claim, they will be able to generate questions to ask the Voicebot.
 
-*Hypothesis 2: 
+*Hypothesis 2: If Veterans are provided two versions of Voicebot content, they will be able to provide preferences and opinions between the two.
 
 
 ## Methodology
@@ -57,7 +60,7 @@ Voicebot Prototype Phone Number: (203) 680-8708
 
 ## Recruitment
 The research team is requesting a Perigean Recruitment Kick-off meeting on:
-- Friday, April 21: Anytime between XXX pm and XXX eastern standard time.
+- Friday, April 21, 2023 at 12:30 pm eastern standard time.
 
 ### Recruitment criteria
 This research will be using OCTO's Perigean recruiting contractor to enroll 7 Veterans by using a maximum variation sample strategy. The research team requests 10 participants to be recruited as backups; however, recruitment efforts will cease once 7 usabilty test session have been completed. A diverse sample of participants will be recruited across all of the following criteria:
@@ -72,6 +75,8 @@ This research will be using OCTO's Perigean recruiting contractor to enroll 7 Ve
 **At least 1** of the following recruitment criteria must be met in order for a Veteran to be considered for this study:
 - Veterans who have prior experience with filing a VA disability compensation claim.
 - Veterans who are currently in the process of filing a VA disability compensation claim.
+- Veterans most log into the testing session with either a desktop, laptop, or a tablet.
+- Veterans most use a phone with speaker a capability for placing a call to the Voicebot during the testing session.
 
 
 
@@ -82,6 +87,11 @@ In order for a Veteran to be recruited for this study, they must answer “Yes�
 - 	No (Disqualify)
 
 
+2.	Will you have writing supplies (paper, pencil, pen, ect...) handy during testing to write down notes/ideas if the moderator asks you to jot down things?
+- 	Yes (Recruit)
+-   No (Disqualify)
+
+
 ### Timeline
 Perigean will begin Veteran recruitment on April 24, 2023
 Actual user test sessions are projected to commence on May 1, 2023 and end on May 5, 2023.
@@ -90,7 +100,7 @@ Actual user test sessions are projected to commence on May 1, 2023 and end on Ma
 A pilot session was conducted and recorded on XXX 2023 at XXX eastern standard time using the Zoom. The participant was a Booz Allen Hamilton employee, XXX.
 
 ### Research Sessions
-April 10, 2023-May XXX, 2023
+May 1, 2023-May 5, 2023
 
 ### Length of sessions
 The length of user sessions will be 1 hour total in length. 
@@ -104,10 +114,10 @@ There will be a maxium of 4 sessions per day.
 ### Availability
 | Team Availability |  Time Slots (ET) |
 | ----------- | ----------- |
-|May 1, 2023  | 10:00 a.m., 12:00 p.m., 2:00 p.m., 4:00 p.m.,.|
+|May 1, 2023  | 10:00 a.m., 12:00 p.m., 2:00 p.m., 4:00 p.m. |
 |May 2, 2023 |10:00 a.m., 12:00 p.m., 2:00 p.m., 4:00 p.m.     |
-|May 3, 2023  |  10:00 a.m., 12:00 p.m., 2:00 p.m., 4:00 p.m.,    |
-|May 4, 2023 |   10:00 a.m., 12:00 p.m., 2:00 p.m., 4:00 p.m.,   |
+|May 3, 2023  |  10:00 a.m., 12:00 p.m., 2:00 p.m., 4:00 p.m., 6:00 p.m.   |
+|May 4, 2023 |   10:00 a.m., 12:00 p.m., 2:00 p.m., 4:00 p.m., 6:00 p.m.  |
 |May 5, 2023 |  10:00 a.m., 12:00 p.m., 2:00 p.m., 4:00 p.m.   |
 
 
@@ -152,11 +162,12 @@ The following observers are to be sent an invatation link for all usability test
 
 ### Research Guide
 - Nina Anusavice
+- Julie Naga
 
 ### Conversation Guide
 - Ty Allen
 - Nina Anusavice
-- Julie Naga
+
 
 ### Task Visuals
 - Ty Allen
