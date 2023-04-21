@@ -87,6 +87,8 @@ This research will be using OCTO's Perigean recruiting contractor to enroll 7 Ve
 **At least 1** of the following recruitment criteria must be met in order for a Veteran to be considered for this study:
 - Veterans who have prior experience with filing a VA disability compensation claim.
 - Veterans who are currently in the process of filing a VA disability compensation claim.
+- Veterans most log into the testing session with either a desktop, laptop, or a tablet.
+- Veterans most use a phone with speaker a capability for placing a call to the Voicebot during the testing session.
 
 
 
@@ -103,13 +105,13 @@ For a Veteran to be recruited for this study, they must answer “Yes” to both
 
 ### Timeline
 Perigean will begin Veteran recruitment on April 24, 2023
-Actual user test sessions are projected to commence on May 1, 2023 and end on May 5, 2023.
+Actual user test sessions are projected to commence on May 1, 2023, and end on May 5, 2023.
 
 ### Prepare
-A pilot session was conducted and recorded on April XXX 2023 at XXX eastern standard time using the Zoom. The participant is a Booz Allen Hamilton employee, XXX.
+A pilot session was conducted and recorded on April 24, 2023 at 1:30 pm eastern standard time using the Zoom. The participant is a Booz Allen Hamilton employee, Teddy Laguerre.
 
 ### Research Sessions
-April 10, 2023-May 15, 2023
+May 1, 2023-May 5, 2023
 
 ### Length of sessions
 The length of user sessions will be 1 hour total in length. 
