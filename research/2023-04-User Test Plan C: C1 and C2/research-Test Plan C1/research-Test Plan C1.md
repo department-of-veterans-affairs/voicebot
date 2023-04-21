@@ -46,7 +46,7 @@ This research will provide insights into Veterans' pain points and the limitatio
 
 
 ### Hypothesis
-*H<sub>1</sub>:If Veterans have basic information about a claim, then they will be able to generate questions to ask the Voicebot.*
+*H<sub>1</sub>: If Veterans have basic information about a claim, then they will be able to generate questions to ask the Voicebot.*
 
 *H<sub>2</sub>: If Veterans are provided two versions of Voicebot content, then they will be able to provide preferences and opnions between the two.*
 
