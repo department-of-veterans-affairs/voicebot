@@ -24,22 +24,25 @@ This research fits into these points of a Veteran's Journey:
 - Dyeing
 
 ## Research Goals
--
-
-### Outcome
-This research will provide insights into Veterans' pain points and the limitations that they may encounter by interacting with a telephony based virtual agent. This project will also uncover training data, such as words and phrases, that Veterans may use to inquire about their disability claim status and PACT Act related information. The training data will be used to program the Voicebot and ensure that it can provide answers to Veterans' frequently asked questions.  
-
-### Research questions
 - Understand Veterans’ PACT Act questions based on detailed persona information.
 - Explore general topics about the PACT Act.
 - Gather feedback on the Veteran's experience with Voicebot on PACT Act information. 
 - Gather feedback on two different versions, A/B testing, of the Voicebot explaining a timeline regarding information on the PACT Act.
 - The insights gained from this research will be used to deliver a Voicebot that Veterans will find useful in answering their questions and easy to interact with.
 
+### Outcome
+This research will provide insights into Veterans' pain points and the limitations that they may encounter by interacting with a telephony based virtual agent. This project will also uncover training data, such as words and phrases, that Veterans may use to inquire about their disability claim status and PACT Act related information. The training data will be used to program the Voicebot and ensure that it can provide answers to Veterans' frequently asked questions.  
+
+### Research questions
+1.	What are the terminology and phrases that Veterans use to ask questions about the PACT Act?
+2.	What were some of Veteran’s pain points around the PACT Act?
+3.	What version of the Voicebot’s PACT Act timeline will the A Veteran feel most satisfied with?          
+
+
 
 
 ### Hypothesis
-*Hypothesis 1: If Veterans have basic information about a claim, they will be able to generate questions to ask the Voicebot.
+*Hypothesis 1: If Veterans have basic information about presumptive conditions and military records, they will be able to generate questions to ask the Voicebot about PACT Act eligibility.
 
 *Hypothesis 2: If Veterans are provided two versions of Voicebot content, they will be able to provide preferences and opinions between the two.
 
