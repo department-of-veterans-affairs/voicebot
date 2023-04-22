@@ -2,13 +2,13 @@
 
 This conversation guide is to be used with the Zoom platform with the added Audio Conferencing (telephone call) capability.
 - Voicebot Prototype Phone Number: (203) 680-8708
-- [Research Plan for Voicebot User Test C2: Dialogflow Prototype, May 2023]()
+- [Research Plan for Voicebot User Test C2: Dialogflow Prototype, May 2023](https://github.com/department-of-veterans-affairs/voicebot/blob/master/research/2023-04-User%20Test%20Plan%20C:%20C1%20and%20C2/research-Test%20Plan%20C2/research-Test%20Plan%20C2.md)
 
-- [Test Plan C2 User Session Visuals Clean]() 
+- [Test Plan C2 User Session Visuals Clean](https://github.com/department-of-veterans-affairs/voicebot/blob/master/research/2023-04-User%20Test%20Plan%20C:%20C1%20and%20C2/research-Test%20Plan%20C2/User_Session_C_Visuals_clean.pdf) 
 
-- [Audio Clip A for AB Testing Task.wav]()
+- [Audio Clip A for AB Testing Task.wav](https://github.com/department-of-veterans-affairs/voicebot/blob/master/research/2023-04-User%20Test%20Plan%20C:%20C1%20and%20C2/research-Test%20Plan%20C2/Audio%20Clip%20A%20for%20AB%20Testing%20Task.wav)
 
-- [Audio Clip B for AB Testing Task.wav]()
+- [Audio Clip B for AB Testing Task.wav](https://github.com/department-of-veterans-affairs/voicebot/blob/master/research/2023-04-User%20Test%20Plan%20C:%20C1%20and%20C2/research-Test%20Plan%20C2/Audio%20Clip%20B%20for%20AB%20Testing%20Task.wav)
 
   <P> <BR>
 
