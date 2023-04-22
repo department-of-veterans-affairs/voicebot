@@ -132,7 +132,8 @@ Once complete ask notetaker and observers to turn off their cameras for remainde
 
 - Here are some more details about Tati.
 
-**time to review-Veteran reviews silently**
+**Time to review-Veteran reviews silently**
+  
 - Now that we are familiar with Tati we would like you to think about what questions you have would have about the status of their claims filing.
 
 - Could you look over and tell us what questions you would have if you were them about their claim?
@@ -168,6 +169,7 @@ Once complete ask notetaker and observers to turn off their cameras for remainde
 - How satisfied were you with the information the VB provided?
 
 ### Third Task: A/B Audio Content – 5 minutes
+  
 **Tech Rep: Change Slide to Version 1 Slide**
 
 **Moderator:** So now, we are going to shift tasks. We are done being Tati but, we want to get your opinions on the way the Voicebot would respond to Veterans about claims timeline information. We are going to have you listen to two different audio recordings to get your preferences between them.
