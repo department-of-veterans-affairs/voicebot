@@ -23,8 +23,11 @@ Starting the Session
 3.	Check your [screensharing setup] and share permissions for participants.
 4.	When the participant is ready, begin the session with the following intro*
 <P> <BR>
+  
 ## Observer Instructions
+  
 ### Before the session starts, here are some guidelines:
+  
 1.	You may change your video conference display name to be just your first or preferred name. We encourage you not to change your name to “observer.”
 2.	Sign into the session with your microphone muted.
 3.	If you aren’t admitted directly: Wait in the MS Teams waiting room while the moderator begins the session - If the participant approves your presence, as in the majority of cases, the moderator will soon admit observers into the session - If there are issues, the moderator should be in contact via Slack.
