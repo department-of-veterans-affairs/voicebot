@@ -1,0 +1,9 @@
+{
+  "name": "7cc09211-b81d-4981-a281-efdaeecf417d",
+  "displayName": "Negative",
+  "parameters": [ {
+    "id": "date-time",
+    "entityType": "@sys.date-time"
+  } ],
+  "priority": 500000
+}

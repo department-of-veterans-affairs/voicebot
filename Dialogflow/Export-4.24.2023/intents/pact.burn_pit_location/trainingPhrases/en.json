@@ -1,0 +1,133 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "I was in ",
+      "auto": true
+    }, {
+      "text": "Somilia",
+      "parameterId": "pact_known_locations",
+      "auto": true
+    }, {
+      "text": " in ",
+      "auto": true
+    }, {
+      "text": "Dec 1992 thru Feb 1993",
+      "parameterId": "date-period",
+      "auto": true
+    }, {
+      "text": " with burn pits and field latrines as our only means of disposing of waste.",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I was right next to pits, ",
+      "auto": true
+    }, {
+      "text": "Kandahar",
+      "parameterId": "geo-city",
+      "auto": true
+    }, {
+      "text": " Air Force Base, ",
+      "auto": true
+    }, {
+      "text": "Afghanistan",
+      "parameterId": "pact_known_locations",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I didn't know if ",
+      "auto": true
+    }, {
+      "text": "Vietnam",
+      "parameterId": "geo-country",
+      "auto": true
+    }, {
+      "text": " veterans disabilities were expanded because of the Camp Lejuene problems with toxins",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I am a ",
+      "auto": true
+    }, {
+      "text": "Vietnam",
+      "parameterId": "geo-country",
+      "auto": true
+    }, {
+      "text": " disabled Vet and am wondering if I am eligible for burn pit compensation.",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "was there toxic problems at Ft McClellan, ",
+      "auto": true
+    }, {
+      "text": "Alabama",
+      "parameterId": "geo-state",
+      "auto": true
+    }, {
+      "text": " in the early ",
+      "auto": true
+    }, {
+      "text": "1970's",
+      "parameterId": "date-period",
+      "auto": true
+    }, {
+      "text": " like at camp Lejeune",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "is ",
+      "auto": true
+    }, {
+      "text": "kenay",
+      "parameterId": "person",
+      "auto": true
+    }, {
+      "text": " part of the burn pit registry",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "burn pit registry ",
+      "auto": true
+    }, {
+      "text": "Turkey",
+      "parameterId": "geo-country",
+      "auto": true
+    }, {
+      "text": " ?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "is incirlik aba Turkey a burn pit ",
+      "auto": true
+    }, {
+      "text": "area",
+      "parameterId": "pact_known_locations",
+      "auto": true
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

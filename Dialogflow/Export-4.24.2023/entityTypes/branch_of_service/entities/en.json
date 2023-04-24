@@ -1,0 +1,23 @@
+{
+  "entities": [ {
+    "value": "1",
+    "synonyms": [ "1", "army" ],
+    "languageCode": "en"
+  }, {
+    "value": "2",
+    "synonyms": [ "2", "navy" ],
+    "languageCode": "en"
+  }, {
+    "value": "3",
+    "synonyms": [ "3", "marine corps", "marines" ],
+    "languageCode": "en"
+  }, {
+    "value": "4",
+    "synonyms": [ "4", "airforce" ],
+    "languageCode": "en"
+  }, {
+    "value": "5",
+    "synonyms": [ "5", "coast guard", "guard", "national guard", "reserves" ],
+    "languageCode": "en"
+  } ]
+}

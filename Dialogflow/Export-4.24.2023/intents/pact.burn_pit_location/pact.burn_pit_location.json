@@ -1,0 +1,24 @@
+{
+  "name": "6f4b5ad9-ae45-4fcc-8f5b-00051436a81a",
+  "displayName": "pact.burn_pit_location",
+  "parameters": [ {
+    "id": "person",
+    "entityType": "@sys.person"
+  }, {
+    "id": "geo-country",
+    "entityType": "@sys.geo-country"
+  }, {
+    "id": "pact_known_locations",
+    "entityType": "@pact_known_locations"
+  }, {
+    "id": "geo-state",
+    "entityType": "@sys.geo-state"
+  }, {
+    "id": "date-period",
+    "entityType": "@sys.date-period"
+  }, {
+    "id": "geo-city",
+    "entityType": "@sys.geo-city"
+  } ],
+  "priority": 500000
+}

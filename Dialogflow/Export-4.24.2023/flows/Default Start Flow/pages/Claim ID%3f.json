@@ -1,0 +1,35 @@
+{
+  "name": "f3e04774-438d-4b15-93e2-a8409a2b9803",
+  "displayName": "Claim ID?",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Do you know your claim ID?" ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "Affirmative",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Give Claim ID",
+    "name": "7f6880d6-5a37-4542-bb14-f5ac18d45b71"
+  }, {
+    "intent": "Negative",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "That's okay. I can still look up your claim. " ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Claim Status Start",
+    "name": "5a70b2ab-bcb6-4acf-bef7-9bbf66e1f514"
+  } ]
+}

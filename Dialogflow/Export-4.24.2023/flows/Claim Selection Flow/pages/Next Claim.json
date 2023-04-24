@@ -1,0 +1,31 @@
+{
+  "name": "5e5a13df-6d07-4cdb-b9a7-96bde01b094c",
+  "displayName": "Next Claim",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "webhook": "Test Gateway",
+    "tag": "claim_list_increment"
+  },
+  "transitionRoutes": [ {
+    "condition": "$session.params.current_claim_index \u003e= $session.params.claim_count",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Those are all the claims on your VA account. " ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Repeat Claim List",
+    "name": "28ec6bcb-626c-4b50-b5d3-0885dab8186c"
+  }, {
+    "condition": "$session.params.current_claim_index \u003c $session.params.claim_count",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Select Claim",
+    "name": "145b72cd-1f14-4c02-bdb6-549f73e412f8"
+  } ]
+}

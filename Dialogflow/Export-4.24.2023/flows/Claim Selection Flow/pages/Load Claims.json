@@ -1,0 +1,59 @@
+{
+  "name": "9199ddb8-129e-446b-b6bd-26dfe33d8aac",
+  "displayName": "Load Claims",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+  
+  },
+  "transitionRoutes": [ {
+    "condition": "$session.params.claim_count = null",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "There was an issue looking up your claims." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "End Session",
+    "name": "48a4a296-7e45-4de3-bf94-868cf7f5bfab"
+  }, {
+    "condition": "$session.params.claim_count = 0",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I can't find any claims filed on your account. I can connect you to a VA representative who may be able to help. Would you like to be connected now?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetFlow": "Connect to agent",
+    "name": "1d4d2b83-a62f-4adf-b6b0-7f6d41c3488e"
+  }, {
+    "condition": "$session.params.claim_count = 1",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I see you have one claim." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Select Claim",
+    "name": "b1ec58ed-0dc8-403b-b5ab-cddc9a1d22e4"
+  }, {
+    "condition": "$session.params.claim_count \u003e 1",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I see you have $session.params.claim_count claims." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Select Claim",
+    "name": "9e99526b-b804-4fa1-a6b7-05203f1b3b22"
+  } ]
+}

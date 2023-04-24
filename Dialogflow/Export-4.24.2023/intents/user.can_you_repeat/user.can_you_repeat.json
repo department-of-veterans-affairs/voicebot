@@ -1,0 +1,9 @@
+{
+  "name": "63be0fbc-48e7-41b9-8074-29e5a9a21d48",
+  "displayName": "user.can_you_repeat",
+  "parameters": [ {
+    "id": "pact_known_illnesses",
+    "entityType": "@pact_known_illnesses"
+  } ],
+  "priority": 500000
+}

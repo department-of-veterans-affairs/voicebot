@@ -1,0 +1,114 @@
+{
+  "name": "8dd8ab6c-a915-44f5-ac10-0a245ffb93e6",
+  "tags": [ "#dev", "#test" ],
+  "displayName": "claims_status.why_is_it_taking_so_long",
+  "notes": "matched intent at beginning of flow, asks would you like to authenticate",
+  "testCaseConversationTurns": [ {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "hello"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "sessionParameters": {
+        "first_time": false
+      },
+      "triggeredIntent": {
+        "name": "Default Welcome Intent"
+      },
+      "currentPage": {
+        "name": "Main",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Thanks for trying out this new way to get help. You can still reach an agent at any time. " ],
+        "allowPlaybackInterruption": true
+      }, {
+        "text": [ "To get started, ask me a question like “What’s my claim status?” or “What does the PACT Act do for Veterans like me?”" ],
+        "allowPlaybackInterruption": true
+      } ],
+      "currentFlow": {
+        "name": "projects/voicebotgcp-783263/locations/global/agents/51075457-4245-4f79-bf42-6e90f073b640/flows/00000000-0000-0000-0000-000000000000",
+        "displayName": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "I want to know why my claim is taking so long"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "sessionParameters": {
+        "first_time": false
+      },
+      "triggeredIntent": {
+        "name": "claims_status.why_is_my_claim_taking_so_long"
+      },
+      "currentPage": {
+        "name": "Want to Authenticate?",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "I'm sorry about the length of time it's taking to decide your claim. " ],
+        "allowPlaybackInterruption": true
+      }, {
+        "text": [ "Would you like me to look up your account to see if there are any updates on your claim?" ],
+        "allowPlaybackInterruption": true
+      } ],
+      "currentFlow": {
+        "name": "projects/voicebotgcp-783263/locations/global/agents/51075457-4245-4f79-bf42-6e90f073b640/flows/00000000-0000-0000-0000-000000000000",
+        "displayName": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "yes please"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "sessionParameters": {
+        "first_time": false,
+        "try_count": 1
+      },
+      "triggeredIntent": {
+        "name": "Affirmative"
+      },
+      "currentPage": {
+        "name": "Third party caller",
+        "flow": "Authentication Flow"
+      },
+      "textResponses": [ {
+        "text": [ "I can help you get more information about your claim." ],
+        "allowPlaybackInterruption": true
+      }, {
+        "text": [ "First, let me confirm your information for security purposes. Are you the Veteran?" ],
+        "allowPlaybackInterruption": true
+      } ],
+      "currentFlow": {
+        "name": "projects/voicebotgcp-783263/locations/global/agents/51075457-4245-4f79-bf42-6e90f073b640/flows/ff31c7b8-a753-4813-933f-392fe9eb0691",
+        "displayName": "Authentication Flow"
+      }
+    }
+  } ],
+  "creationTime": {
+    "seconds": 1680013501,
+    "nanos": 56127000
+  },
+  "testConfig": {
+    "flow": "Default Start Flow"
+  }
+}

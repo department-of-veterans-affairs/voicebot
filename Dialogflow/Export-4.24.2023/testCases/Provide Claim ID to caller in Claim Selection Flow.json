@@ -1,0 +1,321 @@
+{
+  "name": "cf14c475-bf6b-4934-b244-fa6d06201c2f",
+  "tags": [ "#dev", "#test", "#VB-481" ],
+  "displayName": "Provide Claim ID to caller in Claim Selection Flow",
+  "testCaseConversationTurns": [ {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "hello"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "sessionParameters": {
+        "first_time": false
+      },
+      "triggeredIntent": {
+        "name": "Default Welcome Intent"
+      },
+      "currentPage": {
+        "name": "Main",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Thanks for trying out this new way to get help. You can still reach an agent at any time. " ],
+        "allowPlaybackInterruption": true
+      }, {
+        "text": [ "To get started, ask me a question like “What’s my claim status?” or “What does the PACT Act do for Veterans like me?”" ],
+        "allowPlaybackInterruption": true
+      } ],
+      "currentFlow": {
+        "name": "projects/voicebotgcp-783263/locations/global/agents/51075457-4245-4f79-bf42-6e90f073b640/flows/00000000-0000-0000-0000-000000000000",
+        "displayName": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "claim status"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "sessionParameters": {
+        "first_time": false,
+        "try_count": 1
+      },
+      "triggeredIntent": {
+        "name": "claims_status.whats_my_status"
+      },
+      "currentPage": {
+        "name": "Third party caller",
+        "flow": "Authentication Flow"
+      },
+      "textResponses": [ {
+        "text": [ "I can help you get more information about your claim." ],
+        "allowPlaybackInterruption": true
+      }, {
+        "text": [ "First, let me confirm your information for security purposes. Are you the Veteran?" ],
+        "allowPlaybackInterruption": true
+      } ],
+      "currentFlow": {
+        "name": "projects/voicebotgcp-783263/locations/global/agents/51075457-4245-4f79-bf42-6e90f073b640/flows/ff31c7b8-a753-4813-933f-392fe9eb0691",
+        "displayName": "Authentication Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "yes"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "sessionParameters": {
+        "first_time": false,
+        "try_count": 1
+      },
+      "triggeredIntent": {
+        "name": "Affirmative"
+      },
+      "currentPage": {
+        "name": "Gather SSN",
+        "flow": "Authentication Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Okay. What is your nine digit social security number? You can say it out loud or enter it using your keypad followed by the pound key." ],
+        "allowPlaybackInterruption": true
+      } ],
+      "currentFlow": {
+        "name": "projects/voicebotgcp-783263/locations/global/agents/51075457-4245-4f79-bf42-6e90f073b640/flows/ff31c7b8-a753-4813-933f-392fe9eb0691",
+        "displayName": "Authentication Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "123456789"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "sessionParameters": {
+        "first_time": false,
+        "ssn": "123456789",
+        "try_count": 1
+      },
+      "currentPage": {
+        "name": "Gather DOB",
+        "flow": "Authentication Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Thanks. What is your date of birth? You can say something out loud, like June 18, 1975, or enter all numeric digits using your keypad, followed by the pound key." ],
+        "allowPlaybackInterruption": true
+      } ],
+      "currentFlow": {
+        "name": "projects/voicebotgcp-783263/locations/global/agents/51075457-4245-4f79-bf42-6e90f073b640/flows/ff31c7b8-a753-4813-933f-392fe9eb0691",
+        "displayName": "Authentication Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "08/03/1983"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "sessionParameters": {
+        "dob": {
+          "day": 3,
+          "month": 8,
+          "year": 1983
+        },
+        "first_time": false,
+        "ssn": "123456789",
+        "try_count": 1
+      },
+      "currentPage": {
+        "name": "Gather BOS",
+        "flow": "Authentication Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Got it. What is your branch of service?" ],
+        "allowPlaybackInterruption": true
+      } ],
+      "currentFlow": {
+        "name": "projects/voicebotgcp-783263/locations/global/agents/51075457-4245-4f79-bf42-6e90f073b640/flows/ff31c7b8-a753-4813-933f-392fe9eb0691",
+        "displayName": "Authentication Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "navy"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "sessionParameters": {
+        "claim_count": 1,
+        "current_claim": {
+          "benefitClaimType": {
+            "attribute_one": "CLAIM_TYPE_LABEL",
+            "attribute_one_text": "Compensation",
+            "attribute_three": "Rating/Non-Rating",
+            "attribute_three_text": "Non-Rating",
+            "attribute_two": "USER DISPLAY",
+            "attribute_two_text": "NO",
+            "code": "290PDRC",
+            "name": "Pre-Discharge-Resumption of Compensation"
+          },
+          "claimId": "600207214",
+          "claimLifecycleStatus": "Open",
+          "claimant": {
+            "participantId": 32451269
+          },
+          "endProductCode": "404",
+          "payeeTypeCode": "10",
+          "phase": "Claim Received",
+          "phaseLastChangedDate": {
+            "day": 25,
+            "month": 5,
+            "year": 2022
+          },
+          "programTypeCode": "CPL",
+          "receivedDate": {
+            "day": 22,
+            "month": 3,
+            "year": 2022
+          },
+          "serviceTypeCode": "CP",
+          "veteran": {
+            "firstName": "Josh",
+            "lastName": "Tester",
+            "participantId": 32451269
+          }
+        },
+        "current_claim_index": 0,
+        "first_name": "Josh",
+        "first_time": false,
+        "session_id": "89ad1d37-1eb8-4d8a-aab0-faf149bf40fc"
+      },
+      "currentPage": {
+        "name": "Select Claim",
+        "flow": "Claim Selection Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Thanks for that information. Please hold for a moment while I look up your VA account." ],
+        "allowPlaybackInterruption": true
+      }, {
+        "text": [ "I see you have one claim." ],
+        "allowPlaybackInterruption": true
+      }, {
+        "text": [ "Is the one about Pre-Discharge-Resumption of Compensation filed on 2022-03-22 the one you are calling about?" ],
+        "allowPlaybackInterruption": true
+      } ],
+      "currentFlow": {
+        "name": "projects/voicebotgcp-783263/locations/global/agents/51075457-4245-4f79-bf42-6e90f073b640/flows/8b40b44d-f782-49cd-80bd-0abf722d8a60",
+        "displayName": "Claim Selection Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "whats the claim ID for that one?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "sessionParameters": {
+        "branch_of_service": "1",
+        "claim_count": 1,
+        "current_claim": {
+          "benefitClaimType": {
+            "attribute_one": "CLAIM_TYPE_LABEL",
+            "attribute_one_text": "Compensation",
+            "attribute_three": "Rating/Non-Rating",
+            "attribute_three_text": "Non-Rating",
+            "attribute_two": "USER DISPLAY",
+            "attribute_two_text": "NO",
+            "code": "290PDRC",
+            "name": "Pre-Discharge-Resumption of Compensation"
+          },
+          "claimId": "600207214",
+          "claimLifecycleStatus": "Open",
+          "claimant": {
+            "participantId": 32451269
+          },
+          "endProductCode": "404",
+          "payeeTypeCode": "10",
+          "phase": "Claim Received",
+          "phaseLastChangedDate": {
+            "day": 25,
+            "month": 5,
+            "year": 2022
+          },
+          "programTypeCode": "CPL",
+          "receivedDate": {
+            "day": 22,
+            "month": 3,
+            "year": 2022
+          },
+          "serviceTypeCode": "CP",
+          "veteran": {
+            "firstName": "Josh",
+            "lastName": "Tester",
+            "participantId": 32451269
+          }
+        },
+        "current_claim_index": 0,
+        "first_name": "Josh",
+        "first_time": false,
+        "session_id": "89ad1d37-1eb8-4d8a-aab0-faf149bf40fc"
+      },
+      "triggeredIntent": {
+        "name": "user.whats_the_claim_id"
+      },
+      "currentPage": {
+        "name": "Get Claim ID",
+        "flow": "Claim Selection Flow"
+      },
+      "textResponses": [ {
+        "text": [ "\u003cspeak\u003eThe claim ID for that one is \u003cprosody rate=\"slow\"\u003e\u003csay-as interpret-as=\"verbatim\"\u003e600207214\u003c/say-as\u003e\u003c/prosody\u003e. Is that the one you would like to hear about?\u003c/speak\u003e" ],
+        "allowPlaybackInterruption": true
+      } ],
+      "currentFlow": {
+        "name": "projects/voicebotgcp-783263/locations/global/agents/51075457-4245-4f79-bf42-6e90f073b640/flows/8b40b44d-f782-49cd-80bd-0abf722d8a60",
+        "displayName": "Claim Selection Flow"
+      }
+    }
+  } ],
+  "creationTime": {
+    "seconds": 1679664811,
+    "nanos": 296339000
+  },
+  "testConfig": {
+    "flow": "Default Start Flow",
+    "page": "Start Page"
+  }
+}

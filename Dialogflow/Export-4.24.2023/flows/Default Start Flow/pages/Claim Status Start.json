@@ -1,0 +1,29 @@
+{
+  "name": "0e197c8d-5d00-47fd-b9fa-f422e4dd95c8",
+  "displayName": "Claim Status Start",
+  "form": {
+  
+  },
+  "transitionRoutes": [ {
+    "condition": "$session.params.session_id = null",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Authentication Flow",
+    "name": "166a2da9-2f45-4fc3-a383-c2c6e248f26a"
+  }, {
+    "condition": "$session.params.session_id != null AND $session.params.current_claim = null",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Claim Selection Flow",
+    "name": "8ac11fb4-8c15-4163-9b61-d5cacb12f68f"
+  }, {
+    "condition": "$session.params.session_id != null AND $session.params.current_claim != null",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Claim Status Description",
+    "name": "954c3393-8648-4852-8480-34654c768879"
+  } ]
+}

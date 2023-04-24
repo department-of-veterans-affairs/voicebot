@@ -1,0 +1,240 @@
+{
+  "name": "3a8f040b-4567-4006-8cdf-d3659b56221f",
+  "displayName": "Pact Act FAQ",
+  "transitionRoutes": [ {
+    "intent": "pact.overview",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "The PACT Act expands eligibility for VA health care and other benefits, such as service-connected disability compensation for Veterans exposed to burn pits and toxic exposures from the Vietnam era, Gulf War era, and Post 9/11 era. This law helps us provide Veterans and their survivors with the care and benefits they’ve earned and deserve.\n\nAll Veterans and survivors who believe they may be eligible for benefits are encouraged to apply today. \n" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Current Page",
+    "name": "fdfb0d0b-b814-4d4d-972d-53c1d4fcbe97"
+  }, {
+    "intent": "pact.what_is_toxic_exposure",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "There are several types of possible exposures or hazards Veterans may have experienced during their service, including air pollutants, radiation, Agent Orange, and burn pits. A list of exposures can be found on our website." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Current Page",
+    "name": "9a5fa10c-ef60-4bef-aacf-f19123387b69"
+  }, {
+    "intent": "pact.effective_date",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "We encourage all Veterans and survivors to file for benefits now. We've started to process PACT Act-related benefits in January 2023. \nIf you apply for benefits at any time and we grant your application, we’ll likely backdate your benefits to the date of the bill signing. This means we’ll pay you the amount you would have received from August 10, 2022, to the date we grant your application." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Current Page",
+    "name": "f1409788-39ea-474b-bd9d-260e70b7d2ea"
+  }, {
+    "intent": "pact.how_to_apply",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "You can submit a new claim for consideration using the application for Disability Compensation and Related Compensation Benefits, also known as VA Form 21-526EZ. " ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Current Page",
+    "name": "60aa857a-3f4f-48d0-a711-e55674a320b1"
+  }, {
+    "intent": "pact.presumption_of_service_connection",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Presumptive conditions are illnesses that we assume were caused by your service.\n\nWe consider a condition presumptive when it's established by law or regulation.\n\nIf you have a presumptive condition, you don’t need to prove that your service caused it. You only need to meet the service requirements for the presumption.\n" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Current Page",
+    "name": "08fc7141-6eb9-4db1-943b-701a7e55341d"
+  }, {
+    "intent": "pact.list_of_service_connected_illnesses",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "\u003cspeak\u003eThe VA added several presumptive conditions for burn pits and Agent Orange. For a list of presumptive conditions under PACT Act, you can visit our webpage at \u003csay-as interpret-as=\"verbatim\"\u003eVA\u003c/say-as\u003e.gov. \u003c/speak\u003e" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Current Page",
+    "name": "cb728d0a-3fe3-4871-8725-43c38e15e03b"
+  }, {
+    "intent": "pact.when_to_file_claim",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "The PACT Act expands eligibility for VA health care and other benefits, such as service-connected disability compensation for Veterans exposed to burn pits and toxic exposures from the Vietnam era, Gulf War era, and Post 9/11 era. This law helps us provide Veterans and their survivors with the care and benefits they’ve earned and deserve.\n\nAll Veterans and survivors who believe they may be eligible for benefits are encouraged to apply today. " ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Current Page",
+    "name": "80f1d91a-5fa7-4aa4-805f-3ef257bbff75"
+  }, {
+    "intent": "pact.evidence_needed_for_pact_claims",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Veterans should submit any supporting documents along with their claims, such as service treatment records, doctor's reports, X-rays or test results." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Current Page",
+    "name": "bfefa4f6-33f6-4d4d-8221-b91afecba0c2"
+  }, {
+    "intent": "pact.previously_denied_pact_condition",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "VA will contact Veterans when a presumption of service connection is established or changed. However, Veterans previously denied a toxic-exposure related claim are encouraged to file a supplemental claim. Once a supplemental claim is received, VA will review the claim under the new policies. " ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Current Page",
+    "name": "ded77a58-7d89-451a-a3a4-da105bf2cb2a"
+  }, {
+    "intent": "pact.dependents_benefits",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Family members or dependents of a deceased Veteran may qualify for various VA benefits because of the additional disabilities defined in the PACT Act if they meet eligibility requirements. For more information on benefits, surviving family members may submit VA Form 21P-534EZ or VA Form 21P-535." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Current Page",
+    "name": "3bc8a6ad-916d-427c-9c63-544e2ab00dbc"
+  }, {
+    "intent": "pact.health_care_eligibility_criteria",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "The PACT Act expands eligibility for VA health care and other benefits, such as service-connected disability compensation for Veterans exposed to burn pits and toxic exposures from the Vietnam era, Gulf War era, and Post 9/11 era. This law helps us provide Veterans and their survivors with the care and benefits they’ve earned and deserve.\n\nAll Veterans and survivors who believe they may be eligible for benefits are encouraged to apply today.  " ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Current Page",
+    "name": "23281f36-b650-4dff-8e49-72ca34188fe5"
+  }, {
+    "intent": "pact.what_is_toxic_exposure_screening",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "A toxic exposure screening is for Veterans who are enrolled in VA healthcare. The screening will ask if you think you were exposed to hazards while serving, like burn pits or Agent Orange. These questions will help improve the health outcomes and the patient experience within VA health care.\n" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Current Page",
+    "name": "8d72f4ec-ad55-4aed-a370-942be5e120ec"
+  }, {
+    "intent": "pact.do_I_have_presumptive_condition",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "The VA added several presumptive conditions for burn pits and Agent Orange. For a list of presumptive conditions under PACT Act, you can visit our webpage at VA.gov. " ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Current Page",
+    "name": "6554fcec-b73c-4692-b56a-f6c6bdf28fe6"
+  }, {
+    "intent": "pact.how_to_get_toxic_exposure_screening",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Toxic exposure screenings are available at VA health facilities across the country.\nAsk about the screening at your next VA health care appointment. If you don’t have an upcoming appointment, or if you want to get the screening sooner, contact your local VA health facility. Ask to get screened by the toxic exposure screening navigator." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Current Page",
+    "name": "8eb58c2d-a187-42af-b3c0-4e1a5fc8a992"
+  }, {
+    "intent": "pact.contact_us",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "You can call us at 800-698-2411 at any time of day. " ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "3513a3eb-b747-49fb-8fd2-90f02e45f188"
+  }, {
+    "intent": "pact.why_do_need_toxic_exposure_screening",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "The screening will ask if you think you were exposed to hazards while serving, like burn pits or Agent Orange. These questions will help improve the health outcomes and the patient experience within VA health care." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Current Page",
+    "name": "3b3a8e54-3b79-44c9-9efe-e0526524a010"
+  }, {
+    "intent": "pact.known_mappings",
+    "triggerFulfillment": {
+      "webhook": "Test Gateway",
+      "tag": "pact_known_mapping_query"
+    },
+    "targetPage": "Current Page",
+    "name": "6ebb5228-f093-45de-a0d5-e139697796c7"
+  }, {
+    "intent": "pact.how_to_register_for_burn_pit_registry",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "The Airborne Hazards and Open Burn Pit Registry helps the VA better understand the potential health effects of exposure to airborne hazards during military service. \r\n\r\nTo get started, use one of the sign-in options on the AccessVA page and complete the online questionnaire. You can also schedule an optional medical evaluation by contacting your local environmental health coordinator." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Current Page",
+    "name": "883f8bff-23ab-46d9-bde0-55d09f74139c"
+  }, {
+    "intent": "pact.what_is_agent_orange",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Agent Orange was a tactical herbicide the U.S. military used to clear leaves and vegetation for military operations mainly during the Vietnam War. Veterans who were exposed to Agent Orange may have certain related cancers or other illnesses.\r\n\r\nIf you have a health condition caused by exposure to Agent Orange during military service, you may be eligible for disability compensation and how to apply." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Current Page",
+    "name": "9338682e-cb9f-4598-a60c-7850cf2735fb"
+  }, {
+    "intent": "pact.how_to_apply_with_advocate",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "To set up an accredited representative or a VSO to work on your behalf, you can either use e-Benefits or fill out a form and mail it in. To have a VSO help you, fill out VA Form 21-22. To have a claims agent or attorney help you, fill out VA Form 21-22a." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Current Page",
+    "name": "34c7c2db-6980-487e-aa7e-76e5ca5721f1"
+  } ]
+}

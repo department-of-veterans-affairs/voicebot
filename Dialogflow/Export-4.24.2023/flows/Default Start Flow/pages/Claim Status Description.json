@@ -1,0 +1,32 @@
+{
+  "name": "8ffc11b9-07b4-403c-9080-a88490665962",
+  "displayName": "Claim Status Description",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Ok, we received your claim on $session.params.current_claim.receivedDate and has a status of $session.params.current_claim.phase. This is the most recent update we have for your claim. Would you like to know what the status of $session.params.current_claim.phase means?" ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "Affirmative",
+    "triggerFulfillment": {
+      "webhook": "Test Gateway",
+      "tag": "get_status_description",
+      "returnPartialResponses": true
+    },
+    "targetPage": "More Status Info?",
+    "name": "3adb9f5b-b5e6-455d-9c9c-1fba104ce8dd"
+  }, {
+    "intent": "Negative",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Other Claims Questions?",
+    "name": "d5c93b23-e663-43ff-895f-c874c89b7e61"
+  } ]
+}

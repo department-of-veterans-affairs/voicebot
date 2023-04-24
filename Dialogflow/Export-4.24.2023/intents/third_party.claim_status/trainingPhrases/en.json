@@ -1,0 +1,253 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "how find out my "
+    }, {
+      "text": "brother",
+      "parameterId": "third_party"
+    }, {
+      "text": "'s claim status"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "what is my ",
+      "auto": true
+    }, {
+      "text": "son",
+      "parameterId": "third_party",
+      "auto": true
+    }, {
+      "text": "'s claim status",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "what is my ",
+      "auto": true
+    }, {
+      "text": "spouse",
+      "parameterId": "third_party",
+      "auto": true
+    }, {
+      "text": " claim status",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "claim status for me from my ",
+      "auto": true
+    }, {
+      "text": "husband",
+      "parameterId": "third_party",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I need a status on my claim regarding my ",
+      "auto": true
+    }, {
+      "text": "daughter",
+      "parameterId": "third_party",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I am a "
+    }, {
+      "text": "provider",
+      "parameterId": "third_party"
+    }, {
+      "text": " how do I look up claims on the website"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "how do I check on my ",
+      "auto": true
+    }, {
+      "text": "mom",
+      "parameterId": "third_party",
+      "auto": true
+    }, {
+      "text": "'s claim",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "good day, how can I see the status of my ",
+      "auto": true
+    }, {
+      "text": "mother",
+      "parameterId": "third_party",
+      "auto": true
+    }, {
+      "text": "'s application for surviving ",
+      "auto": true
+    }, {
+      "text": "spouse",
+      "parameterId": "third_party",
+      "auto": true
+    }, {
+      "text": " of a veteran",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I filed a claim of my ex ",
+      "auto": true
+    }, {
+      "text": "husband",
+      "parameterId": "third_party",
+      "auto": true
+    }, {
+      "text": "'s disability and I have not heard anything back",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "need to follow up on a claim status for a "
+    }, {
+      "text": "patient",
+      "parameterId": "third_party"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I want to inquire about a claim for my ",
+      "auto": true
+    }, {
+      "text": "dad",
+      "parameterId": "third_party",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I need the status for my "
+    }, {
+      "text": "daughters",
+      "parameterId": "third_party"
+    }, {
+      "text": " claim"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I want the claim information for my ",
+      "auto": true
+    }, {
+      "text": "son",
+      "parameterId": "third_party",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "My ",
+      "auto": true
+    }, {
+      "text": "son",
+      "parameterId": "third_party",
+      "auto": true
+    }, {
+      "text": " was killed in action and I want to see what is going on with his claim",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I want to know about my "
+    }, {
+      "text": "daughters",
+      "parameterId": "third_party"
+    }, {
+      "text": " claim"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I need the claim status for my "
+    }, {
+      "text": "husband",
+      "parameterId": "third_party"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "My "
+    }, {
+      "text": "spouse",
+      "parameterId": "third_party"
+    }, {
+      "text": " just died and I need to see what claims are still in process"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I filed a claim for my "
+    }, {
+      "text": "husband",
+      "parameterId": "third_party"
+    }, {
+      "text": " and I want to check on the status"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Claim status for my "
+    }, {
+      "text": "wife",
+      "parameterId": "third_party"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I want to know about my "
+    }, {
+      "text": "dads",
+      "parameterId": "third_party"
+    }, {
+      "text": " claim"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "My "
+    }, {
+      "text": "dad",
+      "parameterId": "third_party"
+    }, {
+      "text": " recently passed away what do I do to see what claims are still  open?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

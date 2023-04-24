@@ -1,0 +1,40 @@
+{
+  "name": "a6688221-63fe-4ba1-a3cd-19fa2271ce10",
+  "displayName": "completed?",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Do you have any other questions about the Pact Act?", "Is there anything else you'd like to know about Pact Act?", "Would you like to know more about Pact Act?" ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "Affirmative",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "What other questions do you have about the PACT ACT?", "What else would you like to know about PACT Act?", "What questions do you still have about PACT Act?", "How else can I help you with PACT Act?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Start Page",
+    "name": "761ec821-6361-4b97-ba12-663d47a9ada0"
+  }, {
+    "intent": "Negative",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "ok great, what other questions can I help you with? " ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetFlow": "Default Start Flow",
+    "name": "c0348014-3aea-4afd-852f-18f54411cf9a"
+  } ]
+}

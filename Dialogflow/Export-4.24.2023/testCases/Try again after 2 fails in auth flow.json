@@ -1,0 +1,498 @@
+{
+  "name": "81f99d55-ad01-4024-99e7-cd9699b7fd73",
+  "tags": [ "#dev", "#test" ],
+  "displayName": "Try again after 2 fails in auth flow",
+  "testCaseConversationTurns": [ {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "hello"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "sessionParameters": {
+        "first_time": false
+      },
+      "triggeredIntent": {
+        "name": "Default Welcome Intent"
+      },
+      "currentPage": {
+        "name": "Main",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Thanks for trying out this new way to get help. You can still reach an agent at any time. " ],
+        "allowPlaybackInterruption": true
+      }, {
+        "text": [ "To get started, ask me a question like “What’s my claim status?” or “What does the PACT Act do for Veterans like me?”" ],
+        "allowPlaybackInterruption": true
+      } ],
+      "currentFlow": {
+        "name": "projects/voicebotgcp-783263/locations/global/agents/51075457-4245-4f79-bf42-6e90f073b640/flows/00000000-0000-0000-0000-000000000000",
+        "displayName": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Id like to know whats going on with my claim"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "sessionParameters": {
+        "first_time": false
+      },
+      "triggeredIntent": {
+        "name": "claims_status.whats_my_status"
+      },
+      "currentPage": {
+        "name": "Claim ID?",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "I can help you get more information about your claim." ],
+        "allowPlaybackInterruption": true
+      }, {
+        "text": [ "Do you know your claim ID?" ],
+        "allowPlaybackInterruption": true
+      } ],
+      "currentFlow": {
+        "name": "projects/voicebotgcp-783263/locations/global/agents/51075457-4245-4f79-bf42-6e90f073b640/flows/00000000-0000-0000-0000-000000000000",
+        "displayName": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "no"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "sessionParameters": {
+        "first_time": false,
+        "try_count": 1
+      },
+      "triggeredIntent": {
+        "name": "Negative"
+      },
+      "currentPage": {
+        "name": "Third party caller",
+        "flow": "Authentication Flow"
+      },
+      "textResponses": [ {
+        "text": [ "That's okay. I can still look up your claim. " ],
+        "allowPlaybackInterruption": true
+      }, {
+        "text": [ "First, let me confirm your information for security purposes. Are you the Veteran?" ],
+        "allowPlaybackInterruption": true
+      } ],
+      "currentFlow": {
+        "name": "projects/voicebotgcp-783263/locations/global/agents/51075457-4245-4f79-bf42-6e90f073b640/flows/ff31c7b8-a753-4813-933f-392fe9eb0691",
+        "displayName": "Authentication Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "yes"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "sessionParameters": {
+        "first_time": false,
+        "try_count": 1
+      },
+      "triggeredIntent": {
+        "name": "Affirmative"
+      },
+      "currentPage": {
+        "name": "Gather SSN",
+        "flow": "Authentication Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Okay. What is your nine digit social security number? You can say it out loud or enter it using your keypad followed by the pound key." ],
+        "allowPlaybackInterruption": true
+      } ],
+      "currentFlow": {
+        "name": "projects/voicebotgcp-783263/locations/global/agents/51075457-4245-4f79-bf42-6e90f073b640/flows/ff31c7b8-a753-4813-933f-392fe9eb0691",
+        "displayName": "Authentication Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "123456788"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "sessionParameters": {
+        "first_time": false,
+        "ssn": "123456788",
+        "try_count": 1
+      },
+      "currentPage": {
+        "name": "Gather DOB",
+        "flow": "Authentication Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Thanks. What is your date of birth? You can say something out loud, like June 18, 1975, or enter all numeric digits using your keypad, followed by the pound key." ],
+        "allowPlaybackInterruption": true
+      } ],
+      "currentFlow": {
+        "name": "projects/voicebotgcp-783263/locations/global/agents/51075457-4245-4f79-bf42-6e90f073b640/flows/ff31c7b8-a753-4813-933f-392fe9eb0691",
+        "displayName": "Authentication Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "08/09/2000"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "sessionParameters": {
+        "dob": {
+          "day": 9,
+          "month": 8,
+          "year": 2000
+        },
+        "first_time": false,
+        "ssn": "123456788",
+        "try_count": 1
+      },
+      "currentPage": {
+        "name": "Gather BOS",
+        "flow": "Authentication Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Got it. What is your branch of service?" ],
+        "allowPlaybackInterruption": true
+      } ],
+      "currentFlow": {
+        "name": "projects/voicebotgcp-783263/locations/global/agents/51075457-4245-4f79-bf42-6e90f073b640/flows/ff31c7b8-a753-4813-933f-392fe9eb0691",
+        "displayName": "Authentication Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "navy"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "sessionParameters": {
+        "first_time": false,
+        "try_count": 2
+      },
+      "currentPage": {
+        "name": "Gather SSN",
+        "flow": "Authentication Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Thanks for that information. Please hold for a moment while I look up your VA account." ],
+        "allowPlaybackInterruption": true
+      }, {
+        "text": [ "I'm having trouble verifying your information. Let's try one more time. " ],
+        "allowPlaybackInterruption": true
+      }, {
+        "text": [ "Okay. What is your nine digit social security number? You can say it out loud or enter it using your keypad followed by the pound key." ],
+        "allowPlaybackInterruption": true
+      } ],
+      "currentFlow": {
+        "name": "projects/voicebotgcp-783263/locations/global/agents/51075457-4245-4f79-bf42-6e90f073b640/flows/ff31c7b8-a753-4813-933f-392fe9eb0691",
+        "displayName": "Authentication Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "273736475"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "sessionParameters": {
+        "first_time": false,
+        "ssn": "273736475",
+        "try_count": 2
+      },
+      "currentPage": {
+        "name": "Gather DOB",
+        "flow": "Authentication Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Thanks. What is your date of birth? You can say something out loud, like June 18, 1975, or enter all numeric digits using your keypad, followed by the pound key." ],
+        "allowPlaybackInterruption": true
+      } ],
+      "currentFlow": {
+        "name": "projects/voicebotgcp-783263/locations/global/agents/51075457-4245-4f79-bf42-6e90f073b640/flows/ff31c7b8-a753-4813-933f-392fe9eb0691",
+        "displayName": "Authentication Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "09/23/1988"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "sessionParameters": {
+        "dob": {
+          "day": 23,
+          "month": 9,
+          "year": 1988
+        },
+        "first_time": false,
+        "ssn": "273736475",
+        "try_count": 2
+      },
+      "currentPage": {
+        "name": "Gather BOS",
+        "flow": "Authentication Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Got it. What is your branch of service?" ],
+        "allowPlaybackInterruption": true
+      } ],
+      "currentFlow": {
+        "name": "projects/voicebotgcp-783263/locations/global/agents/51075457-4245-4f79-bf42-6e90f073b640/flows/ff31c7b8-a753-4813-933f-392fe9eb0691",
+        "displayName": "Authentication Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "navy"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "sessionParameters": {
+        "auth_failure": true,
+        "first_time": false,
+        "try_count": 3
+      },
+      "currentPage": {
+        "name": "Try Again",
+        "flow": "Authentication Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Thanks for that information. Please hold for a moment while I look up your VA account." ],
+        "allowPlaybackInterruption": true
+      }, {
+        "text": [ "I'm sorry. I didn't get your information. Do you want to try again, or would you like to speak to an agent?" ],
+        "allowPlaybackInterruption": true
+      } ],
+      "currentFlow": {
+        "name": "projects/voicebotgcp-783263/locations/global/agents/51075457-4245-4f79-bf42-6e90f073b640/flows/ff31c7b8-a753-4813-933f-392fe9eb0691",
+        "displayName": "Authentication Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "I want to try again"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "sessionParameters": {
+        "auth_failure": true,
+        "first_time": false,
+        "try_count": 3
+      },
+      "triggeredIntent": {
+        "name": "user.try_again"
+      },
+      "currentPage": {
+        "name": "Gather SSN",
+        "flow": "Authentication Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Okay. What is your nine digit social security number? You can say it out loud or enter it using your keypad followed by the pound key." ],
+        "allowPlaybackInterruption": true
+      } ],
+      "currentFlow": {
+        "name": "projects/voicebotgcp-783263/locations/global/agents/51075457-4245-4f79-bf42-6e90f073b640/flows/ff31c7b8-a753-4813-933f-392fe9eb0691",
+        "displayName": "Authentication Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "123746774"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "sessionParameters": {
+        "auth_failure": true,
+        "first_time": false,
+        "ssn": "123746774",
+        "try_count": 3
+      },
+      "currentPage": {
+        "name": "Gather DOB",
+        "flow": "Authentication Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Thanks. What is your date of birth? You can say something out loud, like June 18, 1975, or enter all numeric digits using your keypad, followed by the pound key." ],
+        "allowPlaybackInterruption": true
+      } ],
+      "currentFlow": {
+        "name": "projects/voicebotgcp-783263/locations/global/agents/51075457-4245-4f79-bf42-6e90f073b640/flows/ff31c7b8-a753-4813-933f-392fe9eb0691",
+        "displayName": "Authentication Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "09/22/2000"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "sessionParameters": {
+        "auth_failure": true,
+        "dob": {
+          "day": 22,
+          "month": 9,
+          "year": 2000
+        },
+        "first_time": false,
+        "ssn": "123746774",
+        "try_count": 3
+      },
+      "currentPage": {
+        "name": "Gather BOS",
+        "flow": "Authentication Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Got it. What is your branch of service?" ],
+        "allowPlaybackInterruption": true
+      } ],
+      "currentFlow": {
+        "name": "projects/voicebotgcp-783263/locations/global/agents/51075457-4245-4f79-bf42-6e90f073b640/flows/ff31c7b8-a753-4813-933f-392fe9eb0691",
+        "displayName": "Authentication Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "navy"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "sessionParameters": {
+        "auth_failure": true,
+        "first_time": false,
+        "try_count": 4
+      },
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Connect to agent"
+      },
+      "textResponses": [ {
+        "text": [ "Thanks for that information. Please hold for a moment while I look up your VA account." ],
+        "allowPlaybackInterruption": true
+      }, {
+        "text": [ "I'm having trouble verifying your information. I can transfer you to an agent who might be able to help. Would you like to be connected now?" ],
+        "allowPlaybackInterruption": true
+      } ],
+      "currentFlow": {
+        "name": "projects/voicebotgcp-783263/locations/global/agents/51075457-4245-4f79-bf42-6e90f073b640/flows/d97c537f-d89c-4ccd-9b7e-932b0ca7ba4f",
+        "displayName": "Connect to agent"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "yes"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "sessionParameters": {
+        "auth_failure": true,
+        "first_time": false,
+        "try_count": 4
+      },
+      "triggeredIntent": {
+        "name": "Affirmative"
+      },
+      "currentPage": {
+        "name": "End Session",
+        "flow": "Connect to agent"
+      },
+      "textResponses": [ {
+        "text": [ "Okay, please hold while I place you in the queue to talk to a VA representative. It might take a few seconds to connect. Goodbye." ],
+        "allowPlaybackInterruption": true
+      } ],
+      "currentFlow": {
+        "name": "projects/voicebotgcp-783263/locations/global/agents/51075457-4245-4f79-bf42-6e90f073b640/flows/d97c537f-d89c-4ccd-9b7e-932b0ca7ba4f",
+        "displayName": "Connect to agent"
+      }
+    }
+  } ],
+  "creationTime": {
+    "seconds": 1681485633,
+    "nanos": 721826000
+  },
+  "testConfig": {
+    "flow": "Default Start Flow",
+    "page": "Start Page"
+  }
+}

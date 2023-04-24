@@ -1,0 +1,265 @@
+{
+  "name": "5b84a635-962c-4d94-a72d-e137cd592a3a",
+  "displayName": "PACT ACT Flow",
+  "transitionRoutes": [ {
+    "intent": "pact.overview",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "The PACT Act is a new law that expands VA health care and benefits for Veterans exposed to burn pits and other toxic substances. \n\nThis law helps us provide Veterans and their survivors with the care and benefits they’ve earned and deserve. " ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "completed?",
+    "name": "89ccb848-1020-4401-b3e7-e43edf753bc4"
+  }, {
+    "intent": "pact.key_takeways",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "The ACT expands and extends eligibility for VA health care and other benefits, such as service-connected disability compensation for Veterans with toxic-exposures and Veterans for the Vietnam era, Gulf War era, and Post-9/11 era." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "completed?",
+    "name": "28dc0873-a893-40ff-bf60-06590af46114"
+  }, {
+    "intent": "pact.what_is_toxic_exposure",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "There are several types of possible exposures or hazards Veterans may have experienced during their service, including air pollutants, radiation, Agent Orange, and burn pits. A list of exposures can be found on our website.\n\nWould you like me to send you a link to the list via text or email?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "completed?",
+    "name": "366b7d05-7e0b-49b7-97b3-793994530593"
+  }, {
+    "intent": "pact.effective_date",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "The elements of the law become applicable at different dates in the future. www.VA.gov/PACT provides details about the future dates" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "completed?",
+    "name": "24fd19b6-e211-495a-86b1-db3086801375"
+  }, {
+    "intent": "pact.how_to_apply",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "To apply for health care you can Apply online at www.va.gov. \n\nOr you can bring Any supportive evidence should be brought with their claims. " ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "completed?",
+    "name": "653057d8-0958-4f13-bc58-c83a7543fdb7"
+  }, {
+    "intent": "pact.presumption_of_service_connection",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Presumptive conditions are illnesses that we assume were caused by your service.\n\nWe consider a condition presumptive when it's established by law or regulation.\n\nIf you have a presumptive condition, you don’t need to prove that your service caused it. You only need to meet the service requirements for the presumption." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "completed?",
+    "name": "de155c38-6e12-490d-af69-7f2fdbff816e"
+  }, {
+    "intent": "pact.list_of_service_connected_illnesses",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Veterans and survivors can file claims for all conditions outlined in the PACT Act immediately.\nFor a complete list of conditions please visit the PACT Act webpage located at https://www.va.gov/PACT" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "completed?",
+    "name": "d1834038-9a80-46b1-9585-6cb327778949"
+  }, {
+    "intent": "pact.when_to_file_claim",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Veterans and survivors can file claims for all conditions outlined in the PACT Act immediately.\nFor a complete list of conditions please visit the PACT Act webpage located at https://www.va.gov/PACT" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "completed?",
+    "name": "b209fbfe-6586-45d5-85dc-c68a639e6db3"
+  }, {
+    "intent": "pact.evidence_needed_for_pact_claims",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "VA is considering the presumptive conditions established in the PACT Act. We encourage all Veterans who believe they may be entitled to benefits to apply now. If you meet eligibility requirements you may submit a new claim for consideration using VA Form 21-526EZ, Application for Disability Compensation and Related Compensation Benefits." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "completed?",
+    "name": "7e3f4c4d-bd91-4c19-91bc-2ba6001c0c24"
+  }, {
+    "intent": "pact.previously_denied_pact_condition",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "If a veteran was previously denied a toxic-exposure related claim, the VA encourages the veteran to file a supplemental claim. Once a supplemental claim is received, VA will review the claim under the new policies." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "completed?",
+    "name": "1c55161d-7201-4485-ba5a-1a5efc915e96"
+  }, {
+    "intent": "pact.dependents_benefits",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Family members or dependents of a deceased Veteran may qualify for various VA benefits due to the additional disabilities defined in the PACT Act if they meet eligibility requirements. For more information on benefits. \n\nSurviving family members may submit VA Form 21P-534EZ, Application for DIC, Survivors Pension, and Accrued Benefits, or VA Form 21P-535." ]
+        },
+        "languageCode": "en"
+      }, {
+        "outputAudioText": {
+          "ssml": "\u003cspeak\u003eFamily members or dependents of a deceased Veteran may qualify for various \u003csay-as interpret-as=\"verbatim\"\u003eVA\u003c/say-as\u003e benefits due to the additional disabilities defined in the PACT Act if they meet eligibility requirements. For more information on benefits. \n\nSurviving family members may submit VA Form 21P-534EZ, Application for \u003csay-as interpret-as=\"verbatim\"\u003eDIC\u003c/say-as\u003e, Survivors Pension, and Accrued Benefits, or \u003csay-as interpret-as=\"verbatim\"\u003eVA\u003c/say-as\u003e Form 21P-535.\n\u003c/speak\u003e"
+        },
+        "languageCode": "en"
+      } ],
+      "returnPartialResponses": true
+    },
+    "targetPage": "completed?",
+    "name": "8341b017-aa98-40bb-9c5f-3aabf2c4e9ab"
+  }, {
+    "intent": "pact.health_care_eligibility_criteria",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "The law expands health care eligibility to several groups of Veterans who may not have been eligible before for any illness to three new categories of Veterans. \n\nWe encourage all Veterans to apply for VA healthcare. Your eligibility for VA health care depends on your service history and other factors.\nFor more information, please visit https://www.va.gov/PACT" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "completed?",
+    "name": "82dcdf31-7c76-4b47-bc06-d35d57456aa4"
+  }, {
+    "intent": "pact.what_is_toxic_exposure_screening",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Beginning in November 2022, Veterans will be asked questions about potential exposure to an open burn pit or other hazards and symptoms commonly associated with military environmental exposure. \n\nThese questions will help the V.A. to individualize health care services to improve health outcomes and patient experience." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "completed?",
+    "name": "b3c20ba6-117d-4df3-998d-a15b411ba41a"
+  }, {
+    "intent": "pact.what_is_agent_orange",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Agent Orange was a tactical herbicide the U.S. military used to clear leaves and vegetation for military operations mainly during the Vietnam War. Veterans who were exposed to Agent Orange may have certain related cancers or other illnesses.\n\nIf you have a health condition caused by exposure to Agent Orange during military service, you may be eligible for disability compensation and how to apply." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "completed?",
+    "name": "04f6fee3-d46a-486d-aff4-6dc3a47868b5"
+  }, {
+    "intent": "pact.how_to_apply_with_advocate",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "To set up an accredited representative or a VSO to work on your behalf, you can either use eBenefits or fill out a form and mail it in. To have a VSO help you, fill out VA Form 21-22. To have a claims agent or attorney help you, fill out VA Form 21-22a." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "completed?",
+    "name": "838dda3c-0f27-4286-bd17-e6b4dea0b4ab"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en"
+      }, {
+        "text": {
+          "text": [ "no se" ]
+        },
+        "languageCode": "es"
+      } ]
+    },
+    "name": "22ccfc8e-9289-4a3b-afca-5591a79ee16b"
+  }, {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "aeb74e7f-fe6d-404d-9a49-6a9631a34108"
+  }, {
+    "event": "sys.no-match-1",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I'm having trouble understanding what you're asking. Ask me something like \"What is PACT Act?\" or \"What is a presumptive condition?\" Can you try again?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "a21005af-7d53-4906-8788-3538f672ec0f"
+  }, {
+    "event": "sys.no-match-2",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I didn't get that. Try asking something like \"How do I apply for the PACT Act?\" Can you try again?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "57ec8265-a80d-476c-a0e3-bab26c0bb408"
+  }, {
+    "targetFlow": "Connect to agent",
+    "event": "sys.no-match-3",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ " I'm sorry, I can't help with this. I can transfer you to a VA representative who might be able to help. Would you like to be connected now?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "8c3ed2fa-4bfa-4642-8f0c-64e2e5c9b19f"
+  } ],
+  "nluSettings": {
+    "modelType": "MODEL_TYPE_STANDARD",
+    "classificationThreshold": 0.30000001,
+    "modelTrainingMode": "MODEL_TRAINING_MODE_AUTOMATIC",
+    "multiIntentSettings": {
+    
+    }
+  },
+  "advancedSettings": {
+    "enabled": true
+  },
+  "transitionRouteGroups": [ "Repeat", "Speak to an agent" ]
+}

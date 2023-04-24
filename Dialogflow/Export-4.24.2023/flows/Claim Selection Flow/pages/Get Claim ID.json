@@ -1,0 +1,37 @@
+{
+  "name": "1ed8abbf-f60f-4427-922c-c2d7feb0f8a9",
+  "displayName": "Get Claim ID",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "\u003cspeak\u003eThe claim ID for that one is \u003cprosody rate=\"slow\"\u003e\u003csay-as interpret-as=\"verbatim\"\u003e$session.params.current_claim.claimId\u003c/say-as\u003e\u003c/prosody\u003e. Is that the one you would like to hear about?\u003c/speak\u003e" ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "Affirmative",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "End Flow",
+    "name": "a284f5db-aeae-43c1-802c-0685ef7ee8f0"
+  }, {
+    "intent": "user.can_you_repeat",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Current Page",
+    "name": "22063aab-d212-4047-920b-3bc80663618b"
+  }, {
+    "intent": "Negative",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Next Claim",
+    "name": "e87ece18-13ef-4476-ac7e-f58a4de2ad50"
+  } ]
+}

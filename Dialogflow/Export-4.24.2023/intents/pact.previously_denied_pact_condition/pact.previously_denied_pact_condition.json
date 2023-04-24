@@ -1,0 +1,9 @@
+{
+  "name": "7c801292-2911-4280-a506-3382d89854ff",
+  "displayName": "pact.previously_denied_pact_condition",
+  "parameters": [ {
+    "id": "number",
+    "entityType": "@sys.number"
+  } ],
+  "priority": 500000
+}

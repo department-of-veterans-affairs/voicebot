@@ -1,0 +1,90 @@
+{
+  "name": "c0915795-77a2-4e66-98a4-cfc84caf82e7",
+  "displayName": "Gather DOB",
+  "form": {
+    "parameters": [ {
+      "displayName": "dob",
+      "required": true,
+      "entityType": "@sys.date",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Thanks. What is your date of birth? You can say something out loud, like June 18, 1975, or enter all numeric digits using your keypad, followed by the pound key." ]
+            },
+            "languageCode": "en"
+          } ]
+        },
+        "repromptEventHandlers": [ {
+          "event": "sys.no-match-1",
+          "triggerFulfillment": {
+            "messages": [ {
+              "text": {
+                "text": [ "I didn't get that. Try saying something like June 18, 1975 or enter it using your keypad. Can you try again?" ]
+              },
+              "languageCode": "en"
+            } ]
+          },
+          "name": "6aa12874-6f7b-4fd3-a2fd-8c9367d34769"
+        }, {
+          "targetPage": "End Session",
+          "event": "sys.no-match-2",
+          "triggerFulfillment": {
+            "messages": [ {
+              "text": {
+                "text": [ "I apologize, I'm having trouble understanding you at this time. Please hold while I place you in the queue to talk to a VA representative. It might take a few seconds to connect. Goodbye." ]
+              },
+              "languageCode": "en"
+            } ]
+          },
+          "name": "fa866036-3b90-4d3c-80e3-0baca21824bc"
+        }, {
+          "event": "sys.no-input-1",
+          "triggerFulfillment": {
+            "messages": [ {
+              "text": {
+                "text": [ "I didn't get that. Try saying something like June 18, 1975 or enter it using your keypad followed by the pound key. Can you try again?" ]
+              },
+              "languageCode": "en"
+            } ]
+          },
+          "name": "f095d035-dd3c-4dfe-8dba-a77265753c69"
+        }, {
+          "targetPage": "End Session",
+          "event": "sys.no-input-2",
+          "triggerFulfillment": {
+            "messages": [ {
+              "text": {
+                "text": [ "I apologize, I'm having trouble understanding you at this time. Please hold while I place you in the queue to talk to a VA representative. It might take a few seconds to connect. Goodbye." ]
+              },
+              "languageCode": "en"
+            } ]
+          },
+          "name": "23c2d728-c455-4db3-8e75-d94f9ea58d73"
+        } ]
+      },
+      "advancedSettings": {
+        "dtmfSettings": {
+          "enabled": true,
+          "maxDigits": 8,
+          "finishDigit": "#",
+          "useSystemEntityRule": false,
+          "endpointingTimeoutDuration": {
+            "seconds": 14
+          }
+        }
+      }
+    } ]
+  },
+  "entryFulfillment": {
+  
+  },
+  "transitionRoutes": [ {
+    "condition": "$session.params.dob != null",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Gather BOS",
+    "name": "42110567-2518-4223-b622-170baa5a4cb4"
+  } ]
+}

@@ -1,0 +1,40 @@
+{
+  "name": "bb51a6fe-1d29-4733-819f-b04ad82f9718",
+  "displayName": "Status Detail",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "What other questions do you have about the status?" ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "claims.what_is_an_agent",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "A qualified reviewer, also known as an agent, will investigate your claim to determine eligibility and reach out if further documentation is required." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "continue?",
+    "name": "2b38e8f8-730c-4f09-8abd-e5c858205fbd"
+  }, {
+    "intent": "claims_status.why_is_my_claim_taking_so_long",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I'm sorry about the length of time it's taking to decide your claim. The amount of time it takes to review your claim depends on the type of claim you filed, how many disabilities you've claimed and how complex they are, and how long it takes us to collect the evidence needed to decide your claim. We are working to decide every claim as quickly as possible.  " ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "continue?",
+    "name": "1ae6a9df-d002-4dd8-887b-eba1dab63e03"
+  } ]
+}

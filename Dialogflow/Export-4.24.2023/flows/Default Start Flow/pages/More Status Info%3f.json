@@ -1,0 +1,32 @@
+{
+  "name": "d67ab9ed-e399-40e4-b71e-d68cbb80445d",
+  "displayName": "More Status Info?",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Can I tell you more about the $session.params.current_claim.phase phase?" ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "Affirmative",
+    "triggerFulfillment": {
+      "webhook": "Test Gateway",
+      "tag": "get_status_timeline",
+      "returnPartialResponses": true
+    },
+    "targetPage": "Other Claims Questions?",
+    "name": "b6e017b4-3bc7-4c3c-8f12-26a1e042506d"
+  }, {
+    "intent": "Negative",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Other Claims Questions?",
+    "name": "4c4cac5a-b420-4d9a-9634-063584b00b31"
+  } ]
+}

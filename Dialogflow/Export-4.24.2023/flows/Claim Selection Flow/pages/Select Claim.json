@@ -1,0 +1,44 @@
+{
+  "name": "8ae3c3b1-2458-4744-bf19-aa3574c25d18",
+  "displayName": "Select Claim",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Is the one about $session.params.current_claim.benefitClaimType.name filed on $session.params.current_claim.receivedDate the one you are calling about?" ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "Affirmative",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "End Flow",
+    "name": "684bceaf-d1b1-4481-b5f7-30c2ecab68e7"
+  }, {
+    "intent": "Negative",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Next Claim",
+    "name": "af0b6f72-d2df-4f76-b2db-f987ab732c31"
+  }, {
+    "intent": "user.can_you_repeat",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Current Page",
+    "name": "6d9fbe8f-898b-4f5f-b129-bcf65579287f"
+  }, {
+    "intent": "user.whats_the_claim_id",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Get Claim ID",
+    "name": "b27204db-24be-48ab-b8ac-83eb95eb3ab1"
+  } ]
+}

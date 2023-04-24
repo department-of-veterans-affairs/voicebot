@@ -1,0 +1,104 @@
+{
+  "name": "ff31c7b8-a753-4813-933f-392fe9eb0691",
+  "displayName": "Authentication Flow",
+  "transitionRoutes": [ {
+    "condition": "$session.params.third_party != null",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Caregiver message",
+    "name": "76e44e46-59b6-4535-89d1-a32b41730f03"
+  }, {
+    "condition": "$session.params.session_id != null",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "End Flow",
+    "name": "ae92110d-e87b-4860-81fc-0892dbd51e01"
+  }, {
+    "condition": "$session.params.session_id = null AND $session.params.third_party = null",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "try_count",
+        "value": 1
+      } ]
+    },
+    "targetPage": "Third party caller",
+    "name": "aea3de72-8220-4f8f-b341-85212e687637"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "fbc93fbe-03dc-48b9-91f5-77e5e6ae14ff"
+  }, {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "95bab0c9-2ad6-4141-bbe8-6ba4a821ac9f"
+  }, {
+    "event": "sys.no-match-1",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I'm sorry, I didn't understand what you said. Can you repeat that?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "52c7d503-3f2b-400a-9ecd-6c14e2b2e538"
+  }, {
+    "targetFlow": "Connect to agent",
+    "event": "sys.no-match-2",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I’m sorry, I can’t help with this. I can transfer you to a VA representative who might be able to help. Would you like to be connected now?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "d9acded9-ac59-40c8-b68b-6b634bd08a74"
+  }, {
+    "targetPage": "Current Page",
+    "event": "sys.no-input-1",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I'm sorry, I didn't get that. " ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "92123d69-388d-4454-8a8b-257879ac9118"
+  }, {
+    "targetPage": "End Session",
+    "event": "sys.no-input-2",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I’m having trouble understanding what I can help you with. You can call back when you’re ready, and I can answer your questions about your claim status or the PACT Act. Goodbye." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "2c38fe5d-4a4c-4b0b-a498-5fba7242199d"
+  } ],
+  "nluSettings": {
+    "modelType": "MODEL_TYPE_STANDARD",
+    "classificationThreshold": 0.30000001
+  },
+  "transitionRouteGroups": [ "speak to an agent", "Stop conversation" ]
+}

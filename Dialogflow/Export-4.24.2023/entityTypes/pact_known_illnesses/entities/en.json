@@ -1,0 +1,11 @@
+{
+  "entities": [ {
+    "value": "cancer",
+    "synonyms": [ "brain cancer", "cancer", "gastrointestinal cancer", "glioblastoma", "head cancer", "kidney cancer", "lung cancer", "lymphatic", "lymphoma", "melanoma", "neck cancer", "pancreatic cancer", "reproductive cancer", "respiratory cancer" ],
+    "languageCode": "en"
+  }, {
+    "value": "other",
+    "synonyms": [ "asthma", "C.O.P.D.", "chronic bronchitis", "Chronic obstructive pulmonary disease", "chronic sinusitis", "Constructive bronchiolitis or obliterative bronchiolitis", "emphysema", "Granulomatous disease", "I.L.D.", "Interstitial lung disease", "Pleuritis", "Pulmonary fibrosis", "Sarcoidosis" ],
+    "languageCode": "en"
+  } ]
+}

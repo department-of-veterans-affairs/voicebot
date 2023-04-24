@@ -1,0 +1,40 @@
+{
+  "name": "7f82002c-8585-4fac-98de-a7665db5c967",
+  "displayName": "completed?",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Do you have any other questions about claims?" ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "Affirmative",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "What other questions do you have about claims?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Start Page",
+    "name": "a758355e-4be8-4a05-8bfb-1b8fe43f2198"
+  }, {
+    "intent": "Negative",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Understood, is there anything else that I can help you with today?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetFlow": "Default Start Flow",
+    "name": "64f098ce-e251-41a1-8b9a-ad74ec3356d5"
+  } ]
+}

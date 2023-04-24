@@ -1,0 +1,22 @@
+{
+  "name": "96d7f46a-1080-4992-b22b-ce0127682ed6",
+  "displayName": "Confirmation",
+  "form": {
+  
+  },
+  "transitionRoutes": [ {
+    "intent": "Affirmative",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "End Session",
+    "name": "3aa248f8-ced3-423c-89eb-6d4b55d0d3d3"
+  }, {
+    "intent": "Negative",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Start Page",
+    "name": "50e07478-4960-41cb-a50a-72807c3cd9cf"
+  } ]
+}

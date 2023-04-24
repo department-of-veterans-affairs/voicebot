@@ -1,0 +1,15 @@
+{
+  "name": "71e108cb-1c7a-41eb-96a0-6e762aad0c61",
+  "displayName": "pact.known_mappings",
+  "parameters": [ {
+    "id": "service_date",
+    "entityType": "@sys.date-period"
+  }, {
+    "id": "pact_known_locations",
+    "entityType": "@pact_known_locations"
+  }, {
+    "id": "pact_known_illnesses",
+    "entityType": "@pact_known_illnesses"
+  } ],
+  "priority": 500000
+}

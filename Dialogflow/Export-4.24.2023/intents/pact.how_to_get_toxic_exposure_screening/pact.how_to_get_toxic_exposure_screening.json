@@ -1,0 +1,15 @@
+{
+  "name": "9288de29-d6f6-4ff9-9c0f-a617a9efbeda",
+  "displayName": "pact.how_to_get_toxic_exposure_screening",
+  "parameters": [ {
+    "id": "branch_of_service",
+    "entityType": "@branch_of_service"
+  }, {
+    "id": "language",
+    "entityType": "@sys.language"
+  }, {
+    "id": "geo-country",
+    "entityType": "@sys.geo-country"
+  } ],
+  "priority": 500000
+}

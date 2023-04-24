@@ -1,0 +1,12 @@
+{
+  "name": "e9aff845-1b17-4103-a224-e055009382bf",
+  "displayName": "user.whats_the_claim_id",
+  "parameters": [ {
+    "id": "third_party",
+    "entityType": "@third_party"
+  }, {
+    "id": "branch_of_service",
+    "entityType": "@branch_of_service"
+  } ],
+  "priority": 500000
+}

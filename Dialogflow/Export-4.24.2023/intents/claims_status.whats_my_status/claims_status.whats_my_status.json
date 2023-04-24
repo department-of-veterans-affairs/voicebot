@@ -1,0 +1,9 @@
+{
+  "name": "4c028557-d3ee-4e73-830d-3cfd4a8ae351",
+  "displayName": "claims_status.whats_my_status",
+  "parameters": [ {
+    "id": "veteran",
+    "entityType": "@veteran"
+  } ],
+  "priority": 500000
+}

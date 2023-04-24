@@ -1,0 +1,47 @@
+{
+  "name": "dc61fc6f-f670-4fce-90f3-5d57a1d51421",
+  "displayName": "Claim Status",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Would you like to know what the status  $session.params.current_claim.phase means?" ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "Affirmative",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Status Detail Flow",
+    "name": "c99f441f-7d6b-41dc-ba6a-ff2cd966d2c2"
+  }, {
+    "intent": "Negative",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "ok, if you have other questions around claims or pact act you can ask those now. What else can I help you with?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetFlow": "Default Start Flow",
+    "name": "3b1a88bc-002a-44a3-b68d-1c33a9ee5611"
+  }, {
+    "intent": "user.can_you_repeat",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Ok, this claim was opened on $session.params.current_claim.receivedDate and has a status of $session.params.current_claim.phase." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Current Page",
+    "name": "954847a9-86fb-408a-bc6f-fd4b7fb32290"
+  } ]
+}

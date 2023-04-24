@@ -1,0 +1,30 @@
+{
+  "name": "a478aa45-1d0f-4299-bb4a-f11d4b7d7972",
+  "displayName": "Caregiver message",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "I'm sorry I can't help those who are calling on behalf of a Veteran, but I can transfer you to a VA representative who can help. Would you like to be connected now?" ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "Affirmative",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Connect to agent",
+    "name": "fb927baf-4268-4275-87cc-d72831d16762"
+  }, {
+    "intent": "Negative",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Default Start Flow",
+    "name": "413e4387-8c82-4fab-a9a2-f0b59b72b3ca"
+  } ]
+}

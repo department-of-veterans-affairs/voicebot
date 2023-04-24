@@ -1,0 +1,145 @@
+{
+  "name": "5210ffe8-8b3a-4141-b9cc-81ae3fec1746",
+  "tags": [ "#dev", "#test" ],
+  "displayName": "Answer \"No\" to \"Are you the veteran?\"",
+  "testCaseConversationTurns": [ {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "hello"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "sessionParameters": {
+        "first_time": false
+      },
+      "triggeredIntent": {
+        "name": "Default Welcome Intent"
+      },
+      "currentPage": {
+        "name": "Main",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Thanks for trying out this new way to get help. You can still reach an agent at any time. " ],
+        "allowPlaybackInterruption": true
+      }, {
+        "text": [ "To get started, ask me a question like “What’s my claim status?” or “What does the PACT Act do for Veterans like me?”" ],
+        "allowPlaybackInterruption": true
+      } ],
+      "currentFlow": {
+        "name": "projects/voicebotgcp-783263/locations/global/agents/51075457-4245-4f79-bf42-6e90f073b640/flows/00000000-0000-0000-0000-000000000000",
+        "displayName": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "I want claim status"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "sessionParameters": {
+        "first_time": false
+      },
+      "triggeredIntent": {
+        "name": "claims_status.whats_my_status"
+      },
+      "currentPage": {
+        "name": "Claim ID?",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "I can help you get more information about your claim." ],
+        "allowPlaybackInterruption": true
+      }, {
+        "text": [ "Do you know your claim ID?" ],
+        "allowPlaybackInterruption": true
+      } ],
+      "currentFlow": {
+        "name": "projects/voicebotgcp-783263/locations/global/agents/51075457-4245-4f79-bf42-6e90f073b640/flows/00000000-0000-0000-0000-000000000000",
+        "displayName": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "no"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "sessionParameters": {
+        "first_time": false,
+        "try_count": 1
+      },
+      "triggeredIntent": {
+        "name": "Negative"
+      },
+      "currentPage": {
+        "name": "Third party caller",
+        "flow": "Authentication Flow"
+      },
+      "textResponses": [ {
+        "text": [ "That's okay. I can still look up your claim. " ],
+        "allowPlaybackInterruption": true
+      }, {
+        "text": [ "First, let me confirm your information for security purposes. Are you the Veteran?" ],
+        "allowPlaybackInterruption": true
+      } ],
+      "currentFlow": {
+        "name": "projects/voicebotgcp-783263/locations/global/agents/51075457-4245-4f79-bf42-6e90f073b640/flows/ff31c7b8-a753-4813-933f-392fe9eb0691",
+        "displayName": "Authentication Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "no"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "sessionParameters": {
+        "first_time": false,
+        "try_count": 1
+      },
+      "triggeredIntent": {
+        "name": "Negative"
+      },
+      "currentPage": {
+        "name": "Caregiver message",
+        "flow": "Authentication Flow"
+      },
+      "textResponses": [ {
+        "text": [ "I'm sorry I can't help those who are calling on behalf of a Veteran, but I can transfer you to a VA representative who can help. Would you like to be connected now?" ],
+        "allowPlaybackInterruption": true
+      } ],
+      "currentFlow": {
+        "name": "projects/voicebotgcp-783263/locations/global/agents/51075457-4245-4f79-bf42-6e90f073b640/flows/ff31c7b8-a753-4813-933f-392fe9eb0691",
+        "displayName": "Authentication Flow"
+      }
+    }
+  } ],
+  "creationTime": {
+    "seconds": 1681500133,
+    "nanos": 813503000
+  },
+  "testConfig": {
+    "flow": "Default Start Flow",
+    "page": "Start Page"
+  }
+}

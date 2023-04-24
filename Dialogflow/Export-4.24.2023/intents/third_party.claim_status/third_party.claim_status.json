@@ -1,0 +1,9 @@
+{
+  "name": "6d7c53ca-6752-486f-9d75-269cdd0b55e2",
+  "displayName": "third_party.claim_status",
+  "parameters": [ {
+    "id": "third_party",
+    "entityType": "@third_party"
+  } ],
+  "priority": 500000
+}

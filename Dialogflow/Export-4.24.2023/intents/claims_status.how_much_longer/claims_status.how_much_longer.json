@@ -1,0 +1,12 @@
+{
+  "name": "52b8e5c1-07f0-475f-b11c-dbb5207a8798",
+  "displayName": "claims_status.how_much_longer",
+  "parameters": [ {
+    "id": "geo-country",
+    "entityType": "@sys.geo-country"
+  }, {
+    "id": "color",
+    "entityType": "@sys.color"
+  } ],
+  "priority": 500000
+}

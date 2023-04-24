@@ -1,0 +1,10 @@
+{
+  "name": "c2fed58e-d157-48d4-a111-5e0307304257",
+  "displayName": "Test Gateway",
+  "genericWebService": {
+    "uri": "https://us-east1-voicebotgcp-783263.cloudfunctions.net/test-webhook-gateway"
+  },
+  "timeout": {
+    "seconds": 5
+  }
+}

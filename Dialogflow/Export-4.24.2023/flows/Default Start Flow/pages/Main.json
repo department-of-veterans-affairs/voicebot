@@ -1,0 +1,85 @@
+{
+  "name": "a8207339-41d5-45ff-a5ce-54dcfd792e0a",
+  "displayName": "Main",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "setParameterActions": [ {
+      "parameter": "current_claim",
+      "value": null
+    }, {
+      "parameter": "first_time",
+      "value": false
+    } ],
+    "conditionalCases": [ {
+      "cases": [ {
+        "condition": "$session.params.first_time = null",
+        "caseContent": [ {
+          "message": {
+            "text": {
+              "text": [ "To get started, ask me a question like “What’s my claim status?” or “What does the PACT Act do for Veterans like me?”" ]
+            },
+            "languageCode": "en"
+          }
+        } ]
+      }, {
+        "caseContent": [ {
+          "message": {
+            "text": {
+              "text": [ "What other questions can I assist you with today?" ]
+            },
+            "languageCode": "en"
+          }
+        } ]
+      } ]
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "claims_status.whats_my_status",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I can help you get more information about your claim." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Claim ID?",
+    "name": "3f532793-e460-49c9-b6cf-1e40e71c2180"
+  }, {
+    "intent": "third_party.claim_status",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "third_party",
+        "value": "true"
+      } ]
+    },
+    "targetPage": "Claim Status Start",
+    "name": "69aa4f88-9cea-432b-af56-85edff0e82e5"
+  }, {
+    "intent": "claims_status.how_much_longer",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "As of March 2023, disability-related claims are taking an average of 118.3 days to complete.\r\n\r\nBut some claim decisions take longer depending on how many disabilities you've claimed and how long it takes to collect supporting documents." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Want to Authenticate?",
+    "name": "d0b596d1-14cb-482a-b069-46ba2f3b2ec1"
+  }, {
+    "intent": "claims_status.why_is_my_claim_taking_so_long",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I'm sorry about the length of time it's taking to decide your claim. " ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Want to Authenticate?",
+    "name": "ece2dc9e-ba17-4247-aab6-d3cf292e59a1"
+  } ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "d02d1b71-492c-4647-b7e2-f073d0cadfc9",
+  "displayName": "No more questions",
+  "transitionRoutes": [ {
+    "intent": "user.no_more_questions",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I understand you don't have any other questions. Is that correct?" ]
+        },
+        "languageCode": "en"
+      }, {
+        "conversationSuccess": {
+          "metadata": {
+            "call_success": "true"
+          }
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Confirmation",
+    "name": "7604cbbf-3a95-4e05-8152-15819f7271dc"
+  } ]
+}

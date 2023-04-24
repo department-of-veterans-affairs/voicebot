@@ -1,0 +1,24 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "my ssn is ",
+      "auto": true
+    }, {
+      "text": "334778710",
+      "parameterId": "ssn",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "My social security number is "
+    }, {
+      "text": "976933846",
+      "parameterId": "ssn",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

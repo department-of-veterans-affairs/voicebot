@@ -1,0 +1,76 @@
+{
+  "name": "55ec8331-7160-45da-8d09-649d340ce3e7",
+  "tags": [ "#dev", "#test" ],
+  "displayName": "pact.how_to_get_toxic_exposure_screening",
+  "testCaseConversationTurns": [ {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "hello"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "sessionParameters": {
+        "first_time": false
+      },
+      "triggeredIntent": {
+        "name": "Default Welcome Intent"
+      },
+      "currentPage": {
+        "name": "Main",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Thanks for trying out this new way to get help. You can still reach an agent at any time. " ]
+      }, {
+        "text": [ "To get started, ask me a question like “What’s my claim status?” or “What does the PACT Act do for Veterans like me?”" ]
+      } ],
+      "currentFlow": {
+        "name": "projects/voicebotgcp-783263/locations/global/agents/51075457-4245-4f79-bf42-6e90f073b640/flows/00000000-0000-0000-0000-000000000000",
+        "displayName": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "I want to know if I was exposed to toxins while I was serving. How do I found out?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "sessionParameters": {
+        "first_time": false
+      },
+      "triggeredIntent": {
+        "name": "pact.how_to_get_toxic_exposure_screening"
+      },
+      "currentPage": {
+        "name": "Main",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Toxic exposure screenings are available at VA health facilities across the country.\nAsk about the screening at your next VA health care appointment. If you don’t have an upcoming appointment, or if you want to get the screening sooner, contact your local VA health facility. Ask to get screened by the toxic exposure screening navigator." ]
+      }, {
+        "text": [ "What other questions can I assist you with today? If you don't have any other questions you can either hang up or say \"I don't have any other questions.\"" ]
+      } ],
+      "currentFlow": {
+        "name": "projects/voicebotgcp-783263/locations/global/agents/51075457-4245-4f79-bf42-6e90f073b640/flows/00000000-0000-0000-0000-000000000000",
+        "displayName": "Default Start Flow"
+      }
+    }
+  } ],
+  "creationTime": {
+    "seconds": 1678982896,
+    "nanos": 219566000
+  },
+  "testConfig": {
+    "flow": "Default Start Flow",
+    "page": "Start Page"
+  }
+}

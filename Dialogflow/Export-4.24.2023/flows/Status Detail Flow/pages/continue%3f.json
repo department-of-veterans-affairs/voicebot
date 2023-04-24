@@ -1,0 +1,47 @@
+{
+  "name": "3477ade8-eb84-47e9-8d20-23c46528478c",
+  "displayName": "continue?",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Do you have any other questions regarding the status of your claim?" ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "Affirmative",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Status Detail",
+    "name": "a06d8fb4-f459-418f-ae38-ee764fad9677"
+  }, {
+    "intent": "Negative",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Ok, is there anything further I can help you with?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetFlow": "Default Start Flow",
+    "name": "7eb6d57f-52ae-4d2d-8df6-52abe5a3f097"
+  }, {
+    "intent": "claims.what_is_an_agent",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "A qualified reviewer, also known as an agent, will investigate your claim to determine eligibility and reach out if further documentation is required." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "continue?",
+    "name": "f684cc70-0b2b-44c6-81a3-c410c7cf7e86"
+  } ]
+}

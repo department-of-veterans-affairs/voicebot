@@ -1,0 +1,17 @@
+{
+  "name": "0f06c30c-41f8-425a-bd72-c9d6ee242604",
+  "displayName": "Claims FAQ",
+  "transitionRoutes": [ {
+    "intent": "claims_status.why_is_my_claim_taking_so_long",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I'm sorry about the length of time it's taking to decide your claim. The amount of time it takes to review your claim depends on the type of claim you filed, how many disabilities you've claimed and how complex they are, and how long it takes us to collect the evidence needed to decide your claim. We are working to decide every claim as quickly as possible." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Want to Authenticate?",
+    "name": "8921fa1b-48f9-4972-b963-403ed96759dc"
+  } ]
+}

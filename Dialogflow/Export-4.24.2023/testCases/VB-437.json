@@ -1,0 +1,479 @@
+{
+  "name": "4b25354e-7a11-4ba6-954a-aa1f4aea14a0",
+  "tags": [ "#dev", "#test,", "#VB-437" ],
+  "displayName": "VB-437",
+  "testCaseConversationTurns": [ {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "hello"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "sessionParameters": {
+        "first_time": false
+      },
+      "triggeredIntent": {
+        "name": "Default Welcome Intent"
+      },
+      "currentPage": {
+        "name": "Main",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Thanks for trying out this new way to get help. You can still reach an agent at any time. " ]
+      }, {
+        "text": [ "To get started, ask me a question like “What’s my claim status?” or “What does the PACT Act do for Veterans like me?”" ]
+      } ],
+      "currentFlow": {
+        "name": "projects/voicebotgcp-783263/locations/global/agents/51075457-4245-4f79-bf42-6e90f073b640/flows/00000000-0000-0000-0000-000000000000",
+        "displayName": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "are brain tumors covered under pact act?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "sessionParameters": {
+        "first_time": false
+      },
+      "triggeredIntent": {
+        "name": "pact.list_of_service_connected_illnesses"
+      },
+      "currentPage": {
+        "name": "Main",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "\u003cspeak\u003eThe VA added several presumptive conditions for burn pits and Agent Orange. For a list of presumptive conditions under PACT Act, you can visit our webpage at \u003csay-as interpret-as=\"verbatim\"\u003eVA\u003c/say-as\u003e.gov. \u003c/speak\u003e" ]
+      }, {
+        "text": [ "What other questions can I assist you with today?" ]
+      } ],
+      "currentFlow": {
+        "name": "projects/voicebotgcp-783263/locations/global/agents/51075457-4245-4f79-bf42-6e90f073b640/flows/00000000-0000-0000-0000-000000000000",
+        "displayName": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "mugs covered in pact act"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "sessionParameters": {
+        "first_time": false
+      },
+      "triggeredIntent": {
+        "name": "pact.list_of_service_connected_illnesses"
+      },
+      "currentPage": {
+        "name": "Main",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "\u003cspeak\u003eThe VA added several presumptive conditions for burn pits and Agent Orange. For a list of presumptive conditions under PACT Act, you can visit our webpage at \u003csay-as interpret-as=\"verbatim\"\u003eVA\u003c/say-as\u003e.gov. \u003c/speak\u003e" ]
+      }, {
+        "text": [ "What other questions can I assist you with today?" ]
+      } ],
+      "currentFlow": {
+        "name": "projects/voicebotgcp-783263/locations/global/agents/51075457-4245-4f79-bf42-6e90f073b640/flows/00000000-0000-0000-0000-000000000000",
+        "displayName": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "is anencephaly cause by exposure to agent orange"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "sessionParameters": {
+        "first_time": false
+      },
+      "triggeredIntent": {
+        "name": "pact.list_of_service_connected_illnesses"
+      },
+      "currentPage": {
+        "name": "Main",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "\u003cspeak\u003eThe VA added several presumptive conditions for burn pits and Agent Orange. For a list of presumptive conditions under PACT Act, you can visit our webpage at \u003csay-as interpret-as=\"verbatim\"\u003eVA\u003c/say-as\u003e.gov. \u003c/speak\u003e" ]
+      }, {
+        "text": [ "What other questions can I assist you with today?" ]
+      } ],
+      "currentFlow": {
+        "name": "projects/voicebotgcp-783263/locations/global/agents/51075457-4245-4f79-bf42-6e90f073b640/flows/00000000-0000-0000-0000-000000000000",
+        "displayName": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Having operated burn pits I want to know if some of my ailments are related."
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "sessionParameters": {
+        "first_time": false
+      },
+      "triggeredIntent": {
+        "name": "pact.list_of_service_connected_illnesses"
+      },
+      "currentPage": {
+        "name": "Main",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "\u003cspeak\u003eThe VA added several presumptive conditions for burn pits and Agent Orange. For a list of presumptive conditions under PACT Act, you can visit our webpage at \u003csay-as interpret-as=\"verbatim\"\u003eVA\u003c/say-as\u003e.gov. \u003c/speak\u003e" ]
+      }, {
+        "text": [ "What other questions can I assist you with today?" ]
+      } ],
+      "currentFlow": {
+        "name": "projects/voicebotgcp-783263/locations/global/agents/51075457-4245-4f79-bf42-6e90f073b640/flows/00000000-0000-0000-0000-000000000000",
+        "displayName": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Having operated burn pits I want to know if some of my ailments are related."
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "sessionParameters": {
+        "first_time": false
+      },
+      "triggeredIntent": {
+        "name": "pact.list_of_service_connected_illnesses"
+      },
+      "currentPage": {
+        "name": "Main",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "\u003cspeak\u003eThe VA added several presumptive conditions for burn pits and Agent Orange. For a list of presumptive conditions under PACT Act, you can visit our webpage at \u003csay-as interpret-as=\"verbatim\"\u003eVA\u003c/say-as\u003e.gov. \u003c/speak\u003e" ]
+      }, {
+        "text": [ "What other questions can I assist you with today?" ]
+      } ],
+      "currentFlow": {
+        "name": "projects/voicebotgcp-783263/locations/global/agents/51075457-4245-4f79-bf42-6e90f073b640/flows/00000000-0000-0000-0000-000000000000",
+        "displayName": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "is chronic bronchitis a presubmit disability in the pact act"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "sessionParameters": {
+        "first_time": false
+      },
+      "triggeredIntent": {
+        "name": "pact.list_of_service_connected_illnesses"
+      },
+      "currentPage": {
+        "name": "Main",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "\u003cspeak\u003eThe VA added several presumptive conditions for burn pits and Agent Orange. For a list of presumptive conditions under PACT Act, you can visit our webpage at \u003csay-as interpret-as=\"verbatim\"\u003eVA\u003c/say-as\u003e.gov. \u003c/speak\u003e" ]
+      }, {
+        "text": [ "What other questions can I assist you with today?" ]
+      } ],
+      "currentFlow": {
+        "name": "projects/voicebotgcp-783263/locations/global/agents/51075457-4245-4f79-bf42-6e90f073b640/flows/00000000-0000-0000-0000-000000000000",
+        "displayName": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "are issue from deepwater horizon included in the pact act"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "sessionParameters": {
+        "first_time": false
+      },
+      "triggeredIntent": {
+        "name": "pact.list_of_service_connected_illnesses"
+      },
+      "currentPage": {
+        "name": "Main",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "\u003cspeak\u003eThe VA added several presumptive conditions for burn pits and Agent Orange. For a list of presumptive conditions under PACT Act, you can visit our webpage at \u003csay-as interpret-as=\"verbatim\"\u003eVA\u003c/say-as\u003e.gov. \u003c/speak\u003e" ]
+      }, {
+        "text": [ "What other questions can I assist you with today?" ]
+      } ],
+      "currentFlow": {
+        "name": "projects/voicebotgcp-783263/locations/global/agents/51075457-4245-4f79-bf42-6e90f073b640/flows/00000000-0000-0000-0000-000000000000",
+        "displayName": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "are issue from deepwater horizon included in the pact act"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "sessionParameters": {
+        "first_time": false
+      },
+      "triggeredIntent": {
+        "name": "pact.list_of_service_connected_illnesses"
+      },
+      "currentPage": {
+        "name": "Main",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "\u003cspeak\u003eThe VA added several presumptive conditions for burn pits and Agent Orange. For a list of presumptive conditions under PACT Act, you can visit our webpage at \u003csay-as interpret-as=\"verbatim\"\u003eVA\u003c/say-as\u003e.gov. \u003c/speak\u003e" ]
+      }, {
+        "text": [ "What other questions can I assist you with today?" ]
+      } ],
+      "currentFlow": {
+        "name": "projects/voicebotgcp-783263/locations/global/agents/51075457-4245-4f79-bf42-6e90f073b640/flows/00000000-0000-0000-0000-000000000000",
+        "displayName": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "i have neuropathy does exposure to agent orange"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "sessionParameters": {
+        "first_time": false
+      },
+      "triggeredIntent": {
+        "name": "pact.list_of_service_connected_illnesses"
+      },
+      "currentPage": {
+        "name": "Main",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "\u003cspeak\u003eThe VA added several presumptive conditions for burn pits and Agent Orange. For a list of presumptive conditions under PACT Act, you can visit our webpage at \u003csay-as interpret-as=\"verbatim\"\u003eVA\u003c/say-as\u003e.gov. \u003c/speak\u003e" ]
+      }, {
+        "text": [ "What other questions can I assist you with today?" ]
+      } ],
+      "currentFlow": {
+        "name": "projects/voicebotgcp-783263/locations/global/agents/51075457-4245-4f79-bf42-6e90f073b640/flows/00000000-0000-0000-0000-000000000000",
+        "displayName": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "is affa exposer covered under the pact act"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "sessionParameters": {
+        "first_time": false
+      },
+      "triggeredIntent": {
+        "name": "pact.list_of_service_connected_illnesses"
+      },
+      "currentPage": {
+        "name": "Main",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "\u003cspeak\u003eThe VA added several presumptive conditions for burn pits and Agent Orange. For a list of presumptive conditions under PACT Act, you can visit our webpage at \u003csay-as interpret-as=\"verbatim\"\u003eVA\u003c/say-as\u003e.gov. \u003c/speak\u003e" ]
+      }, {
+        "text": [ "What other questions can I assist you with today?" ]
+      } ],
+      "currentFlow": {
+        "name": "projects/voicebotgcp-783263/locations/global/agents/51075457-4245-4f79-bf42-6e90f073b640/flows/00000000-0000-0000-0000-000000000000",
+        "displayName": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "is leukemia covered by the pact act"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "sessionParameters": {
+        "first_time": false
+      },
+      "triggeredIntent": {
+        "name": "pact.list_of_service_connected_illnesses"
+      },
+      "currentPage": {
+        "name": "Main",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "\u003cspeak\u003eThe VA added several presumptive conditions for burn pits and Agent Orange. For a list of presumptive conditions under PACT Act, you can visit our webpage at \u003csay-as interpret-as=\"verbatim\"\u003eVA\u003c/say-as\u003e.gov. \u003c/speak\u003e" ]
+      }, {
+        "text": [ "What other questions can I assist you with today?" ]
+      } ],
+      "currentFlow": {
+        "name": "projects/voicebotgcp-783263/locations/global/agents/51075457-4245-4f79-bf42-6e90f073b640/flows/00000000-0000-0000-0000-000000000000",
+        "displayName": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "what diseases are cause by agent orange"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "sessionParameters": {
+        "first_time": false
+      },
+      "triggeredIntent": {
+        "name": "pact.list_of_service_connected_illnesses"
+      },
+      "currentPage": {
+        "name": "Main",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "\u003cspeak\u003eThe VA added several presumptive conditions for burn pits and Agent Orange. For a list of presumptive conditions under PACT Act, you can visit our webpage at \u003csay-as interpret-as=\"verbatim\"\u003eVA\u003c/say-as\u003e.gov. \u003c/speak\u003e" ]
+      }, {
+        "text": [ "What other questions can I assist you with today?" ]
+      } ],
+      "currentFlow": {
+        "name": "projects/voicebotgcp-783263/locations/global/agents/51075457-4245-4f79-bf42-6e90f073b640/flows/00000000-0000-0000-0000-000000000000",
+        "displayName": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "can a person apply with hardcopy application for agent orange benefits"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "sessionParameters": {
+        "first_time": false
+      },
+      "triggeredIntent": {
+        "name": "pact.list_of_service_connected_illnesses"
+      },
+      "currentPage": {
+        "name": "Main",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "\u003cspeak\u003eThe VA added several presumptive conditions for burn pits and Agent Orange. For a list of presumptive conditions under PACT Act, you can visit our webpage at \u003csay-as interpret-as=\"verbatim\"\u003eVA\u003c/say-as\u003e.gov. \u003c/speak\u003e" ]
+      }, {
+        "text": [ "What other questions can I assist you with today?" ]
+      } ],
+      "currentFlow": {
+        "name": "projects/voicebotgcp-783263/locations/global/agents/51075457-4245-4f79-bf42-6e90f073b640/flows/00000000-0000-0000-0000-000000000000",
+        "displayName": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "is tinnitus a service connected disability"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "sessionParameters": {
+        "first_time": false
+      },
+      "triggeredIntent": {
+        "name": "pact.list_of_service_connected_illnesses"
+      },
+      "currentPage": {
+        "name": "Main",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "\u003cspeak\u003eThe VA added several presumptive conditions for burn pits and Agent Orange. For a list of presumptive conditions under PACT Act, you can visit our webpage at \u003csay-as interpret-as=\"verbatim\"\u003eVA\u003c/say-as\u003e.gov. \u003c/speak\u003e" ]
+      }, {
+        "text": [ "What other questions can I assist you with today?" ]
+      } ],
+      "currentFlow": {
+        "name": "projects/voicebotgcp-783263/locations/global/agents/51075457-4245-4f79-bf42-6e90f073b640/flows/00000000-0000-0000-0000-000000000000",
+        "displayName": "Default Start Flow"
+      }
+    }
+  } ],
+  "creationTime": {
+    "seconds": 1680272722,
+    "nanos": 360177000
+  },
+  "testConfig": {
+    "flow": "Default Start Flow",
+    "page": "Start Page"
+  }
+}

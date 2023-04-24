@@ -1,0 +1,81 @@
+{
+  "name": "485b0f00-8f43-4b34-ae7a-635ec7f06a9d",
+  "displayName": "Gather BOS",
+  "form": {
+    "parameters": [ {
+      "displayName": "bos",
+      "required": true,
+      "entityType": "@branch_of_service",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Got it. What is your branch of service?" ]
+            },
+            "languageCode": "en"
+          } ]
+        },
+        "repromptEventHandlers": [ {
+          "event": "sys.no-match-1",
+          "triggerFulfillment": {
+            "messages": [ {
+              "text": {
+                "text": [ "I'm sorry, I didn't get that. Please provide your branch of service, you could say Army or Navy. " ]
+              },
+              "languageCode": "en"
+            } ]
+          },
+          "name": "b6333777-feed-4d71-9142-fbc75290b3eb"
+        }, {
+          "targetPage": "End Session",
+          "event": "sys.no-match-2",
+          "triggerFulfillment": {
+            "messages": [ {
+              "text": {
+                "text": [ "I apologize, I am having trouble understanding you. I will connect you with an agent to further help you access your account." ]
+              },
+              "languageCode": "en"
+            } ]
+          },
+          "name": "2b9315ca-f89e-4796-b924-ebcc89de54f8"
+        }, {
+          "event": "sys.no-input-1",
+          "triggerFulfillment": {
+            "messages": [ {
+              "text": {
+                "text": [ "I'm sorry, I didn't get that. Please provide your branch of service, you could say Army or Navy. " ]
+              },
+              "languageCode": "en"
+            } ]
+          },
+          "name": "1479159b-366a-4957-9789-9418ae961f54"
+        }, {
+          "targetPage": "End Session",
+          "event": "sys.no-input-2",
+          "triggerFulfillment": {
+            "messages": [ {
+              "text": {
+                "text": [ "I apologize, I am having trouble understanding you. Please hold while I place you in the queue to talk to a VA representative. It might take a few seconds to connect. Goodbye." ]
+              },
+              "languageCode": "en"
+            } ]
+          },
+          "name": "ff2427e1-1881-49e2-b814-6610d2f3ff39"
+        } ]
+      },
+      "advancedSettings": {
+        "dtmfSettings": {
+          "useSystemEntityRule": false
+        }
+      }
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$session.params.bos != null",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Auth",
+    "name": "b73b5d26-b3b7-4be6-973a-bb3346adef34"
+  } ]
+}

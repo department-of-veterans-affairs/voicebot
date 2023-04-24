@@ -1,0 +1,35 @@
+{
+  "name": "a956864b-b654-4b3b-96b8-cbacd4278fe6",
+  "displayName": "Try Again",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "I'm sorry. I didn't get your information. Do you want to try again, or would you like to speak to an agent?" ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "user.try_again",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Gather SSN",
+    "name": "497aedba-0580-44e3-9d6f-6120a658eac0"
+  }, {
+    "intent": "agent.speak_to_an_agent",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Okay, please hold while I place you in the queue to talk to a VA representative. It might take a few seconds to connect. Goodbye." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "End Session",
+    "name": "6c2df0ab-cdbe-4e32-823a-5a89904ed9c3"
+  } ]
+}

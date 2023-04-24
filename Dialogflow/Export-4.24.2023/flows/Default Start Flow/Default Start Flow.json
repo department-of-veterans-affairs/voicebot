@@ -1,0 +1,143 @@
+{
+  "name": "00000000-0000-0000-0000-000000000000",
+  "displayName": "Default Start Flow",
+  "description": "A start flow created along with the agent",
+  "transitionRoutes": [ {
+    "intent": "Default Welcome Intent",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Thanks for trying out this new way to get help. You can still reach an agent at any time. " ]
+        },
+        "languageCode": "en"
+      }, {
+        "text": {
+          "text": [ "¡Hola!", "¡Hey!", "¡Buenos días!" ]
+        },
+        "languageCode": "es"
+      } ]
+    },
+    "targetPage": "Main",
+    "name": "a2577d5e-a9c5-4fe6-8739-2f2a6ed80d06"
+  }, {
+    "condition": "$session.params.first_time != null",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Main",
+    "name": "85cac2c8-a1d8-4c49-8083-ab1df4872c55"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en"
+      }, {
+        "text": {
+          "text": [ "Ups, no he entendido a que te refieres.", "¿Podrías repetirlo, por favor?", "¿Disculpa?", "¿Decías?", "¿Cómo?" ]
+        },
+        "languageCode": "es"
+      } ]
+    },
+    "name": "5a993d50-6b69-48ba-93f9-bf08c7741d49"
+  }, {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en"
+      }, {
+        "text": {
+          "text": [ "Ups, no he entendido a que te refieres.", "¿Podrías repetirlo, por favor?", "¿Disculpa?", "¿Decías?", "¿Cómo?" ]
+        },
+        "languageCode": "es"
+      } ]
+    },
+    "name": "8ae2cb0a-48c9-45a4-8e43-be3eb0218311"
+  }, {
+    "event": "sys.no-match-1",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I'm sorry, I didn't understand you. You can ask questions like, \"What is my claim status\" or \"What is PACT Act?\"" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "e1485bcb-8ada-47c7-91a8-4422f67658e9"
+  }, {
+    "event": "sys.no-match-2",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I didn't get that. Try asking something like \"What does my claim status mean?\" or \"What is the new law about toxic exposure?\" Can you try again?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "156b444e-dd95-4786-be8c-975a7f39327a"
+  }, {
+    "targetFlow": "Connect to agent",
+    "event": "sys.no-match-3",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I'm sorry, I can't help with this. I can transfer you to a VA representative who might be able to help. Would you like to be connected now?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "c0901638-9a1d-4dc8-bd58-7a2121c43bf6"
+  }, {
+    "event": "sys.no-input-1",
+    "triggerFulfillment": {
+    
+    },
+    "name": "19a29338-7d8e-4198-a814-1b6f6249420e"
+  }, {
+    "event": "sys.no-input-2",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "You can ask me something like \"What's going on with my claim?\" or \"What is a toxic exposure screening?\"" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "fdd13e4f-9328-47bc-89ab-a39aa4aa3d72"
+  }, {
+    "targetPage": "End Session",
+    "event": "sys.no-input-3",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I’m having trouble understanding what I can help you with. You can call back when you’re ready, and I can answer your questions about your claim status or the PACT Act. Goodbye." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "df580d00-4ef4-45e0-ad55-9f215ffdbf59"
+  }, {
+    "event": "sys.long-utterance",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I'm having trouble understanding what you're asking. You can ask me something like \"What's my claim status?\" or \"What is PACT Act?\" Can you try again?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "bff61514-4c62-41fe-b7a1-2a5490b1d2b4"
+  } ],
+  "nluSettings": {
+    "modelType": "MODEL_TYPE_STANDARD",
+    "classificationThreshold": 0.30000001,
+    "modelTrainingMode": "MODEL_TRAINING_MODE_AUTOMATIC"
+  },
+  "transitionRouteGroups": [ "No more questions", "speak to an agent", "Pact Act FAQ" ]
+}

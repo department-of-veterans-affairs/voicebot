@@ -1,0 +1,11 @@
+{
+  "entities": [ {
+    "value": "post_911_locations",
+    "synonyms": [ "Afghanistan", "Djibouti", "Egypt", "Jordan", "Lebanon", "Syria", "Uzbekistan", "Yemen" ],
+    "languageCode": "en"
+  }, {
+    "value": "post_1990_locations",
+    "synonyms": [ "Bahrain", "Iraq", "Kuwait", "Oman", "Qatar", "Saudi Arabia", "Somalia", "U.A.E.", "United Arab Emirates" ],
+    "languageCode": "en"
+  } ]
+}

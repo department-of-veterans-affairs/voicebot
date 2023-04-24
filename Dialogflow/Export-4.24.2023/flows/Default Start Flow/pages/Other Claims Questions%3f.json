@@ -1,0 +1,30 @@
+{
+  "name": "49e96230-77e6-47d8-a033-2400daf932bb",
+  "displayName": "Other Claims Questions?",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Do you have any other questions about this claim?" ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "Affirmative",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Claims Questions",
+    "name": "68db7056-709b-43e4-a4c3-30d5df9bb8b2"
+  }, {
+    "intent": "Negative",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Main",
+    "name": "b0b5b346-7135-415a-9f5e-edd3aeb95eb0"
+  } ]
+}

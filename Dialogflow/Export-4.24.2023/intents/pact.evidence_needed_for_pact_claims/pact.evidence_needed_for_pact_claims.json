@@ -1,0 +1,9 @@
+{
+  "name": "9d90ee5a-c4d3-49df-b8aa-a21cc884ff5c",
+  "displayName": "pact.evidence_needed_for_pact_claims",
+  "parameters": [ {
+    "id": "color",
+    "entityType": "@sys.color"
+  } ],
+  "priority": 500000
+}

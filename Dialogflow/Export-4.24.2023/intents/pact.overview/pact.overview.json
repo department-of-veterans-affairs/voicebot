@@ -1,0 +1,9 @@
+{
+  "name": "cda2abf0-cdac-40ae-85b3-a276d7b39464",
+  "displayName": "pact.overview",
+  "parameters": [ {
+    "id": "percentage",
+    "entityType": "@sys.percentage"
+  } ],
+  "priority": 500000
+}

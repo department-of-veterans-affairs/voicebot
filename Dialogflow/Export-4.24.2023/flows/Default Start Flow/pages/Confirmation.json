@@ -1,0 +1,27 @@
+{
+  "name": "2c7a6cd7-fc9f-4b29-a6d2-52a60f56f6e9",
+  "displayName": "Confirmation",
+  "form": {
+  
+  },
+  "transitionRoutes": [ {
+    "intent": "Affirmative",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "The VA thanks you for your service. Goodbye" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "End Session",
+    "name": "7344961b-4bba-4860-91e0-f41c264457f2"
+  }, {
+    "intent": "Negative",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Main",
+    "name": "73463b8f-4d4c-4abe-b4a1-182abf0624c9"
+  } ]
+}

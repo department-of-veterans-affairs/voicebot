@@ -1,0 +1,47 @@
+{
+  "name": "8fcf6eac-010e-4b99-883d-2cb95c0038d0",
+  "displayName": "Claims Questions",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "What other questions can I answer about claims?", "What else can I help you with?", "What other questions do you have?" ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "claims.what_is_an_agent",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Other Claims Questions?",
+    "name": "545fbdd7-8e90-4848-8f2f-6ff397fa9c0c"
+  }, {
+    "intent": "claims_status.how_much_longer",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "As of March 2023, disability-related claims are taking an average of 118.3 days to complete.\r\n\r\nBut some claim decisions take longer depending on how many disabilities you've claimed and how long it takes to collect supporting documents." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Other Claims Questions?",
+    "name": "b8788698-e4a1-4695-97f1-4337309886cb"
+  }, {
+    "intent": "claims_status.why_is_my_claim_taking_so_long",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I'm sorry about the length of time it's taking to decide your claim. The amount of time it takes to review your claim depends on the type of claim you filed, how many disabilities you've claimed and how complex they are, and how long it takes us to collect the evidence needed to decide your claim. We are working to decide every claim as quickly as possible.  " ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Other Claims Questions?",
+    "name": "8b101ce9-b02b-4658-bdd0-35d713eadf0a"
+  } ]
+}

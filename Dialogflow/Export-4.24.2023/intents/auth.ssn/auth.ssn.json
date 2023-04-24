@@ -1,0 +1,9 @@
+{
+  "name": "83e54606-9577-425f-afed-ec5ad987b135",
+  "displayName": "auth.ssn",
+  "parameters": [ {
+    "id": "ssn",
+    "entityType": "@ssn"
+  } ],
+  "priority": 500000
+}

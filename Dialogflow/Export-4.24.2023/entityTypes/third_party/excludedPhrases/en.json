@@ -1,0 +1,15 @@
+{
+  "excludedPhrases": [ {
+    "value": "my",
+    "languageCode": "en"
+  }, {
+    "value": "myself",
+    "languageCode": "en"
+  }, {
+    "value": "mine",
+    "languageCode": "en"
+  }, {
+    "value": "I",
+    "languageCode": "en"
+  } ]
+}

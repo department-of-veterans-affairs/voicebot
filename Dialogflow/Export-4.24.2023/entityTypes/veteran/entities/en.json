@@ -1,0 +1,7 @@
+{
+  "entities": [ {
+    "value": "self",
+    "synonyms": [ "I", "me", "mine", "my", "self", "myself" ],
+    "languageCode": "en"
+  } ]
+}

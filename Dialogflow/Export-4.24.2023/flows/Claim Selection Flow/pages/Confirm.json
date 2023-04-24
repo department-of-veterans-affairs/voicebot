@@ -1,0 +1,25 @@
+{
+  "name": "f943eb91-691d-4631-857c-957d8e45d979",
+  "displayName": "Confirm",
+  "form": {
+  
+  },
+  "transitionRoutes": [ {
+    "intent": "Affirmative",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "claim_id",
+        "value": null
+      } ]
+    },
+    "targetPage": "Start Page",
+    "name": "074b8319-3cfa-497d-8412-23b55d9e9b47"
+  }, {
+    "intent": "Negative",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Default Start Flow",
+    "name": "323f5b2d-de6e-4503-b0b6-4eca9341a3c6"
+  } ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "dd5b1d91-8a29-4548-967f-d05ba9ae5122",
+  "displayName": "pact.dependents_benefits",
+  "parameters": [ {
+    "id": "geo-country",
+    "entityType": "@sys.geo-country"
+  }, {
+    "id": "color",
+    "entityType": "@sys.color"
+  } ],
+  "priority": 500000
+}

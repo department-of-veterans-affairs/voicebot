@@ -1,0 +1,30 @@
+{
+  "name": "284c7abf-3ccb-462b-a64d-8aab647b8a09",
+  "displayName": "Repeat Claim List",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Would you like me to repeat the list?" ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "Affirmative",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Start Page",
+    "name": "3f791c64-4828-4c68-bb52-b449ee0be1d7"
+  }, {
+    "intent": "Negative",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Default Start Flow",
+    "name": "49051728-b45c-42ef-b29a-f946e8c9f11c"
+  } ]
+}

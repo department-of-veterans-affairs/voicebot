@@ -1,0 +1,532 @@
+{
+  "name": "d681bffb-1801-47e7-9985-391736ba1c00",
+  "tags": [ "#dev", "#test" ],
+  "displayName": "Repeat claims at end of list",
+  "testCaseConversationTurns": [ {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "hello"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "sessionParameters": {
+        "first_time": false
+      },
+      "triggeredIntent": {
+        "name": "Default Welcome Intent"
+      },
+      "currentPage": {
+        "name": "Main",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Thanks for trying out this new way to get help. You can still reach an agent at any time. " ],
+        "allowPlaybackInterruption": true
+      }, {
+        "text": [ "To get started, ask me a question like “What’s my claim status?” or “What does the PACT Act do for Veterans like me?”" ],
+        "allowPlaybackInterruption": true
+      } ],
+      "currentFlow": {
+        "name": "projects/voicebotgcp-783263/locations/global/agents/51075457-4245-4f79-bf42-6e90f073b640/flows/00000000-0000-0000-0000-000000000000",
+        "displayName": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "claim status"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "sessionParameters": {
+        "first_time": false
+      },
+      "triggeredIntent": {
+        "name": "claims_status.whats_my_status"
+      },
+      "currentPage": {
+        "name": "Claim ID?",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "I can help you get more information about your claim." ],
+        "allowPlaybackInterruption": true
+      }, {
+        "text": [ "Do you know your claim ID?" ],
+        "allowPlaybackInterruption": true
+      } ],
+      "currentFlow": {
+        "name": "projects/voicebotgcp-783263/locations/global/agents/51075457-4245-4f79-bf42-6e90f073b640/flows/00000000-0000-0000-0000-000000000000",
+        "displayName": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "no"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "sessionParameters": {
+        "first_time": false,
+        "try_count": 1
+      },
+      "triggeredIntent": {
+        "name": "Negative"
+      },
+      "currentPage": {
+        "name": "Third party caller",
+        "flow": "Authentication Flow"
+      },
+      "textResponses": [ {
+        "text": [ "That's okay. I can still look up your claim. " ],
+        "allowPlaybackInterruption": true
+      }, {
+        "text": [ "First, let me confirm your information for security purposes. Are you the Veteran?" ],
+        "allowPlaybackInterruption": true
+      } ],
+      "currentFlow": {
+        "name": "projects/voicebotgcp-783263/locations/global/agents/51075457-4245-4f79-bf42-6e90f073b640/flows/ff31c7b8-a753-4813-933f-392fe9eb0691",
+        "displayName": "Authentication Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "yes"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "sessionParameters": {
+        "first_time": false,
+        "try_count": 1
+      },
+      "triggeredIntent": {
+        "name": "Affirmative"
+      },
+      "currentPage": {
+        "name": "Gather SSN",
+        "flow": "Authentication Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Okay. What is your nine digit social security number? You can say it out loud or enter it using your keypad followed by the pound key." ],
+        "allowPlaybackInterruption": true
+      } ],
+      "currentFlow": {
+        "name": "projects/voicebotgcp-783263/locations/global/agents/51075457-4245-4f79-bf42-6e90f073b640/flows/ff31c7b8-a753-4813-933f-392fe9eb0691",
+        "displayName": "Authentication Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "141253833"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "sessionParameters": {
+        "first_time": false,
+        "ssn": "141253833",
+        "try_count": 1
+      },
+      "currentPage": {
+        "name": "Gather DOB",
+        "flow": "Authentication Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Thanks. What is your date of birth? You can say something out loud, like June 18, 1975, or enter all numeric digits using your keypad, followed by the pound key." ],
+        "allowPlaybackInterruption": true
+      } ],
+      "currentFlow": {
+        "name": "projects/voicebotgcp-783263/locations/global/agents/51075457-4245-4f79-bf42-6e90f073b640/flows/ff31c7b8-a753-4813-933f-392fe9eb0691",
+        "displayName": "Authentication Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "06/23/1989"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "sessionParameters": {
+        "dob": {
+          "day": 23,
+          "month": 6,
+          "year": 1989
+        },
+        "first_time": false,
+        "ssn": "141253833",
+        "try_count": 1
+      },
+      "currentPage": {
+        "name": "Gather BOS",
+        "flow": "Authentication Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Got it. What is your branch of service?" ],
+        "allowPlaybackInterruption": true
+      } ],
+      "currentFlow": {
+        "name": "projects/voicebotgcp-783263/locations/global/agents/51075457-4245-4f79-bf42-6e90f073b640/flows/ff31c7b8-a753-4813-933f-392fe9eb0691",
+        "displayName": "Authentication Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "marines"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "sessionParameters": {
+        "claim_count": 3,
+        "current_claim": {
+          "benefitClaimType": {
+            "attribute_one": "CLAIM_TYPE_LABEL",
+            "attribute_one_text": "Discharge for Disability LGY",
+            "attribute_three": "Rating/Non-Rating",
+            "attribute_two": "USER DISPLAY",
+            "attribute_two_text": "YES",
+            "code": "290DODLGY",
+            "name": "Discharge for Disability - LGY"
+          },
+          "claimId": "600207215",
+          "claimLifecycleStatus": "New",
+          "claimant": {
+            "participantId": 32451269
+          },
+          "endProductCode": "404",
+          "payeeTypeCode": "10",
+          "phase": "Initial Review",
+          "phaseLastChangedDate": {
+            "day": 25,
+            "month": 10,
+            "year": 2022
+          },
+          "programTypeCode": "CPL",
+          "receivedDate": {
+            "day": 22,
+            "month": 3,
+            "year": 2022
+          },
+          "serviceTypeCode": "CP",
+          "veteran": {
+            "firstName": "Nicole",
+            "lastName": "Bush",
+            "participantId": 32451269
+          }
+        },
+        "current_claim_index": 0,
+        "first_name": "Nicole",
+        "first_time": false,
+        "session_id": "9f9471de-22bd-4f64-8d98-461875a9c989"
+      },
+      "currentPage": {
+        "name": "Select Claim",
+        "flow": "Claim Selection Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Thanks for that information. Please hold for a moment while I look up your VA account." ],
+        "allowPlaybackInterruption": true
+      }, {
+        "text": [ "I see you have 3 claims." ],
+        "allowPlaybackInterruption": true
+      }, {
+        "text": [ "Is the one about Discharge for Disability - LGY filed on 2022-03-22 the one you are calling about?" ],
+        "allowPlaybackInterruption": true
+      } ],
+      "currentFlow": {
+        "name": "projects/voicebotgcp-783263/locations/global/agents/51075457-4245-4f79-bf42-6e90f073b640/flows/8b40b44d-f782-49cd-80bd-0abf722d8a60",
+        "displayName": "Claim Selection Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "no"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "sessionParameters": {
+        "claim_count": 3,
+        "current_claim": {
+          "benefitClaimType": {
+            "attribute_one": "CLAIM_TYPE_LABEL",
+            "attribute_one_text": "Compensation",
+            "attribute_three": "Rating/Non-Rating",
+            "attribute_three_text": "Rating",
+            "attribute_two": "USER DISPLAY",
+            "attribute_two_text": "YES",
+            "code": "290EDSP",
+            "name": "Enhanced Disability Severance Pay"
+          },
+          "claimId": "600207216",
+          "claimLifecycleStatus": "Pending Authorization",
+          "claimant": {
+            "participantId": 32451269
+          },
+          "endProductCode": "404",
+          "payeeTypeCode": "10",
+          "phase": "Gathering of Evidence, Review of Evidence",
+          "phaseLastChangedDate": {
+            "day": 25,
+            "month": 5,
+            "year": 2022
+          },
+          "programTypeCode": "CPL",
+          "receivedDate": {
+            "day": 22,
+            "month": 3,
+            "year": 2022
+          },
+          "serviceTypeCode": "CP",
+          "veteran": {
+            "firstName": "Nicole",
+            "lastName": "Bush",
+            "participantId": 32451269
+          }
+        },
+        "current_claim_index": 1,
+        "first_name": "Nicole",
+        "first_time": false,
+        "session_id": "9f9471de-22bd-4f64-8d98-461875a9c989"
+      },
+      "triggeredIntent": {
+        "name": "Negative"
+      },
+      "currentPage": {
+        "name": "Select Claim",
+        "flow": "Claim Selection Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Is the one about Enhanced Disability Severance Pay filed on 2022-03-22 the one you are calling about?" ],
+        "allowPlaybackInterruption": true
+      } ],
+      "currentFlow": {
+        "name": "projects/voicebotgcp-783263/locations/global/agents/51075457-4245-4f79-bf42-6e90f073b640/flows/8b40b44d-f782-49cd-80bd-0abf722d8a60",
+        "displayName": "Claim Selection Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "no"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "sessionParameters": {
+        "claim_count": 3,
+        "current_claim": {
+          "benefitClaimType": {
+            "attribute_one": "CLAIM_TYPE_LABEL",
+            "attribute_one_text": "Compensation",
+            "attribute_three": "Rating/Non-Rating",
+            "attribute_two": "USER DISPLAY",
+            "attribute_two_text": "NO",
+            "code": "689DES",
+            "name": "Disability Evaluation Systems"
+          },
+          "claimId": "600207217",
+          "claimLifecycleStatus": "Closed",
+          "claimant": {
+            "participantId": 32451269
+          },
+          "endProductCode": "404",
+          "payeeTypeCode": "10",
+          "phase": "Complete",
+          "phaseLastChangedDate": {
+            "day": 25,
+            "month": 5,
+            "year": 2022
+          },
+          "programTypeCode": "CPL",
+          "receivedDate": {
+            "day": 22,
+            "month": 3,
+            "year": 2022
+          },
+          "serviceTypeCode": "CP",
+          "veteran": {
+            "firstName": "Nicole",
+            "lastName": "Bush",
+            "participantId": 32451269
+          }
+        },
+        "current_claim_index": 2,
+        "first_name": "Nicole",
+        "first_time": false,
+        "session_id": "9f9471de-22bd-4f64-8d98-461875a9c989"
+      },
+      "triggeredIntent": {
+        "name": "Negative"
+      },
+      "currentPage": {
+        "name": "Select Claim",
+        "flow": "Claim Selection Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Is the one about Disability Evaluation Systems filed on 2022-03-22 the one you are calling about?" ],
+        "allowPlaybackInterruption": true
+      } ],
+      "currentFlow": {
+        "name": "projects/voicebotgcp-783263/locations/global/agents/51075457-4245-4f79-bf42-6e90f073b640/flows/8b40b44d-f782-49cd-80bd-0abf722d8a60",
+        "displayName": "Claim Selection Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "no"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "sessionParameters": {
+        "claim_count": 3,
+        "current_claim_index": 3,
+        "first_name": "Nicole",
+        "first_time": false,
+        "session_id": "9f9471de-22bd-4f64-8d98-461875a9c989"
+      },
+      "triggeredIntent": {
+        "name": "Negative"
+      },
+      "currentPage": {
+        "name": "Repeat Claim List",
+        "flow": "Claim Selection Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Those are all the claims on your VA account. " ],
+        "allowPlaybackInterruption": true
+      }, {
+        "text": [ "Would you like me to repeat the list?" ],
+        "allowPlaybackInterruption": true
+      } ],
+      "currentFlow": {
+        "name": "projects/voicebotgcp-783263/locations/global/agents/51075457-4245-4f79-bf42-6e90f073b640/flows/8b40b44d-f782-49cd-80bd-0abf722d8a60",
+        "displayName": "Claim Selection Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "yes"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "sessionParameters": {
+        "claim_count": 3,
+        "current_claim": {
+          "benefitClaimType": {
+            "attribute_one": "CLAIM_TYPE_LABEL",
+            "attribute_one_text": "Discharge for Disability LGY",
+            "attribute_three": "Rating/Non-Rating",
+            "attribute_two": "USER DISPLAY",
+            "attribute_two_text": "YES",
+            "code": "290DODLGY",
+            "name": "Discharge for Disability - LGY"
+          },
+          "claimId": "600207215",
+          "claimLifecycleStatus": "New",
+          "claimant": {
+            "participantId": 32451269
+          },
+          "endProductCode": "404",
+          "payeeTypeCode": "10",
+          "phase": "Initial Review",
+          "phaseLastChangedDate": {
+            "day": 25,
+            "month": 10,
+            "year": 2022
+          },
+          "programTypeCode": "CPL",
+          "receivedDate": {
+            "day": 22,
+            "month": 3,
+            "year": 2022
+          },
+          "serviceTypeCode": "CP",
+          "veteran": {
+            "firstName": "Nicole",
+            "lastName": "Bush",
+            "participantId": 32451269
+          }
+        },
+        "current_claim_index": 0,
+        "first_name": "Nicole",
+        "first_time": false,
+        "session_id": "9f9471de-22bd-4f64-8d98-461875a9c989"
+      },
+      "triggeredIntent": {
+        "name": "Affirmative"
+      },
+      "currentPage": {
+        "name": "Select Claim",
+        "flow": "Claim Selection Flow"
+      },
+      "textResponses": [ {
+        "text": [ "I see you have 3 claims." ],
+        "allowPlaybackInterruption": true
+      }, {
+        "text": [ "Is the one about Discharge for Disability - LGY filed on 2022-03-22 the one you are calling about?" ],
+        "allowPlaybackInterruption": true
+      } ],
+      "currentFlow": {
+        "name": "projects/voicebotgcp-783263/locations/global/agents/51075457-4245-4f79-bf42-6e90f073b640/flows/8b40b44d-f782-49cd-80bd-0abf722d8a60",
+        "displayName": "Claim Selection Flow"
+      }
+    }
+  } ],
+  "creationTime": {
+    "seconds": 1681500228,
+    "nanos": 881377000
+  },
+  "testConfig": {
+    "flow": "Default Start Flow",
+    "page": "Start Page"
+  }
+}

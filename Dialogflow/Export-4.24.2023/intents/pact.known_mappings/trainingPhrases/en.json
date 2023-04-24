@@ -1,0 +1,114 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "I have "
+    }, {
+      "text": "COPD",
+      "parameterId": "pact_known_illnesses"
+    }, {
+      "text": " from my exposure to burn pits in "
+    }, {
+      "text": "Kuwait",
+      "parameterId": "pact_known_locations",
+      "auto": true
+    }, {
+      "text": " in "
+    }, {
+      "text": "1991",
+      "parameterId": "service_date",
+      "auto": true
+    }, {
+      "text": " and want to know if I can get benefits"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I served in "
+    }, {
+      "text": "Omar",
+      "parameterId": "pact_known_locations"
+    }, {
+      "text": " in "
+    }, {
+      "text": "1998",
+      "parameterId": "service_date",
+      "auto": true
+    }, {
+      "text": " and have recently been diagnosed with a "
+    }, {
+      "text": "glioblastoma",
+      "parameterId": "pact_known_illnesses"
+    }, {
+      "text": ", should I apply for PACT Act?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I have "
+    }, {
+      "text": "brain cancer",
+      "parameterId": "pact_known_illnesses"
+    }, {
+      "text": " after serving in "
+    }, {
+      "text": "bahrain",
+      "parameterId": "pact_known_locations"
+    }, {
+      "text": " in "
+    }, {
+      "text": "1992",
+      "parameterId": "service_date",
+      "auto": true
+    }, {
+      "text": ", do I qualify for PACT Act?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Back in "
+    }, {
+      "text": "2008",
+      "parameterId": "service_date",
+      "auto": true
+    }, {
+      "text": " I served in "
+    }, {
+      "text": "Jordan",
+      "parameterId": "pact_known_locations"
+    }, {
+      "text": " and have since developed "
+    }, {
+      "text": "emphysema",
+      "parameterId": "pact_known_illnesses"
+    }, {
+      "text": ", does PACT Act cover me?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I served in "
+    }, {
+      "text": "Kuwait",
+      "parameterId": "pact_known_locations"
+    }, {
+      "text": " "
+    }, {
+      "text": "from 1992 until 1998",
+      "parameterId": "service_date",
+      "auto": true
+    }, {
+      "text": " and developed "
+    }, {
+      "text": "Sarcoidosis",
+      "parameterId": "pact_known_illnesses"
+    }, {
+      "text": ", should I apply for the PACT Act?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

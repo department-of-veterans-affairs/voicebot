@@ -1,0 +1,48 @@
+{
+  "name": "80f993d5-d3ef-4eff-96e7-cce750a8d97e",
+  "displayName": "Status Detail Flow",
+  "transitionRoutes": [ {
+    "intent": "user.can_you_repeat",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Previous Page",
+    "name": "d9e9a259-4b99-4d79-b6cb-b1f96dd0a83e"
+  }, {
+    "condition": "$session.params.current_claim != null",
+    "triggerFulfillment": {
+      "webhook": "Test Gateway",
+      "tag": "get_status_description"
+    },
+    "targetPage": "continue?",
+    "name": "9a2849b9-83c7-48ac-9d9d-93227b4e1f19"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "4c1443dc-5fc9-4007-94b9-b2e1f896c690"
+  }, {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "7213a937-f0c0-444c-88c3-6be830ad20e6"
+  } ],
+  "nluSettings": {
+    "modelType": "MODEL_TYPE_STANDARD",
+    "classificationThreshold": 0.30000001
+  },
+  "transitionRouteGroups": [ "Speak to an agent" ]
+}

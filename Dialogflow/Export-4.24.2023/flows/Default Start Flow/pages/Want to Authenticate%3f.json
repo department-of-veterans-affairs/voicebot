@@ -1,0 +1,35 @@
+{
+  "name": "9a437b59-f8bf-4396-aa3c-cda1028dc5f0",
+  "displayName": "Want to Authenticate?",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Would you like me to look up your account to see if there are any updates on your claim?" ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "Affirmative",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I can help you get more information about your claim." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Claim Status Start",
+    "name": "b2ca1921-3cdc-4354-9e69-17b9ee1fd8f5"
+  }, {
+    "intent": "Negative",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Main",
+    "name": "82f56244-ef6a-4fc7-a2d6-7e6804367094"
+  } ]
+}

@@ -1,0 +1,116 @@
+{
+  "name": "d97c537f-d89c-4ccd-9b7e-932b0ca7ba4f",
+  "displayName": "Connect to agent",
+  "transitionRoutes": [ {
+    "intent": "Affirmative",
+    "triggerFulfillment": {
+      "messages": [ {
+        "liveAgentHandoff": {
+          "metadata": {
+            "claim": "$session.params.current_claim",
+            "session_id": "$session.params.session_id"
+          }
+        },
+        "languageCode": "en"
+      }, {
+        "text": {
+          "text": [ "Okay, please hold while I place you in the queue to talk to a VA representative. It might take a few seconds to connect. Goodbye." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "End Session",
+    "name": "d0bd9789-0e63-4ae2-b007-9233a4d7c544"
+  }, {
+    "intent": "Negative",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Default Start Flow",
+    "name": "3b03cde1-3caf-4806-95e1-aa689c92f464"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en"
+      }, {
+        "text": {
+          "text": [ "Ups, no he entendido a que te refieres.", "¿Podrías repetirlo, por favor?", "¿Disculpa?", "¿Decías?", "¿Cómo?" ]
+        },
+        "languageCode": "es"
+      } ]
+    },
+    "name": "4019afbe-aeee-44d5-857b-8596cd4a607d"
+  }, {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en"
+      }, {
+        "text": {
+          "text": [ "Ups, no he entendido a que te refieres.", "¿Podrías repetirlo, por favor?", "¿Disculpa?", "¿Decías?", "¿Cómo?" ]
+        },
+        "languageCode": "es"
+      } ]
+    },
+    "name": "b0d67a54-5db5-4a35-bdd5-02c87b206130"
+  }, {
+    "targetPage": "Current Page",
+    "event": "sys.no-match-1",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Sorry, I didn't get that. Would you like to be connected to an agent?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "2b899817-e5ab-4a73-9abc-de575404b922"
+  }, {
+    "targetPage": "End Session",
+    "event": "sys.no-match-2",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I apologize, I'm having trouble understanding you. Please hold while I place you in the queue to talk to a VA representative. It might take a few seconds to connect. Goodbye." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "f222d038-7b03-4883-a972-43b140bdc2e7"
+  }, {
+    "event": "sys.no-input-1",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I'm sorry, I didn't get that. Would you like to be connected to an agent?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "76fd3b70-dca9-4ac8-bff4-3936fd9458c9"
+  }, {
+    "targetPage": "End Session",
+    "event": "sys.no-input-2",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I apologize, I'm having trouble understanding you. Please hold while I place you in the queue to talk to a VA representative. It might take a few seconds to connect. Goodbye." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "902bdf9e-1b52-44a4-b438-32bd8a62c979"
+  } ],
+  "nluSettings": {
+    "modelType": "MODEL_TYPE_STANDARD",
+    "classificationThreshold": 0.30000001
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "name": "8b40b44d-f782-49cd-80bd-0abf722d8a60",
+  "displayName": "Claim Selection Flow",
+  "transitionRoutes": [ {
+    "condition": "$session.params.session_id = null",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Authentication Flow",
+    "name": "0fe6abce-d711-418c-a598-a92d2cdf6957"
+  }, {
+    "condition": "$session.params.claim_id != null AND $session.params.session_id != null",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Have Claim ID?",
+    "name": "29e67159-af2c-422b-bade-ceb0e99d7730"
+  }, {
+    "condition": "$session.params.session_id != null AND $session.params.claim_id = null",
+    "triggerFulfillment": {
+      "webhook": "Test Gateway",
+      "tag": "claim_list_start"
+    },
+    "targetPage": "Load Claims",
+    "name": "542ef8d6-05a7-4249-9fab-547326b38b5a"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "5525b560-1ab6-482a-b77c-0c0c3256623b"
+  }, {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "174301c4-f5b2-4690-92b9-5adf5fd11f59"
+  }, {
+    "event": "sys.no-match-1",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I'm sorry, I didn't understand what you said. Can you repeat that?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "da2439d3-014e-4b4d-b8cf-04779eeae622"
+  }, {
+    "targetFlow": "Connect to agent",
+    "event": "sys.no-match-2",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I’m sorry, I can’t help with this. I can transfer you to a VA representative who might be able to help. Would you like to be connected now?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "7cbdf252-0165-48df-9345-f96779949148"
+  } ],
+  "nluSettings": {
+    "modelType": "MODEL_TYPE_STANDARD",
+    "classificationThreshold": 0.30000001
+  },
+  "transitionRouteGroups": [ "Speak to an agent" ]
+}

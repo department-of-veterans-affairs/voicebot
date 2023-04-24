@@ -1,0 +1,27 @@
+{
+  "entities": [ {
+    "value": "parent",
+    "synonyms": [ "dad", "father", "mom", "mother", "parent" ],
+    "languageCode": "en"
+  }, {
+    "value": "caregiver",
+    "synonyms": [ "caregiver", "caretaker", "doctor", "main caregiver", "patient", "primary caregiver", "provider", "secondary caregiver" ],
+    "languageCode": "en"
+  }, {
+    "value": "spouse",
+    "synonyms": [ "husband", "partner", "spouse", "wife" ],
+    "languageCode": "en"
+  }, {
+    "value": "child",
+    "synonyms": [ "child", "daughter", "son" ],
+    "languageCode": "en"
+  }, {
+    "value": "stepfamily ",
+    "synonyms": [ "stepdad", "stepdaughter", "stepfamily ", "stepfather", "stepmom", "stepmother", "stepson" ],
+    "languageCode": "en"
+  }, {
+    "value": "extended family",
+    "synonyms": [ "aunt", "cousin", "extended family", "granddaughter", "grandfather", "grandmother", "grandson", "nephew", "niece", "uncle" ],
+    "languageCode": "en"
+  } ]
+}

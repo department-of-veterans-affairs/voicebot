@@ -1,0 +1,31 @@
+{
+  "name": "2f2c975e-f7c7-45e8-8fa4-7d66fb13bc74",
+  "displayName": "Have Claim ID?",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "webhook": "Test Gateway",
+    "tag": "get_claim"
+  },
+  "transitionRoutes": [ {
+    "condition": "$session.params.claim_id = $session.params.current_claim.claimId",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "End Flow",
+    "name": "94ec298e-a050-41d4-8af1-d7be79331c17"
+  }, {
+    "condition": "$session.params.current_claim.claimId != $session.params.claim_id",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I can't find any claims on your account with that claim ID. Would you like me to confirm the name of your claim instead?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Confirm",
+    "name": "309bd1ab-db66-4627-96e9-c597a956d27f"
+  } ]
+}

@@ -1,0 +1,109 @@
+{
+  "name": "8de1e4a7-1699-440b-86cb-07016a57e82d",
+  "tags": [ "#dev", "#test", "#VB-430" ],
+  "displayName": "Third party claim status intent",
+  "testCaseConversationTurns": [ {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "hello"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "sessionParameters": {
+        "first_time": false
+      },
+      "triggeredIntent": {
+        "name": "Default Welcome Intent"
+      },
+      "currentPage": {
+        "name": "Main",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Thanks for trying out this new way to get help. You can still reach an agent at any time. " ],
+        "allowPlaybackInterruption": true
+      }, {
+        "text": [ "To get started, ask me a question like “What’s my claim status?” or “What does the PACT Act do for Veterans like me?”" ],
+        "allowPlaybackInterruption": true
+      } ],
+      "currentFlow": {
+        "name": "projects/voicebotgcp-783263/locations/global/agents/51075457-4245-4f79-bf42-6e90f073b640/flows/00000000-0000-0000-0000-000000000000",
+        "displayName": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "Im calling about a patients claim"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "sessionParameters": {
+        "first_time": false,
+        "third_party": "true"
+      },
+      "triggeredIntent": {
+        "name": "third_party.claim_status"
+      },
+      "currentPage": {
+        "name": "Caregiver message",
+        "flow": "Authentication Flow"
+      },
+      "textResponses": [ {
+        "text": [ "I'm sorry I can't help those who are calling on behalf of a Veteran, but I can transfer you to a VA representative who can help. Would you like to be connected now?" ],
+        "allowPlaybackInterruption": true
+      } ],
+      "currentFlow": {
+        "name": "projects/voicebotgcp-783263/locations/global/agents/51075457-4245-4f79-bf42-6e90f073b640/flows/ff31c7b8-a753-4813-933f-392fe9eb0691",
+        "displayName": "Authentication Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "yes"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "sessionParameters": {
+        "first_time": false,
+        "third_party": "true"
+      },
+      "triggeredIntent": {
+        "name": "Affirmative"
+      },
+      "currentPage": {
+        "name": "End Session",
+        "flow": "Connect to agent"
+      },
+      "textResponses": [ {
+        "text": [ "Okay, please hold while I place you in the queue to talk to a VA representative. It might take a few seconds to connect. Goodbye." ],
+        "allowPlaybackInterruption": true
+      } ],
+      "currentFlow": {
+        "name": "projects/voicebotgcp-783263/locations/global/agents/51075457-4245-4f79-bf42-6e90f073b640/flows/d97c537f-d89c-4ccd-9b7e-932b0ca7ba4f",
+        "displayName": "Connect to agent"
+      }
+    }
+  } ],
+  "creationTime": {
+    "seconds": 1680103955,
+    "nanos": 350204000
+  },
+  "testConfig": {
+    "flow": "Default Start Flow",
+    "page": "Start Page"
+  }
+}

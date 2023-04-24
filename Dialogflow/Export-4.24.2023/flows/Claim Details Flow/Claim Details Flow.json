@@ -1,0 +1,62 @@
+{
+  "name": "6d6f43f6-d3f1-48f6-b8ad-70d9aeb9d13b",
+  "displayName": "Claim Details Flow",
+  "transitionRoutes": [ {
+    "condition": "$session.params.session_id = null",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Authentication Flow",
+    "name": "b1b52288-c171-4d19-a706-d85166c7338e"
+  }, {
+    "condition": "$session.params.session_id != null AND $session.params.current_claim = null",
+    "triggerFulfillment": {
+      "webhook": "Test Gateway",
+      "tag": "claim_list_start"
+    },
+    "targetFlow": "Claim Selection Flow",
+    "name": "88533d40-a4a0-43cf-af98-684dd7b974e8"
+  }, {
+    "condition": "$session.params.session_id != null AND $session.params.current_claim != null",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Claim Status",
+    "name": "40815a49-101f-440c-a387-e489f83fae4b"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "9693df82-24e9-4f20-bd48-cdb2ecfb6426"
+  }, {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "8a41b9f5-c37f-40e5-8061-a380ae3930e6"
+  } ],
+  "nluSettings": {
+    "modelType": "MODEL_TYPE_STANDARD",
+    "classificationThreshold": 0.30000001,
+    "modelTrainingMode": "MODEL_TRAINING_MODE_AUTOMATIC",
+    "multiIntentSettings": {
+    
+    }
+  },
+  "advancedSettings": {
+    "enabled": true
+  },
+  "transitionRouteGroups": [ "Speak to an agent" ]
+}

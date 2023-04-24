@@ -1,0 +1,17 @@
+{
+  "name": "53571027-7e00-4bff-a132-8fc859e66cfa",
+  "displayName": "Speak to an agent",
+  "transitionRoutes": [ {
+    "intent": "agent.speak_to_an_agent",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I can connect you to an agent, would you like me to connect you now?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetFlow": "Connect to agent",
+    "name": "aec6d1cc-3694-4719-8d1f-3ef0688c87cf"
+  } ]
+}

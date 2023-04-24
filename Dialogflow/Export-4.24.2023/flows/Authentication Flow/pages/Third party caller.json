@@ -1,0 +1,30 @@
+{
+  "name": "c6c2e20b-7115-484c-8bc4-a3b434322732",
+  "displayName": "Third party caller",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "First, let me confirm your information for security purposes. Are you the Veteran?" ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "Affirmative",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Gather SSN",
+    "name": "80e633d6-0262-4630-8f49-90d7deff155a"
+  }, {
+    "intent": "Negative",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Caregiver message",
+    "name": "b2669aa2-0304-4440-bf07-ef0b05a3a025"
+  } ]
+}

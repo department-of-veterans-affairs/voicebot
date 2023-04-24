@@ -1,0 +1,53 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "What is agent ",
+      "auto": true
+    }, {
+      "text": "orange",
+      "parameterId": "color",
+      "auto": true
+    }, {
+      "text": "?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "information on agent ",
+      "auto": true
+    }, {
+      "text": "orange",
+      "auto": true
+    }, {
+      "text": " benefit",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Agent ",
+      "auto": true
+    }, {
+      "text": "orange",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Agent ",
+      "auto": true
+    }, {
+      "text": "Orange",
+      "auto": true
+    }, {
+      "text": " exposure",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

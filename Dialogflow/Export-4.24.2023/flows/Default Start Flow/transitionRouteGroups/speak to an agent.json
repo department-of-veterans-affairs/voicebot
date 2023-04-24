@@ -1,0 +1,17 @@
+{
+  "name": "7ad2ebc6-b708-48d5-8a58-6c92c3786a81",
+  "displayName": "speak to an agent",
+  "transitionRoutes": [ {
+    "intent": "agent.speak_to_an_agent",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I can transfer you to a VA representative who might be able to help. Would you like to be connected now?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetFlow": "Connect to agent",
+    "name": "7c884512-c2f8-4736-8325-f9af433e4e22"
+  } ]
+}

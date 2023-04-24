@@ -1,0 +1,17 @@
+{
+  "name": "24092513-56e3-4483-a7de-e70cc7832d69",
+  "displayName": "Stop conversation",
+  "transitionRoutes": [ {
+    "intent": "user.no_more_questions",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I understand you don't have any other questions. Is that correct?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Confirmation",
+    "name": "f262406c-f7e8-45fa-888c-9b2a1d4c79fc"
+  } ]
+}

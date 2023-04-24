@@ -1,0 +1,101 @@
+{
+  "name": "684b5731-c675-43b8-b6df-c6e4338cd462",
+  "displayName": "Gather SSN",
+  "form": {
+    "parameters": [ {
+      "displayName": "ssn",
+      "required": true,
+      "entityType": "@ssn",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Okay. What is your nine digit social security number? You can say it out loud or enter it using your keypad followed by the pound key." ]
+            },
+            "languageCode": "en"
+          } ]
+        },
+        "repromptEventHandlers": [ {
+          "event": "sys.no-match-1",
+          "triggerFulfillment": {
+            "messages": [ {
+              "text": {
+                "text": [ "I didn't get that. You can say your 9-digit social security number or enter it using the keypad followed by the pound key. Can you try again?" ]
+              },
+              "languageCode": "en"
+            } ]
+          },
+          "name": "8831bb2a-7cd7-4d36-bbd0-7da75af69e2b"
+        }, {
+          "targetPage": "End Session",
+          "event": "sys.no-match-2",
+          "triggerFulfillment": {
+            "messages": [ {
+              "text": {
+                "text": [ "I apologize, I am having trouble understanding you. Please hold while I place you in the queue to talk to a VA representative. It might take a few seconds to connect. Goodbye." ]
+              },
+              "languageCode": "en"
+            } ]
+          },
+          "name": "73c9392a-7456-4ad8-952e-8b2bd33a69fe"
+        }, {
+          "event": "sys.no-input-1",
+          "triggerFulfillment": {
+            "messages": [ {
+              "text": {
+                "text": [ "I didn't get that. You can say your 9-digit social security number or enter it using the keypad. If you use your keypad, please enter the pound key after your social security number. Can you try again?" ]
+              },
+              "languageCode": "en"
+            } ]
+          },
+          "name": "02e48460-519f-496e-9c82-c8a6e7cce46a"
+        }, {
+          "targetPage": "End Session",
+          "event": "sys.no-input-2",
+          "triggerFulfillment": {
+            "messages": [ {
+              "text": {
+                "text": [ "I apologize, I am having trouble understanding you. Please hold while I place you in the queue to talk to a VA representative. It might take a few seconds to connect. Goodbye." ]
+              },
+              "languageCode": "en"
+            } ]
+          },
+          "name": "14141edb-e87f-4216-8f2e-fc229f1fa6ea"
+        }, {
+          "event": "sys.long-utterance",
+          "triggerFulfillment": {
+            "messages": [ {
+              "text": {
+                "text": [ "I didn't get that. You can say your 9-digit social security number or enter it using the keypad. If you use your keypad, please enter the pound key after your social security number. Can you try again?" ]
+              },
+              "languageCode": "en"
+            } ]
+          },
+          "name": "c20f3c7b-4e77-4f32-9c02-203e83c22d94"
+        } ]
+      },
+      "advancedSettings": {
+        "dtmfSettings": {
+          "enabled": true,
+          "maxDigits": 9,
+          "finishDigit": "#",
+          "useSystemEntityRule": false,
+          "endpointingTimeoutDuration": {
+            "seconds": 10
+          }
+        }
+      }
+    } ]
+  },
+  "entryFulfillment": {
+  
+  },
+  "transitionRoutes": [ {
+    "condition": "$session.params.ssn != null",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Gather DOB",
+    "name": "25f1de6c-53f1-4d21-924e-7e1de5562b93"
+  } ]
+}

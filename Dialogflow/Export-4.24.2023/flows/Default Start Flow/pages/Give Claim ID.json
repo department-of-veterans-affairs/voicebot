@@ -1,0 +1,48 @@
+{
+  "name": "f93e09f1-d39e-4bf4-8546-342d7e0b9ad6",
+  "displayName": "Give Claim ID",
+  "form": {
+    "parameters": [ {
+      "displayName": "claim_id",
+      "required": true,
+      "entityType": "@claim_id",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+        
+        }
+      },
+      "advancedSettings": {
+        "dtmfSettings": {
+          "enabled": true,
+          "maxDigits": 9,
+          "finishDigit": "#",
+          "useSystemEntityRule": false,
+          "endpointingTimeoutDuration": {
+            "seconds": 10
+          }
+        }
+      }
+    } ]
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "OK. What is your claim ID? You can say your ID number. Or you can use the keypad to enter the numbers. If you use your keypad, please enter the pound key after your claim ID. " ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$session.params.claim_id != null",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Thanks." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Claim Status Start",
+    "name": "03530f35-fe30-46ed-99b4-9b7c0abc907a"
+  } ]
+}
